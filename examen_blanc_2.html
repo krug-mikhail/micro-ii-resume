@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Examen blanc 2 — Micro II (facile)</title>
+<style>
+  :root{--acc:#16a34a;--acc2:#15803d;--vert:#15803d;--rouge:#b91c1c;
+    --fond:#f0fdf4;--carte:#fff;--texte:#1f2937;--gris:#6b7280}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--fond);color:var(--texte);line-height:1.55;padding-bottom:80px;
+    -webkit-text-size-adjust:100%}
+  header{background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;
+    padding:32px 20px 24px;text-align:center}
+  header h1{font-size:1.5rem;margin-bottom:6px}
+  header p{opacity:.92;font-size:.93rem}
+  .wrap{max-width:820px;margin:0 auto;padding:18px 16px}
+  .intro{background:var(--carte);border-radius:14px;padding:18px 20px;margin:16px 0;
+    box-shadow:0 2px 10px rgba(0,0,0,.06);font-size:.93rem}
+  .intro b{color:var(--acc2)}
+  .section{margin:30px 0 12px;padding:8px 14px;background:var(--acc2);color:#fff;
+    border-radius:8px;font-weight:700;font-size:1rem}
+  .question{background:var(--carte);border-radius:12px;padding:18px;margin:12px 0;
+    box-shadow:0 2px 8px rgba(0,0,0,.05)}
+  .q-tag{display:inline-block;font-size:.72rem;font-weight:700;
+    background:#dcfce7;color:#15803d;padding:3px 9px;border-radius:20px;
+    margin-bottom:10px;letter-spacing:.04em}
+  .q-text{font-weight:600;margin-bottom:12px;font-size:.96rem}
+  .q-text code,.expl code{background:#f0fdf4;padding:1px 6px;border-radius:5px;
+    font-family:"SF Mono",Menlo,Consolas,monospace;font-size:.86em}
+  .options{list-style:none}
+  .options li{border:2px solid #e5e7eb;border-radius:9px;padding:10px 14px;margin:6px 0;
+    cursor:pointer;transition:.15s;font-size:.93rem}
+  .options li:hover{border-color:var(--acc);background:#f0fdf4}
+  .question.done .options li{cursor:default}
+  .question.done .options li:hover{background:transparent}
+  .options li.correct{border-color:var(--vert);background:#f0fdf4;font-weight:600}
+  .options li.correct::before{content:"\2713  ";color:var(--vert);font-weight:800}
+  .options li.wrong{border-color:var(--rouge);background:#fef2f2}
+  .options li.wrong::before{content:"\2717  ";color:var(--rouge);font-weight:800}
+  .opt-letter{font-weight:700;color:var(--acc);margin-right:6px}
+  .expl{display:none;margin-top:12px;padding:11px 14px;border-radius:8px;
+    background:#f1f5f9;border-left:4px solid var(--acc);font-size:.9rem}
+  .expl.show{display:block}
+  .expl b{color:var(--acc2)}
+  .barre{position:fixed;bottom:0;left:0;right:0;background:#fff;
+    box-shadow:0 -2px 12px rgba(0,0,0,.12);padding:10px 16px;z-index:10}
+  .barre-in{max-width:820px;margin:0 auto;display:flex;align-items:center;
+    justify-content:space-between;gap:12px}
+  .progress{flex:1;height:9px;background:#e5e7eb;border-radius:6px;overflow:hidden}
+  .progress span{display:block;height:100%;width:0;background:var(--acc);transition:.3s}
+  .score{font-weight:700;color:var(--acc2);white-space:nowrap;font-size:.92rem}
+  .reset{background:none;border:1.5px solid #cbd5e1;color:var(--gris);
+    border-radius:8px;padding:6px 12px;font-size:.82rem;cursor:pointer}
+  footer{text-align:center;color:var(--gris);font-size:.82rem;padding:24px 16px}
+</style>
+</head>
+<body>
+<header><h1>Examen blanc 2 — niveau facile</h1>
+<p>25 questions de révision : Vrai/Faux/Incertain + concepts QCM</p></header>
+<div class="wrap">
+<div class="intro"><b>Niveau facile.</b> Cet examen révise les <b>concepts de base</b> des 7 chapitres via Vrai/Faux/Incertain et QCM simples. Idéal pour vérifier que les notions essentielles sont en place avant de passer aux exercices calculatoires (examens 3 et 4).</div>
+
+<div class="section">Ch.1 · Concurrence parfaite</div>
+
+<div class="question"><span class="q-tag">VFI · Q1</span>
+<div class="q-text">Une firme en concurrence pure et parfaite peut faire un <b>profit économique positif à court terme</b>.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> À court terme, si $P > CTM$, la firme fait un profit positif. C'est seulement à long terme que la libre entrée le ramène à zéro.</div></div>
+
+<div class="question"><span class="q-tag">VFI · Q2</span>
+<div class="q-text">À long terme en CP, le profit économique est nul à cause de la libre entrée et sortie.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> Si profit > 0 → entrée → P baisse jusqu'à $P = \min(CTMLT)$ → profit = 0. Si profit < 0 → sortie → P remonte. C'est la mécanique fondamentale de la CP à long terme.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q3</span>
+<div class="q-text">À l'équilibre de long terme en concurrence parfaite, le prix vaut :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> $P = Rm$</li>
+<li data-correct="true"><span class="opt-letter">b.</span> $P = \min(CTMLT)$</li>
+<li data-correct="false"><span class="opt-letter">c.</span> $P = \min(CVM)$</li>
+<li data-correct="false"><span class="opt-letter">d.</span> $P > Cm$</li></ul>
+<div class="expl">À LT : prix = minimum du coût moyen de long terme. Toute autre valeur ferait entrer ou sortir des firmes.</div></div>
+
+<div class="question"><span class="q-tag">VFI · Q4</span>
+<div class="q-text">Si le prix est inférieur au coût total moyen, l'entreprise arrête immédiatement ses activités.</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> Vrai</li><li data-correct="true"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Faux.</b> À court terme, le seuil de fermeture est $P < CVM$ (coût variable moyen). Si $CVM < P < CTM$, on continue à produire (on couvre le variable et une partie du fixe).</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q5</span>
+<div class="q-text">En concurrence parfaite, chaque firme :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> fixe son prix librement</li>
+<li data-correct="true"><span class="opt-letter">b.</span> est preneuse de prix (price-taker)</li>
+<li data-correct="false"><span class="opt-letter">c.</span> peut influencer le prix de marché</li>
+<li data-correct="false"><span class="opt-letter">d.</span> a une demande décroissante</li></ul>
+<div class="expl">Atomicité + homogénéité → chaque firme est trop petite pour influencer le prix. Elle prend le prix comme donné et choisit seulement la quantité.</div></div>
+
+<div class="section">Ch.2 · Limites des marchés</div>
+
+<div class="question"><span class="q-tag">VFI · Q6</span>
+<div class="q-text">Un bien public pur est à la fois <b>non-rival</b> et <b>non-exclusif</b>.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> Définition exacte. Exemples : défense nationale, phare, air pur.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q7</span>
+<div class="q-text">L'<b>aléa moral</b> apparaît typiquement :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> avant la transaction</li>
+<li data-correct="true"><span class="opt-letter">b.</span> après la transaction</li>
+<li data-correct="false"><span class="opt-letter">c.</span> seulement avec l'État</li>
+<li data-correct="false"><span class="opt-letter">d.</span> jamais</li></ul>
+<div class="expl"><b>Après</b> = aléa moral (comportement caché). <b>Avant</b> = sélection adverse (qualité cachée). Mnémo : <b>A</b>léa = <b>A</b>près, <b>S</b>élection = a<b>s</b>sume avant.</div></div>
+
+<div class="question"><span class="q-tag">VFI · Q8</span>
+<div class="q-text">En présence d'une externalité négative, le marché tend à <b>surproduire</b>.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> Le marché n'intègre que le coût privé, pas le dommage externe → $Cm_{social} > Cm_{privé}$ → $Q_{marché} > Q_{optimal\,social}$.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q9</span>
+<div class="q-text">Lequel est un exemple typique de <b>bien public pur</b> ?</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> Une pizza</li>
+<li data-correct="false"><span class="opt-letter">b.</span> Un cinéma</li>
+<li data-correct="true"><span class="opt-letter">c.</span> La défense nationale</li>
+<li data-correct="false"><span class="opt-letter">d.</span> Une autoroute à péage</li></ul>
+<div class="expl">Défense nationale : non-rivale (ma protection ne réduit pas la tienne) et non-exclusive (on ne peut pas exclure un citoyen). Le péage rend l'autoroute exclusive.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q10</span>
+<div class="q-text">Pour corriger une externalité négative (ex. pollution), l'instrument classique est :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> une subvention</li>
+<li data-correct="true"><span class="opt-letter">b.</span> une taxe pigouvienne</li>
+<li data-correct="false"><span class="opt-letter">c.</span> rien — le marché s'auto-régule</li>
+<li data-correct="false"><span class="opt-letter">d.</span> nationaliser l'entreprise</li></ul>
+<div class="expl">Taxe pigouvienne = taxe égale au dommage marginal → l'agent intègre le coût social dans sa décision → quantité revient à l'optimum social.</div></div>
+
+<div class="section">Ch.3 · Monopole</div>
+
+<div class="question"><span class="q-tag">VFI · Q11</span>
+<div class="q-text">Un monopole maximise son profit en produisant la quantité telle que $Rm = Cm$.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> Règle universelle. Pour le monopole, $Rm < P$ (la firme n'est pas preneuse de prix), donc la quantité optimale est inférieure à celle de la CP.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q12</span>
+<div class="q-text">En monopole non-discriminant maximisant son profit, à l'équilibre :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> $P = Cm$</li>
+<li data-correct="false"><span class="opt-letter">b.</span> $P = Rm$</li>
+<li data-correct="true"><span class="opt-letter">c.</span> $P > Cm$ et $Rm = Cm$</li>
+<li data-correct="false"><span class="opt-letter">d.</span> $P = CTM$</li></ul>
+<div class="expl">Condition d'optimum : $Rm = Cm$. Mais comme $Rm < P$ (demande décroissante), on a $P > Cm$ → c'est ce qui crée la perte sèche.</div></div>
+
+<div class="question"><span class="q-tag">VFI · Q13</span>
+<div class="q-text">La discrimination parfaite (1<sup>er</sup> degré) ne génère <b>pas de perte sèche</b>.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> Le monopoleur produit jusqu'à $P = Cm$ (quantité concurrentielle) → pas de perte. Mais il capte tout le SC, donc le consommateur ne gagne rien.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q14</span>
+<div class="q-text">Un monopole naturel se caractérise par :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> un Cm croissant</li>
+<li data-correct="true"><span class="opt-letter">b.</span> un CTM décroissant sur la zone de demande</li>
+<li data-correct="false"><span class="opt-letter">c.</span> aucune barrière à l'entrée</li>
+<li data-correct="false"><span class="opt-letter">d.</span> une demande horizontale</li></ul>
+<div class="expl">Un seul producteur est plus efficient que plusieurs car le coût moyen continue à baisser. Cas typique : rail, eau, électricité.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q15</span>
+<div class="q-text">Dans la discrimination par les prix du 3<sup>e</sup> degré, on fixe un prix plus élevé sur le marché où :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> la demande est plus élastique</li>
+<li data-correct="true"><span class="opt-letter">b.</span> la demande est moins élastique</li>
+<li data-correct="false"><span class="opt-letter">c.</span> les consommateurs sont plus jeunes</li>
+<li data-correct="false"><span class="opt-letter">d.</span> les coûts sont plus élevés</li></ul>
+<div class="expl">Règle de Lerner : $\frac{P - Cm}{P} = -\frac{1}{\varepsilon}$ → demande inélastique = marge plus grande = prix plus élevé. Exemple : tarif heure pleine (peu élastique) > heure creuse.</div></div>
+
+<div class="section">Ch.4 · Concurrence monopolistique</div>
+
+<div class="question"><span class="q-tag">VFI · Q16</span>
+<div class="q-text">À long terme en concurrence monopolistique, le profit économique de chaque firme tend vers zéro.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> Comme en CP, la libre entrée ramène le profit à 0. Mais la production se fait à <b>gauche du min(CTM)</b> (surcapacité) — c'est le « prix de la variété ».</div></div>
+
+<div class="section">Ch.5 · Oligopole</div>
+
+<div class="question"><span class="q-tag">QCM · Q17</span>
+<div class="q-text">Dans le modèle de Cournot :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> les firmes choisissent leur prix simultanément</li>
+<li data-correct="true"><span class="opt-letter">b.</span> les firmes choisissent leur quantité simultanément</li>
+<li data-correct="false"><span class="opt-letter">c.</span> une firme est leader, l'autre suiveuse</li>
+<li data-correct="false"><span class="opt-letter">d.</span> $P = Cm$ comme en concurrence parfaite</li></ul>
+<div class="expl">Cournot = quantité, simultané. Bertrand = prix, simultané. Stackelberg = quantité, séquentiel.</div></div>
+
+<div class="question"><span class="q-tag">VFI · Q18</span>
+<div class="q-text">En oligopole de Bertrand avec produits homogènes et mêmes coûts, le prix d'équilibre est égal au coût marginal.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> Le <b>paradoxe de Bertrand</b> : avec 2 firmes seulement, la concurrence par les prix pousse à $P = Cm$ → profit nul → résultat concurrentiel.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q19</span>
+<div class="q-text">Dans le modèle de Stackelberg, comparé à Cournot, le leader :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> produit moins</li>
+<li data-correct="true"><span class="opt-letter">b.</span> produit plus et gagne plus de profit</li>
+<li data-correct="false"><span class="opt-letter">c.</span> gagne moins de profit</li>
+<li data-correct="false"><span class="opt-letter">d.</span> produit la même quantité</li></ul>
+<div class="expl">Le leader exploite son avantage de premier joueur : il anticipe la réaction du suiveur et choisit une quantité plus grande, capturant plus de marché. Quantité totale ↑ → prix ↓ → mieux pour le consommateur.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q20</span>
+<div class="q-text">Un cartel d'oligopole est typiquement <b>instable</b> car :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> la demande est trop élastique</li>
+<li data-correct="true"><span class="opt-letter">b.</span> chaque firme a intérêt à tricher (dilemme du prisonnier)</li>
+<li data-correct="false"><span class="opt-letter">c.</span> les coûts sont identiques</li>
+<li data-correct="false"><span class="opt-letter">d.</span> l'État l'interdit toujours</li></ul>
+<div class="expl">Si les autres respectent l'accord (Q faible, P élevé), chacun gagne plus à produire plus → tentation de trahir → cartel instable. Application du dilemme du prisonnier à l'industrie.</div></div>
+
+<div class="section">Ch.6–7 · Jeux et économie digitale</div>
+
+<div class="question"><span class="q-tag">QCM · Q21</span>
+<div class="q-text">Dans le dilemme du prisonnier joué <b>une seule fois</b>, l'équilibre est :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> les deux coopèrent</li>
+<li data-correct="true"><span class="opt-letter">b.</span> les deux trahissent (équilibre en stratégies dominantes)</li>
+<li data-correct="false"><span class="opt-letter">c.</span> il n'y a pas d'équilibre</li>
+<li data-correct="false"><span class="opt-letter">d.</span> ils alternent au hasard</li></ul>
+<div class="expl">Chacun a une <b>stratégie dominante</b> : trahir donne un meilleur résultat quoi que fasse l'autre. Les deux trahissent → équilibre inefficient (chacun aurait gagné plus en coopérant).</div></div>
+
+<div class="question"><span class="q-tag">VFI · Q22</span>
+<div class="q-text">Dans un jeu fini (durée connue à l'avance), la coopération entre 2 firmes est impossible à l'équilibre par backward induction.</div>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> Vrai</li><li data-correct="false"><span class="opt-letter">b.</span> Faux</li><li data-correct="false"><span class="opt-letter">c.</span> Incertain</li></ul>
+<div class="expl"><b>Vrai.</b> À la dernière période, trahir est dominant (rien à perdre après). Sachant cela, à l'avant-dernière aussi. Et ainsi de suite jusqu'à la 1<sup>re</sup> → trahir partout.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q23</span>
+<div class="q-text">La stratégie « <b>tit-for-tat</b> » consiste à :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> toujours trahir</li>
+<li data-correct="false"><span class="opt-letter">b.</span> toujours coopérer</li>
+<li data-correct="true"><span class="opt-letter">c.</span> coopérer au début, puis copier ce que l'autre a fait à la période précédente</li>
+<li data-correct="false"><span class="opt-letter">d.</span> alterner au hasard</li></ul>
+<div class="expl">Tit-for-tat = œil pour œil. Coopératif au départ, punit immédiatement une trahison, mais pardonne dès que l'autre revient à la coopération. Très efficace en pratique.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q24</span>
+<div class="q-text">Les effets de réseau dans une économie digitale tendent à produire :</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> une concurrence parfaite</li>
+<li data-correct="false"><span class="opt-letter">b.</span> un oligopole stable</li>
+<li data-correct="true"><span class="opt-letter">c.</span> une tendance au winner-takes-all (un seul dominant)</li>
+<li data-correct="false"><span class="opt-letter">d.</span> aucun impact sur la structure</li></ul>
+<div class="expl">Effets de réseau = plus d'utilisateurs → plus de valeur → encore plus d'utilisateurs. Une fois la masse critique atteinte, un acteur domine. Exemples : Facebook, Google, WhatsApp.</div></div>
+
+<div class="question"><span class="q-tag">QCM · Q25</span>
+<div class="q-text">Lequel est un exemple typique d'<b>économie de partage</b> ?</div>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> McDonald's</li>
+<li data-correct="false"><span class="opt-letter">b.</span> Spotify</li>
+<li data-correct="true"><span class="opt-letter">c.</span> Airbnb</li>
+<li data-correct="false"><span class="opt-letter">d.</span> Microsoft Word</li></ul>
+<div class="expl">Airbnb met en relation des particuliers qui louent leur logement (bien sous-utilisé) avec des voyageurs. Spotify est un service de streaming (pas de partage entre particuliers).</div></div>
+
+<footer>Examen blanc 2 (niveau facile) · Micro II · SP 2026 — Bonne révision ! 🍀</footer>
+</div>
+
+<div class="barre"><div class="barre-in">
+<button class="reset" onclick="location.reload()">Recommencer</button>
+<div class="progress"><span id="bar"></span></div>
+<div class="score">Score : <span id="score">0 / 25</span></div>
+</div></div>
+
+<script>
+var total = document.querySelectorAll('.question').length;
+var answered = 0, correct = 0;
+document.getElementById('score').textContent = '0 / ' + total;
+document.querySelectorAll('.options li').forEach(function(opt){
+  opt.addEventListener('click', function(){
+    var q = this.closest('.question');
+    if(q.classList.contains('done')) return;
+    q.classList.add('done'); answered++;
+    if(this.dataset.correct === 'true'){this.classList.add('correct');correct++;}
+    else{this.classList.add('wrong');q.querySelector('.options li[data-correct="true"]').classList.add('correct');}
+    q.querySelector('.expl').classList.add('show');
+    document.getElementById('score').textContent = correct + ' / ' + total;
+    document.getElementById('bar').style.width = (answered/total*100) + '%';
+  });
+});
+</script>
+</body></html>

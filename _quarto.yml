@@ -3,6 +3,9 @@ project:
   output-dir: docs
   resources:
     - "examen_blanc.html"
+    - "examen_blanc_2.html"
+    - "examen_blanc_3.html"
+    - "examen_blanc_4.html"
     - "images/"
 
 website:
@@ -33,8 +36,16 @@ website:
         text: "Formules clés"
       - href: glossaire.qmd
         text: Glossaire
-      - href: examen_blanc.html
-        text: "Examen blanc"
+      - text: "Examens blancs"
+        menu:
+          - href: examen_blanc.html
+            text: "Officiel (Prof. Gugler, 45+1)"
+          - href: examen_blanc_2.html
+            text: "2 · Niveau facile"
+          - href: examen_blanc_3.html
+            text: "3 · Niveau moyen"
+          - href: examen_blanc_4.html
+            text: "4 · Niveau corsé"
   sidebar:
     style: docked
     search: true
