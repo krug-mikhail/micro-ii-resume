@@ -1,0 +1,288 @@
+---
+title: "Glossaire — chaque terme en langage simple"
+---
+
+Cliquez sur un terme pour voir l'explication.
+
+## A
+
+::: {.callout-note collapse="true"}
+## Aléa moral
+**En simple :** une fois assuré ou protégé, on prend plus de risques qu'avant — l'autre partie ne peut pas voir le changement de comportement.
+
+**Exemple :** louer une voiture **avec assurance tous risques** → on conduit moins prudemment.
+:::
+
+::: {.callout-note collapse="true"}
+## Asymétrie d'information
+**En simple :** une partie en sait plus que l'autre sur la qualité ou le comportement. Cause **sélection adverse** (avant transaction) ou **aléa moral** (après).
+:::
+
+## B
+
+::: {.callout-note collapse="true"}
+## Backward induction (raisonnement à rebours)
+**En simple :** pour résoudre un jeu séquentiel, on commence par la **fin** et on remonte. À chaque étape on demande : « si on en est là, quelle est la meilleure décision ? ». Puis on remonte d'un cran.
+:::
+
+::: {.callout-note collapse="true"}
+## Bertrand (modèle de)
+**En simple :** oligopole où les firmes choisissent leurs **prix** simultanément. Avec produits homogènes et même coût marginal, le prix d'équilibre tombe à $P = Cm$ → résultat comme en concurrence parfaite (paradoxe de Bertrand).
+:::
+
+::: {.callout-note collapse="true"}
+## Bien public pur
+**En simple :** bien à la fois **non-rival** (ma consommation ne réduit pas la tienne) ET **non-exclusif** (impossible d'empêcher quelqu'un d'en profiter).
+
+**Exemples :** défense nationale, phare, air pur.
+:::
+
+::: {.callout-note collapse="true"}
+## Bien collectif
+Synonyme de **bien public**.
+:::
+
+## C
+
+::: {.callout-note collapse="true"}
+## Cartel
+**En simple :** entente entre firmes pour fixer ensemble prix et quantités, en agissant comme un **monopole**. Maximise le profit total — mais **instable** (chacun a intérêt à tricher).
+:::
+
+::: {.callout-note collapse="true"}
+## Cm (coût marginal)
+**En simple :** le coût d'une unité supplémentaire. Mathématiquement, la **dérivée** du coût total : $Cm = dCT/dq$.
+:::
+
+::: {.callout-note collapse="true"}
+## CTM ou CM (coût moyen)
+**En simple :** coût par unité = coût total divisé par la quantité. $CTM = CT/q$.
+
+Astuce : la courbe de $Cm$ coupe la courbe de $CTM$ **au minimum** du CTM.
+:::
+
+::: {.callout-note collapse="true"}
+## CVM (coût variable moyen)
+**En simple :** $CVM = CV/q$. Sert pour le **seuil de fermeture à court terme** : si $P < CVM$, on arrête.
+:::
+
+::: {.callout-note collapse="true"}
+## CMLT (coût moyen de long terme)
+**En simple :** coût moyen quand tous les facteurs (y compris fixes) sont ajustables. Sert pour le **seuil de sortie à long terme**.
+:::
+
+::: {.callout-note collapse="true"}
+## Concurrence monopolistique
+**En simple :** beaucoup de firmes mais **produits différenciés** (marques, design…). À long terme, libre entrée → profit = 0, mais on produit en surcapacité.
+:::
+
+::: {.callout-note collapse="true"}
+## Concurrence parfaite (CP)
+**En simple :** beaucoup de petits vendeurs, produit identique, info parfaite, libre entrée. Chaque firme **subit le prix** (price-taker). À long terme, profit = 0.
+:::
+
+::: {.callout-note collapse="true"}
+## Cournot (modèle de)
+**En simple :** oligopole où chaque firme choisit sa **quantité** simultanément, en anticipant celle des autres. Équilibre = intersection des **fonctions de réaction**.
+:::
+
+## D
+
+::: {.callout-note collapse="true"}
+## Demande coudée (Sweezy)
+**En simple :** modèle d'oligopole où chaque firme pense que les concurrents **suivent une baisse de prix mais ne suivent pas une hausse** → demande coudée au prix actuel → prix **rigide**.
+:::
+
+::: {.callout-note collapse="true"}
+## Discrimination par les prix
+**En simple :** faire payer **des prix différents** à différents acheteurs (ou pour différentes quantités).
+
+- **1<sup>er</sup> degré (parfait)** : chaque unité au prix max qu'on est prêt à payer → capte tout le SC.
+- **2<sup>e</sup> degré** : selon la quantité (tarifs dégressifs, abonnements).
+- **3<sup>e</sup> degré** : selon le groupe (étudiant, heures pleines/creuses) — prix plus élevé pour la demande moins élastique.
+:::
+
+::: {.callout-note collapse="true"}
+## Dilemme du prisonnier
+**En simple :** chacun a intérêt à **trahir** (stratégie dominante), mais les deux gagneraient plus en coopérant. Équilibre individuellement rationnel mais collectivement inefficient.
+:::
+
+::: {.callout-note collapse="true"}
+## Duopole
+**En simple :** oligopole avec **deux** firmes.
+:::
+
+## E
+
+::: {.callout-note collapse="true"}
+## Économies d'échelle
+**En simple :** le coût moyen **diminue** quand la quantité produite augmente. Quand c'est très marqué → monopole naturel.
+:::
+
+::: {.callout-note collapse="true"}
+## Économies de gamme (scope economies)
+**En simple :** il coûte moins cher de produire **plusieurs produits ensemble** que séparément.
+
+**Exemple :** une compagnie aérienne qui exploite fret + passagers sur le même avion.
+:::
+
+::: {.callout-note collapse="true"}
+## Effet de réseau
+**En simple :** la **valeur** d'un service augmente avec le **nombre d'utilisateurs**. Exemple : un téléphone seul ne sert à rien ; plus il y a de gens qui l'ont, plus c'est utile.
+
+→ Tendance au **winner-takes-all**.
+:::
+
+::: {.callout-note collapse="true"}
+## Élasticité-prix de la demande
+**En simple :** mesure de la **sensibilité** de la demande au prix. Si $|\varepsilon| > 1$, la demande est élastique (les acheteurs sont sensibles). Si $|\varepsilon| < 1$, demande inélastique (insensible).
+:::
+
+::: {.callout-note collapse="true"}
+## Équilibre de Nash
+**En simple :** profil de stratégies tel que **personne n'a intérêt à changer** unilatéralement. C'est la notion de référence en théorie des jeux.
+:::
+
+::: {.callout-note collapse="true"}
+## Externalité
+**En simple :** effet d'une action sur autrui, **hors marché** (pas de prix). Négative (pollution) ou positive (vaccination).
+
+→ Le marché produit **trop** (négative) ou **trop peu** (positive). Solutions : taxes pigouviennes, subventions.
+:::
+
+## F
+
+::: {.callout-note collapse="true"}
+## Fonction de réaction
+**En simple :** dans un modèle de Cournot, la **quantité optimale** pour la firme 1 **en fonction de** la quantité supposée de la firme 2 : $q_1 = R(q_2)$. L'équilibre de Cournot est à l'intersection des deux fonctions de réaction.
+:::
+
+::: {.callout-note collapse="true"}
+## Free-rider (passager clandestin)
+**En simple :** quelqu'un qui **profite** d'un bien public **sans payer**. Cause de la sous-production des biens publics par le marché privé.
+:::
+
+## L
+
+::: {.callout-note collapse="true"}
+## Long terme (LT)
+**En simple :** horizon où **tous les facteurs** sont ajustables (y compris la taille de l'usine), et où l'entrée/sortie est possible. En CP, profit = 0 à LT.
+:::
+
+## M
+
+::: {.callout-note collapse="true"}
+## Menace crédible
+**En simple :** une menace est **crédible** si l'auteur a vraiment **intérêt à l'exécuter** une fois le moment venu. Sinon, c'est du bluff.
+:::
+
+::: {.callout-note collapse="true"}
+## Monopole
+**En simple :** **une seule** firme vend le bien, l'entrée est bloquée. Maximise son profit avec $Rm = Cm$ et fait payer un prix **plus élevé** qu'en CP.
+:::
+
+::: {.callout-note collapse="true"}
+## Monopole naturel
+**En simple :** marché où le $CTM$ est **décroissant** sur toute la zone de demande → une seule grande firme est plus efficiente que plusieurs petites.
+
+**Exemples :** réseau ferroviaire, distribution d'eau, électricité.
+:::
+
+::: {.callout-note collapse="true"}
+## Monopsone
+**En simple :** **un seul acheteur** face à de nombreux vendeurs. Symétrique du monopole : peut faire baisser le prix d'achat.
+:::
+
+## N
+
+::: {.callout-note collapse="true"}
+## Non-exclusif
+**En simple :** propriété d'un bien dont on **ne peut pas empêcher** la consommation par autrui (feu d'artifice, air).
+:::
+
+::: {.callout-note collapse="true"}
+## Non-rival
+**En simple :** propriété d'un bien dont la **consommation par un agent ne réduit pas** celle disponible pour les autres (musique, idée, code).
+:::
+
+## P
+
+::: {.callout-note collapse="true"}
+## Perte sèche (deadweight loss)
+**En simple :** surplus total **perdu** par la société à cause d'une distorsion (monopole, taxe). C'est l'aire **entre** la demande et le coût marginal, **sur les unités non échangées**.
+:::
+
+::: {.callout-note collapse="true"}
+## Plateforme biface
+**En simple :** marché numérique qui met en relation **deux groupes** d'utilisateurs distincts. Exemples : Uber (chauffeurs / passagers), App Store (développeurs / utilisateurs).
+:::
+
+::: {.callout-note collapse="true"}
+## Price-taker (preneur de prix)
+**En simple :** firme qui **subit** le prix du marché sans pouvoir l'influencer. C'est le cas de chaque firme en concurrence parfaite.
+:::
+
+## R
+
+::: {.callout-note collapse="true"}
+## Recette marginale (Rm)
+**En simple :** la **recette supplémentaire** d'une unité vendue en plus = $dRT/dq$.
+
+- En CP : $Rm = P$ (le prix est donné).
+- En monopole : $Rm < P$ (vendre une unité de plus fait baisser le prix sur **toutes** les unités).
+:::
+
+::: {.callout-note collapse="true"}
+## Rendements croissants
+**En simple :** plus on produit, plus on est **efficace** (coût moyen baisse). Lié aux **économies d'échelle**.
+:::
+
+## S
+
+::: {.callout-note collapse="true"}
+## Sélection adverse
+**En simple :** **avant** une transaction, l'acheteur ne peut pas distinguer les bonnes des mauvaises qualités → le prix s'aligne sur la moyenne → les bonnes qualités se retirent → le marché peut s'effondrer (cas des « tacots » d'Akerlof).
+:::
+
+::: {.callout-note collapse="true"}
+## Stackelberg (modèle de)
+**En simple :** oligopole **séquentiel** : un **leader** choisit sa quantité en premier, le **suiveur** réagit. Le leader anticipe la réaction → produit plus et gagne plus que dans Cournot.
+:::
+
+::: {.callout-note collapse="true"}
+## Stratégie dominante
+**En simple :** stratégie qui donne le **meilleur résultat quel que soit** ce que fait l'autre. Si chacun a une, l'équilibre se résout immédiatement.
+:::
+
+::: {.callout-note collapse="true"}
+## Surplus du consommateur (SC)
+**En simple :** différence entre ce que l'acheteur **était prêt à payer** et ce qu'il **paie effectivement**. Sur un graphique : aire entre la demande et le prix.
+
+Pour une demande linéaire : $SC = \frac{1}{2} \cdot (P_{max} - P) \cdot Q$.
+:::
+
+::: {.callout-note collapse="true"}
+## Surplus du producteur (SP)
+**En simple :** différence entre le prix reçu et le coût marginal de production. Aire entre le prix et la courbe d'offre (= $Cm$).
+:::
+
+## T
+
+::: {.callout-note collapse="true"}
+## Tit-for-tat (œil pour œil)
+**En simple :** stratégie en jeu répété : **coopérer à la 1<sup>re</sup> période**, puis **copier ce que l'autre a fait** à la période précédente. Maintient la coopération si l'autre coopère, punit s'il trahit.
+:::
+
+## V
+
+::: {.callout-note collapse="true"}
+## Variable stratégique
+**En simple :** la variable que chaque firme **choisit** dans un modèle d'oligopole. Cournot = quantité. Bertrand = prix.
+:::
+
+## W
+
+::: {.callout-note collapse="true"}
+## Winner-takes-all
+**En simple :** marché où **un seul** acteur (souvent grâce aux effets de réseau) finit par tout dominer. Typique de l'économie numérique (Google, Facebook, Amazon dans leurs domaines respectifs).
+:::

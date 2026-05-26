@@ -1,0 +1,62 @@
+---
+title: "Microéconomie II — Marchés et Prix"
+subtitle: "Résumé pédagogique · UNIFR · SP 2026"
+---
+
+## Le cours en une phrase
+
+Le cours **Microéconomie II** parcourt les différentes **structures de marché** (concurrence parfaite → monopole → oligopole → économie digitale) en montrant **comment les firmes se comportent** dans chaque cas et **quels résultats** cela produit pour la société (prix, quantités, efficience).
+
+## Le fil conducteur
+
+```
+       Concurrence parfaite (Ch.1)        ← le marché idéal
+                  ↓
+       Limites du modèle (Ch.2)           ← pourquoi la réalité diffère
+                  ↓
+       Monopole / monopsone (Ch.3)        ← le cas opposé extrême
+                  ↓
+       Concurrence monopolistique (Ch.4)  ← entre les deux : produits différenciés
+                  ↓
+       Oligopole (Ch.5)                   ← peu de firmes en interaction
+                  ↓
+       Théorie des jeux (Ch.6)            ← l'outil pour analyser ces interactions
+                  ↓
+       Économie digitale (Ch.7)           ← comment le numérique change tout
+```
+
+## Navigation
+
+| Chapitre | Sujet | Idée à retenir |
+|---|---|---|
+| [0 · Prérequis maths](00_Prerequis_mathematiques.qmd) | Dérivées, optimisation, équations 2<sup>nd</sup> degré | Les outils pour résoudre |
+| [1 · Concurrence parfaite](01_Concurrence_parfaite.qmd) | Le marché idéal | À long terme, profit = 0 |
+| [2 · Limites des marchés](02_Limites_marches.qmd) | Asymétrie info, externalités, biens publics | Le marché peut échouer |
+| [3 · Monopole](03_Monopole_monopsone.qmd) | Vendeur unique, discrimination | Q ↓, P ↑, perte sèche |
+| [4 · Concurrence monopolistique](04_Concurrence_monopolistique.qmd) | Beaucoup de firmes, produits différenciés | À LT, profit = 0 mais surcapacité |
+| [5 · Oligopole](05_Oligopole.qmd) | Cournot, Bertrand, Stackelberg | Stratégies interdépendantes |
+| [6 · Théorie des jeux](06_Theorie_des_jeux.qmd) | Nash, dilemme du prisonnier, jeux répétés | Coopération possible si répété |
+| [7 · Économie digitale](07_Economie_digitale.qmd) | Plateformes, effets de réseau, sharing | Winner-takes-all |
+
+## Outils de révision
+
+- **[Formules clés](formules.qmd)** — toutes les formules importantes en un coup d'œil
+- **[Glossaire](glossaire.qmd)** — chaque terme expliqué en langage simple
+- **[Examen blanc](examen_blanc.html)** — les 45 + 1 questions du prof, corrigées et interactives
+
+## Calendrier
+
+- **20–27 fév · 13–20 mars · 17 avril · 1er mai** : théorie en classe
+- **6 mars · 27 mars · 24 avril · 8 mai · 22 mai** : exercices
+- **29 mai** : examen à blanc en classe
+- **Pâques** : 3 & 10 avril · **Ascension** : 15 mai
+
+## Astuces pour réviser
+
+::: {.callout-tip}
+## Le réflexe à avoir
+1. **Identifie la structure de marché** (CP / monopole / oligopole / etc.) → ça dicte les hypothèses.
+2. **Cherche la condition d'équilibre** (P = Cm pour CP ? Rm = Cm pour monopole ? Cournot ?).
+3. **Pose les équations**, dérive, résous.
+4. **Interprète** : qui gagne, qui perd, perte sèche ?
+:::

@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>7 · Économie digitale – Microéconomie II — Marchés et Prix</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-0441d281c0042f78ca5e6da214781463.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Microéconomie II — Marchés et Prix</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Accueil</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-chapitres" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Chapitres</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-chapitres">    
+        <li>
+    <a class="dropdown-item" href="./00_Prerequis_mathematiques.html">
+ <span class="dropdown-text">0 · Prérequis maths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./01_Concurrence_parfaite.html">
+ <span class="dropdown-text">1 · Concurrence parfaite</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./02_Limites_marches.html">
+ <span class="dropdown-text">2 · Limites des marchés</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./03_Monopole_monopsone.html">
+ <span class="dropdown-text">3 · Monopole &amp; monopsone</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./04_Concurrence_monopolistique.html">
+ <span class="dropdown-text">4 · Concurrence monopolistique</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./05_Oligopole.html">
+ <span class="dropdown-text">5 · Oligopole</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./06_Theorie_des_jeux.html">
+ <span class="dropdown-text">6 · Théorie des jeux</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./07_Economie_digitale.html">
+ <span class="dropdown-text">7 · Économie digitale</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./formules.html"> 
+<span class="menu-text">Formules clés</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./glossaire.html"> 
+<span class="menu-text">Glossaire</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./examen_blanc.html"> 
+<span class="menu-text">Examen blanc</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00_Prerequis_mathematiques.html">Cours</a></li><li class="breadcrumb-item"><a href="./07_Economie_digitale.html">7 · Économie digitale</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Microéconomie II — Marchés et Prix</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Cours</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00_Prerequis_mathematiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">0 · Prérequis mathématiques</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01_Concurrence_parfaite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 · Concurrence parfaite</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02_Limites_marches.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 · Limites de la perfection des marchés</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03_Monopole_monopsone.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 · Monopole et monopsone</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04_Concurrence_monopolistique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 · Concurrence monopolistique</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05_Oligopole.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 · Oligopole</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06_Theorie_des_jeux.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 · Théorie des jeux</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07_Economie_digitale.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">7 · Économie digitale</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Outils de révision</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./formules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Formules clés — toutes les structures de marché</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossaire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossaire — chaque terme en langage simple</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#caractéristiques-du-produit-dans-une-économie-digitale" id="toc-caractéristiques-du-produit-dans-une-économie-digitale" class="nav-link active" data-scroll-target="#caractéristiques-du-produit-dans-une-économie-digitale"><span class="header-section-number">1</span> 1. Caractéristiques du produit dans une économie digitale</a></li>
+  <li><a href="#définition-du-marché-des-produits-digitaux" id="toc-définition-du-marché-des-produits-digitaux" class="nav-link" data-scroll-target="#définition-du-marché-des-produits-digitaux"><span class="header-section-number">2</span> 2. Définition du marché des produits digitaux</a></li>
+  <li><a href="#nouvelles-structures-de-marché" id="toc-nouvelles-structures-de-marché" class="nav-link" data-scroll-target="#nouvelles-structures-de-marché"><span class="header-section-number">3</span> 3. Nouvelles structures de marché</a></li>
+  <li><a href="#caractéristiques-de-la-demande" id="toc-caractéristiques-de-la-demande" class="nav-link" data-scroll-target="#caractéristiques-de-la-demande"><span class="header-section-number">4</span> 4. Caractéristiques de la demande</a></li>
+  <li><a href="#caractéristiques-de-loffre" id="toc-caractéristiques-de-loffre" class="nav-link" data-scroll-target="#caractéristiques-de-loffre"><span class="header-section-number">5</span> 5. Caractéristiques de l’offre</a></li>
+  <li><a href="#effets-de-réseau" id="toc-effets-de-réseau" class="nav-link" data-scroll-target="#effets-de-réseau"><span class="header-section-number">6</span> 6. Effets de réseau</a>
+  <ul class="collapse">
+  <li><a href="#types-deffets-de-réseau" id="toc-types-deffets-de-réseau" class="nav-link" data-scroll-target="#types-deffets-de-réseau"><span class="header-section-number">6.1</span> Types d’effets de réseau</a></li>
+  <li><a href="#conséquence-winner-takes-all" id="toc-conséquence-winner-takes-all" class="nav-link" data-scroll-target="#conséquence-winner-takes-all"><span class="header-section-number">6.2</span> Conséquence : winner-takes-all</a></li>
+  </ul></li>
+  <li><a href="#léconomie-de-partage" id="toc-léconomie-de-partage" class="nav-link" data-scroll-target="#léconomie-de-partage"><span class="header-section-number">7</span> 7. L’économie de partage</a>
+  <ul class="collapse">
+  <li><a href="#effets-économiques" id="toc-effets-économiques" class="nav-link" data-scroll-target="#effets-économiques"><span class="header-section-number">7.1</span> Effets économiques</a></li>
+  </ul></li>
+  <li><a href="#lien-avec-les-chapitres-précédents" id="toc-lien-avec-les-chapitres-précédents" class="nav-link" data-scroll-target="#lien-avec-les-chapitres-précédents"><span class="header-section-number">8</span> Lien avec les chapitres précédents</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./00_Prerequis_mathematiques.html">Cours</a></li><li class="breadcrumb-item"><a href="./07_Economie_digitale.html">7 · Économie digitale</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">7 · Économie digitale</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Ce chapitre en 1 ligne
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Le numérique change radicalement la microéconomie : <strong>biens à coût marginal quasi-nul</strong>, <strong>effets de réseau</strong>, <strong>plateformes bifaces</strong> et <strong>économie de partage</strong> → tendance forte au <strong>winner-takes-all</strong> (monopoles « naturels » numériques).</p>
+</div>
+</div>
+<section id="caractéristiques-du-produit-dans-une-économie-digitale" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="caractéristiques-du-produit-dans-une-économie-digitale"><span class="header-section-number">1</span> 1. Caractéristiques du produit dans une économie digitale</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Caractéristique</th>
+<th>Conséquence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Coût marginal proche de zéro</strong></td>
+<td>Une copie numérique coûte ~0 → tarification radicalement différente</td>
+</tr>
+<tr class="even">
+<td><strong>Non-rival</strong></td>
+<td>Mon usage de Spotify n’empêche pas le tien</td>
+</tr>
+<tr class="odd">
+<td><strong>Coûts fixes élevés au départ</strong></td>
+<td>Développer une plateforme coûte cher (R&amp;D) — mais une fois faite, dupliquer = gratuit</td>
+</tr>
+<tr class="even">
+<td><strong>Personnalisable</strong></td>
+<td>Algorithmes, données → produits adaptés à chacun</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>En simple
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Produire un nouveau morceau de musique numérique pour un client supplémentaire ne coûte presque rien à Spotify. La structure de coût est : <strong>coût fixe massif</strong> (catalogue, infra) + <strong>coût variable quasi-nul</strong>. C’est l’inverse d’une boulangerie où chaque pain coûte de la farine.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="définition-du-marché-des-produits-digitaux" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="définition-du-marché-des-produits-digitaux"><span class="header-section-number">2</span> 2. Définition du marché des produits digitaux</h2>
+<p>Délimiter un marché numérique est <strong>complexe</strong> :</p>
+<ul>
+<li><strong>Frontières floues</strong> : un téléphone est-il en concurrence avec un appareil photo, une console, un ordinateur ?</li>
+<li><strong>Multi-faces</strong> : Uber a deux marchés (chauffeurs + passagers) liés.</li>
+<li><strong>Effets transversaux</strong> : Amazon est e-commerce + cloud (AWS) + streaming + …</li>
+</ul>
+<p>→ Les <strong>autorités de la concurrence</strong> doivent souvent redéfinir leurs critères.</p>
+</section>
+<section id="nouvelles-structures-de-marché" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="nouvelles-structures-de-marché"><span class="header-section-number">3</span> 3. Nouvelles structures de marché</h2>
+<ul>
+<li><strong>Plateformes</strong> : font se rencontrer offre et demande (Airbnb, Uber, AppStore).</li>
+<li><strong>Écosystèmes</strong> : un acteur dominant + de nombreux partenaires (Apple, Google).</li>
+<li><strong>Marchés bifaces</strong> : deux groupes d’utilisateurs reliés (annonceurs ↔︎ utilisateurs sur Google).</li>
+<li><strong>Concurrence pour le marché</strong> plutôt que <strong>sur le marché</strong> : on ne se bat pas une part de marché, on se bat pour devenir LE marché.</li>
+</ul>
+</section>
+<section id="caractéristiques-de-la-demande" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="caractéristiques-de-la-demande"><span class="header-section-number">4</span> 4. Caractéristiques de la demande</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Caractéristique</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Coûts de transaction faibles</strong></td>
+<td>Achat en 1 clic → demande plus élastique sur le prix</td>
+</tr>
+<tr class="even">
+<td><strong>Comparaison facilitée</strong></td>
+<td>Sites comparateurs → moins de friction</td>
+</tr>
+<tr class="odd">
+<td><strong>Coûts de basculement (switching costs)</strong></td>
+<td>Une fois sur iOS, passer à Android coûte cher (apps, photos, contacts…)</td>
+</tr>
+<tr class="even">
+<td><strong>Lock-in</strong></td>
+<td>Habitudes, données accumulées, intégration</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="caractéristiques-de-loffre" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="caractéristiques-de-loffre"><span class="header-section-number">5</span> 5. Caractéristiques de l’offre</h2>
+<ul>
+<li><strong>Économies d’échelle énormes</strong> : coût moyen qui tend vers 0 quand n grandit.</li>
+<li><strong>Économies de gamme</strong> : la même infra sert plusieurs produits (Amazon vend tout).</li>
+<li><strong>Données = nouvel actif</strong> : plus on a d’utilisateurs, plus on a de données, mieux on optimise → cercle vertueux.</li>
+</ul>
+</section>
+<section id="effets-de-réseau" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="effets-de-réseau"><span class="header-section-number">6</span> 6. Effets de réseau</h2>
+<p><strong>Définition :</strong> la <strong>valeur</strong> d’un service pour un utilisateur <strong>augmente avec le nombre total d’utilisateurs</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/effets_reseau.svg" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Effets de réseau : utilité croît avec n, masse critique à franchir</figcaption>
+</figure>
+</div>
+<section id="types-deffets-de-réseau" class="level3" data-number="6.1">
+<h3 data-number="6.1" class="anchored" data-anchor-id="types-deffets-de-réseau"><span class="header-section-number">6.1</span> Types d’effets de réseau</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Définition</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Direct</strong></td>
+<td>Plus d’utilisateurs = plus utile pour chaque utilisateur</td>
+<td>WhatsApp, téléphone</td>
+</tr>
+<tr class="even">
+<td><strong>Indirect</strong></td>
+<td>Plus d’utilisateurs d’un côté = plus utile pour l’autre côté</td>
+<td>App Store (plus d’apps si plus de users iOS)</td>
+</tr>
+<tr class="odd">
+<td><strong>De données</strong></td>
+<td>Plus d’utilisateurs = meilleures données = meilleur service</td>
+<td>Google, Netflix</td>
+</tr>
+<tr class="even">
+<td><strong>Local</strong></td>
+<td>Effet limité à un groupe (ville, langue)</td>
+<td>Tinder, Le Bon Coin</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="conséquence-winner-takes-all" class="level3" data-number="6.2">
+<h3 data-number="6.2" class="anchored" data-anchor-id="conséquence-winner-takes-all"><span class="header-section-number">6.2</span> Conséquence : winner-takes-all</h3>
+<p>Une fois la <strong>masse critique</strong> atteinte, le service domine. Il est très difficile pour un concurrent d’arriver — même un produit meilleur peut échouer faute d’utilisateurs.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Les fameux « monopoles naturels du numérique »
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>GAFAM : Google (search), Amazon (e-commerce), Facebook/Meta (social), Apple/Android (smartphones), Microsoft (OS). Tous bénéficient d’effets de réseau massifs → positions dominantes très durables.</p>
+<p>D’où les enquêtes antitrust contre Google, Meta, Apple ces dernières années.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="léconomie-de-partage" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="léconomie-de-partage"><span class="header-section-number">7</span> 7. L’économie de partage</h2>
+<p><strong>Définition :</strong> plateforme qui permet à des particuliers de <strong>louer ou partager</strong> des biens / services sous-utilisés.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Exemple</th>
+<th>Ce qui est partagé</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Airbnb</td>
+<td>Logement</td>
+</tr>
+<tr class="even">
+<td>Uber, BlaBlaCar</td>
+<td>Trajet en voiture</td>
+</tr>
+<tr class="odd">
+<td>TaskRabbit</td>
+<td>Travail à la tâche</td>
+</tr>
+<tr class="even">
+<td>Vinted, eBay</td>
+<td>Biens d’occasion</td>
+</tr>
+</tbody>
+</table>
+<section id="effets-économiques" class="level3" data-number="7.1">
+<h3 data-number="7.1" class="anchored" data-anchor-id="effets-économiques"><span class="header-section-number">7.1</span> Effets économiques</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Avantage</th>
+<th>Inconvénient</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Meilleure <strong>utilisation des biens</strong> sous-utilisés</td>
+<td><strong>Précarisation</strong> des travailleurs (statut indépendant, pas de sécurité sociale)</td>
+</tr>
+<tr class="even">
+<td><strong>Réduction des coûts</strong> pour les consommateurs</td>
+<td>Concurrence <strong>déloyale</strong> envers les acteurs traditionnels (hôtels, taxis)</td>
+</tr>
+<tr class="odd">
+<td><strong>Création de nouveaux marchés</strong></td>
+<td><strong>Externalités</strong> négatives (Airbnb fait monter les loyers)</td>
+</tr>
+<tr class="even">
+<td><strong>Émergence d’une réputation</strong> (notation)</td>
+<td><strong>Asymétrie</strong> : la plateforme fixe les règles</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>En simple
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>L’économie de partage transforme des <strong>biens dormants</strong> (ta voiture garée 95 % du temps, ta chambre d’amis vide) en <strong>revenus</strong>. C’est efficace mais ça déstabilise les marchés existants (taxis, hôtels) et crée des questions sociales (statut des chauffeurs Uber, hausse des loyers à cause d’Airbnb).</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="lien-avec-les-chapitres-précédents" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="lien-avec-les-chapitres-précédents"><span class="header-section-number">8</span> Lien avec les chapitres précédents</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Concept du cours</th>
+<th>Apparition dans l’économie digitale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Monopole naturel</td>
+<td>Plateformes dominantes avec effets de réseau</td>
+</tr>
+<tr class="even">
+<td>Discrimination par les prix</td>
+<td>Tarification personnalisée (algos, A/B tests)</td>
+</tr>
+<tr class="odd">
+<td>Bien public</td>
+<td>Wikipédia, logiciels libres</td>
+</tr>
+<tr class="even">
+<td>Externalités</td>
+<td>Réseau social = externalité positive ; effets de mode négatifs</td>
+</tr>
+<tr class="odd">
+<td>Asymétrie d’information</td>
+<td>Notes / reviews comme mécanisme</td>
+</tr>
+<tr class="even">
+<td>Théorie des jeux</td>
+<td>Plateformes bifaces, signaux, équilibres multiples</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Récapitulatif Ch.7
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Coût marginal ≈ 0 + coûts fixes élevés → tarification radicale, tendance au winner-takes-all.</li>
+<li><strong>Effets de réseau</strong> (direct, indirect, données, local) → masse critique à franchir.</li>
+<li><strong>Plateformes bifaces / écosystèmes</strong> : nouvelles structures.</li>
+<li><strong>Économie de partage</strong> : utilisation des biens sous-utilisés, mais précarisation et externalités.</li>
+<li>Tendance à des <strong>monopoles « naturels » numériques</strong> (GAFAM) → enjeu de régulation.</li>
+</ul>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

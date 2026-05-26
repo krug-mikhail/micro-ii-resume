@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "examen_blanc.html"
+    - "images/"
+
+website:
+  title: "Microéconomie II — Marchés et Prix"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - text: "Chapitres"
+        menu:
+          - href: 00_Prerequis_mathematiques.qmd
+            text: "0 · Prérequis maths"
+          - href: 01_Concurrence_parfaite.qmd
+            text: "1 · Concurrence parfaite"
+          - href: 02_Limites_marches.qmd
+            text: "2 · Limites des marchés"
+          - href: 03_Monopole_monopsone.qmd
+            text: "3 · Monopole & monopsone"
+          - href: 04_Concurrence_monopolistique.qmd
+            text: "4 · Concurrence monopolistique"
+          - href: 05_Oligopole.qmd
+            text: "5 · Oligopole"
+          - href: 06_Theorie_des_jeux.qmd
+            text: "6 · Théorie des jeux"
+          - href: 07_Economie_digitale.qmd
+            text: "7 · Économie digitale"
+      - href: formules.qmd
+        text: "Formules clés"
+      - href: glossaire.qmd
+        text: Glossaire
+      - href: examen_blanc.html
+        text: "Examen blanc"
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - index.qmd
+      - section: "Cours"
+        contents:
+          - 00_Prerequis_mathematiques.qmd
+          - 01_Concurrence_parfaite.qmd
+          - 02_Limites_marches.qmd
+          - 03_Monopole_monopsone.qmd
+          - 04_Concurrence_monopolistique.qmd
+          - 05_Oligopole.qmd
+          - 06_Theorie_des_jeux.qmd
+          - 07_Economie_digitale.qmd
+      - section: "Outils de révision"
+        contents:
+          - formules.qmd
+          - glossaire.qmd
+
+execute:
+  enabled: false
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-copy: true
+    code-overflow: wrap

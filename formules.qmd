@@ -1,0 +1,139 @@
+---
+title: "Formules clés — toutes les structures de marché"
+---
+
+## Notations standard
+
+| Symbole | Signification |
+|---|---|
+| $P$ | Prix |
+| $Q$ ou $q$ | Quantité (totale / individuelle) |
+| $RT$ | Recette totale = $P \cdot q$ |
+| $Rm$ | Recette marginale = $dRT/dq$ |
+| $RM$ | Recette moyenne = $RT/q = P$ |
+| $CT$ | Coût total |
+| $CF$ | Coût fixe |
+| $CV$ | Coût variable |
+| $Cm$ | Coût marginal = $dCT/dq$ |
+| $CM$ ou $CTM$ | Coût moyen total = $CT/q$ |
+| $CVM$ | Coût variable moyen = $CV/q$ |
+| $CMLT$ | Coût moyen de long terme |
+| $\pi$ | Profit = $RT - CT$ |
+| $\varepsilon$ | Élasticité-prix de la demande |
+
+## Condition universelle de maximisation du profit
+
+$$\boxed{\ \dfrac{d\pi}{dq} = Rm - Cm = 0 \quad\Longleftrightarrow\quad Rm = Cm\ }$$
+
+Valable pour **toute** structure de marché. La différence vient juste de ce que vaut $Rm$.
+
+## 1. Concurrence parfaite
+
+| Court terme | Long terme |
+|---|---|
+| $P = Rm = Cm$ | $P = \min(CMLT)$ |
+| Profit ≷ 0 possible | $\pi = 0$ |
+| Seuil de fermeture : $P < CVM$ | Seuil de sortie : $P < CMLT$ |
+
+**Seuil de fermeture (CT)** : $q$ tel que $dCVM/dq = 0$.
+
+**Seuil de sortie (LT)** : $q$ tel que $dCMLT/dq = 0$.
+
+## 2. Monopole
+
+**Demande linéaire** $P = a - bQ$ :
+
+$$RT = aQ - bQ^2 \qquad Rm = a - 2bQ$$
+
+::: {.callout-tip}
+## Astuce
+La pente de $Rm$ = **double** de la pente de $P$ (même ordonnée à l'origine).
+:::
+
+**Avec $Cm$ constant $= c$** :
+
+$$Q_m = \frac{a - c}{2b} \qquad P_m = \frac{a + c}{2} \qquad \pi_m = \frac{(a-c)^2}{4b}$$
+
+**Surplus du consommateur (demande linéaire) :**
+$$SC = \frac{1}{2} \cdot (P_{max} - P) \cdot Q$$
+
+où $P_{max}$ = prix d'intersection demande/axe (quand $Q = 0$).
+
+## 3. Monopole discriminant parfait
+
+Production **$Q^*$ telle que $P(Q^*) = Cm(Q^*)$** (comme en CP).
+
+Le monopoleur **capte tout le SC** : profit = aire entre la demande et le $Cm$, sur $[0, Q^*]$ (moins les coûts fixes).
+
+## 4. Concurrence monopolistique (équilibre LT)
+
+$$Rm = Cm \quad\text{et}\quad P = CTM \quad (\pi = 0)$$
+
+(profit nul mais production à gauche du min(CTM) → **surcapacité**)
+
+## 5. Oligopole — Cournot (duopole)
+
+**Pour la firme $i$ :**
+$$\dfrac{\partial \pi_i}{\partial q_i} = P(Q) + q_i \cdot P'(Q) - Cm_i(q_i) = 0$$
+
+→ **Fonction de réaction** $q_i = R_i(q_j)$.
+
+**Équilibre Nash-Cournot** : intersection des fonctions de réaction.
+
+**Cas symétrique linéaire** $P = a - b(q_1 + q_2)$, $Cm = c$ :
+$$q_1^* = q_2^* = \frac{a-c}{3b} \qquad P^* = \frac{a + 2c}{3} \qquad \pi_i = \frac{(a-c)^2}{9b}$$
+
+## 6. Oligopole — Stackelberg (leader / suiveur)
+
+1. **Suiveur** : fonction de réaction comme en Cournot.
+2. **Leader** : substitue la réaction du suiveur dans son profit, puis maximise.
+
+**Cas symétrique linéaire** $P = a - b(q_L + q_S)$, $Cm = c$ :
+$$q_L^* = \frac{a-c}{2b} \quad q_S^* = \frac{a-c}{4b} \qquad P^* = \frac{a + 3c}{4}$$
+
+→ Le leader produit **plus** que dans Cournot, le suiveur **moins**. Quantité totale **plus grande** → prix plus bas → mieux pour le consommateur.
+
+## 7. Oligopole — Bertrand
+
+**Homogène** : $P^* = Cm$, $\pi = 0$ (paradoxe).
+
+**Différencié** : poser la fonction de demande croisée, dériver le profit par rapport au prix de chaque firme, résoudre le système des FOC.
+
+## 8. Cartel (collusion)
+
+Le cartel agit comme un **monopole** :
+$$Rm_{industrie} = Cm_{industrie}$$
+
+Pour minimiser le coût total à $Q$ donné : **égaliser les $Cm$** des firmes.
+
+## 9. Jeux répétés — gain actualisé
+
+**Coopération indéfinie** :
+$$V_{coop} = g_c + w \cdot g_c + w^2 g_c + \ldots = \frac{g_c}{1 - w}$$
+
+**Trahir à la période $t$ (puis être trahi à jamais)** :
+$$V_{tricher} = \underbrace{g_c (1 + w + \ldots + w^{t-1})}_{\text{coopère t périodes}} + w^t \cdot g_T + \underbrace{w^{t+1} \cdot \frac{g_N}{1 - w}}_{\text{punition}}$$
+
+où $g_T$ = gain de tricher quand l'autre coopère, $g_N$ = gain quand les deux trichent.
+
+## 10. Élasticité de la demande
+
+$$\varepsilon = \frac{\Delta Q / Q}{\Delta P / P} = \frac{dQ}{dP} \cdot \frac{P}{Q}$$
+
+| Valeur de $|\varepsilon|$ | Demande |
+|---|---|
+| > 1 | Élastique (sensible au prix) |
+| = 1 | Élasticité unitaire |
+| < 1 | Inélastique (peu sensible au prix) |
+
+**Règle de la discrimination 3<sup>e</sup> degré :** prix plus élevé là où la demande est moins élastique.
+
+**Pour un monopole :**
+$$\frac{P - Cm}{P} = -\frac{1}{\varepsilon} \quad\text{(formule de Lerner)}$$
+
+## 11. Demande inverse vs directe
+
+- **Directe** : $Q = D(P)$ (combien on consomme à un prix donné).
+- **Inverse** : $P = D^{-1}(Q)$ (à quel prix la quantité $Q$ se vend).
+
+Pour calculer $RT$ et donc $Rm$, on a besoin de la demande **inverse** : $RT = P(Q) \cdot Q$.

@@ -1,0 +1,165 @@
+---
+title: "6 · Théorie des jeux"
+---
+
+::: {.callout-tip}
+## Ce chapitre en 1 ligne
+La **théorie des jeux** analyse les **interactions stratégiques** entre quelques acteurs — où chacun choisit en tenant compte de ce que l'autre va faire ; outil indispensable pour l'oligopole et les négociations.
+:::
+
+## Concepts de base
+
+| Terme | Définition |
+|---|---|
+| **Joueurs** | Les décideurs |
+| **Stratégies** | Les actions possibles de chaque joueur |
+| **Paiements (gains)** | Ce que chaque joueur obtient selon le profil de stratégies |
+| **Matrice de gains** | Tableau qui résume tout (jeu simultané) |
+| **Arbre de jeu** | Représentation graphique (jeu séquentiel) |
+
+### Types de jeux
+
+| Distinction | A vs B |
+|---|---|
+| **Simultané vs séquentiel** | Les joueurs choisissent en même temps ou l'un après l'autre |
+| **Coopératif vs non-coopératif** | Les accords sont contraignants ou pas |
+| **Information complète vs incomplète** | Connaît-on les gains de l'autre ? |
+| **Une fois vs répété** | Le jeu se joue une seule fois ou plusieurs |
+
+## Stratégie dominante et équilibre de Nash
+
+### Stratégie dominante
+
+Une stratégie est **dominante** si elle donne le **meilleur résultat quel que soit** ce que fait l'autre.
+
+### Équilibre de Nash
+
+Profil de stratégies où **aucun joueur n'a intérêt à changer** unilatéralement de stratégie (étant donné celles des autres).
+
+::: {.callout-tip collapse="true"}
+## En simple
+- **Stratégie dominante** : « peu importe ce que fait l'autre, je fais X ». Si chacun a une stratégie dominante, leur choix mutuel forme l'équilibre.
+- **Équilibre de Nash** : « en sachant ce que fait l'autre, je n'ai aucune envie de changer ce que je fais ». Ce concept est plus général — un équilibre de Nash existe presque toujours.
+:::
+
+## Le dilemme du prisonnier
+
+Le jeu emblématique : **deux joueurs**, chacun choisit **Coopérer** ou **Trahir** (tricher).
+
+```
+                    Joueur B
+                Coopère    Trahit
+              ┌─────────┬─────────┐
+   Coopère    │ (3, 3)  │ (0, 5)  │
+              ├─────────┼─────────┤
+Joueur A      │         │         │
+   Trahit     │ (5, 0)  │ (1, 1)  │
+              └─────────┴─────────┘
+```
+
+Chacun a une **stratégie dominante : trahir**. Mais les deux gagneraient plus en coopérant. → équilibre **inefficient** !
+
+### En oligopole
+
+Le dilemme s'applique aux **cartels** :
+
+- Si tous **coopèrent** (respectent les quotas) → tout le monde gagne bien.
+- Mais chaque firme a intérêt à **tricher** (produire plus) → si l'autre coopère, je gagne plus ; si l'autre triche aussi, je dois tricher.
+- → équilibre : **tout le monde triche** → résultat de Cournot/concurrence.
+
+## Jeux répétés (multipériodiques)
+
+Quand le jeu se répète, la **coopération devient possible** — la menace de représailles dissuade la triche.
+
+### Stratégies célèbres
+
+| Stratégie | Description |
+|---|---|
+| **Tit-for-tat** | Je coopère au début ; ensuite je copie ce que l'autre a fait à la période précédente |
+| **Grim trigger** | Je coopère ; mais dès que l'autre triche **une fois**, je triche à jamais |
+| **Trahir toujours** | Stratégie dominante en jeu fini |
+
+### Jeu indéfini (infini ou de durée inconnue)
+
+Avec un **taux d'actualisation** $w$ (où $0 < w < 1$) :
+
+**Gain de coopérer indéfiniment :**
+$$\text{Gain} = g_{coop} + w \cdot g_{coop} + w^2 g_{coop} + \ldots = \frac{g_{coop}}{1 - w}$$
+
+::: {.callout-tip collapse="true"}
+## Exemple chiffré
+Si $g_{coop} = 4$ par période et $w = 0.6$, la **valeur actualisée totale** de la coopération est :
+$$\frac{4}{1 - 0.6} = \frac{4}{0.4} = 10$$
+:::
+
+### Critère de coopération soutenable
+
+La coopération est soutenable si le **gain de coopérer pour toujours** > **gain de tricher une fois** + **subir la punition**.
+
+### Jeu fini (durée connue)
+
+**Backward induction** : à la **dernière période**, tricher est dominant (rien à perdre après). Donc à l'avant-dernière, sachant qu'on va trahir en dernière, tricher est dominant aussi. Et ainsi de suite → **trahir dès la première période**.
+
+::: {.callout-warning}
+## Différence fondamentale
+- **Jeu indéfini** : coopération **possible** (menace crédible).
+- **Jeu fini connu** : coopération **impossible** en équilibre (backward induction casse tout).
+:::
+
+## Application à la détection de dominance oligopolistique
+
+Quand observe-t-on qu'une industrie est en **collusion (cartel implicite)** ?
+
+- Prix **rigides** (peu de variations malgré les chocs de coût).
+- Annonces de prix **publiques** (signaux).
+- Prix très **uniformes** entre firmes.
+- Capacité **excédentaire** (sert de menace).
+
+Les **autorités de la concurrence** (Comco en Suisse, DG Comp à l'UE) utilisent ces indices pour repérer les ententes.
+
+## Jeux séquentiels — arbres de jeu et menaces crédibles
+
+Dans un jeu séquentiel, on **résout par backward induction** : on commence par la fin et on remonte.
+
+### Exemple : monopoleur A vs entrant potentiel B
+
+```
+                  Pas d'action de A → (B=1, A=3)
+        ┌── A ───┘
+B n'entre
+  pas
+
+   B ──┤        Collusion → (B=2, A=0)
+        ┌── A ───┘
+B entre
+        ┌── A ───┐
+                 └─ Concurrence acharnée → (B=0, A=1)
+```
+
+**Analyse :** si B entre, A doit choisir entre Collusion (gain 0) et Concurrence acharnée (gain 1) → A préfère **Concurrence acharnée**. Sachant cela, B choisit entre :
+
+- Ne pas entrer → gain 1
+- Entrer → gain 0 (puisqu'il anticipe la concurrence)
+
+→ **B n'entre pas**. La menace de A est **crédible** (parce que A préfère effectivement faire la concurrence).
+
+### Menace crédible vs non crédible
+
+Une menace est **crédible** si la stratégie menacée est effectivement **dans l'intérêt** de celui qui la profère, au moment où il devrait l'exécuter.
+
+::: {.callout-tip collapse="true"}
+## En simple
+« Si tu entres sur mon marché, je casse les prix ». Cette menace marche **seulement si** je gagne effectivement plus à casser les prix qu'à accepter la concurrence (dans le sous-jeu). Sinon, c'est du bluff — l'autre ne te croit pas.
+:::
+
+::: {.callout-note}
+## Récapitulatif Ch.6
+- **Dilemme du prisonnier** = situation où coopérer serait optimal mais chacun trahit.
+- **Stratégie dominante** > tout autre choix quoi que fasse l'autre.
+- **Équilibre de Nash** : personne n'a intérêt à changer unilatéralement.
+- **Jeux répétés** :
+  - **Indéfini / infini** → coopération possible (tit-for-tat, grim trigger).
+  - **Fini connu** → backward induction → trahir partout.
+- **Jeu séquentiel** : résolution par **backward induction**.
+- **Menace crédible** : seulement si elle est dans l'intérêt du joueur à exécuter.
+:::

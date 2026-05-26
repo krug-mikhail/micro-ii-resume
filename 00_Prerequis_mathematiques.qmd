@@ -1,0 +1,89 @@
+---
+title: "0 · Prérequis mathématiques"
+---
+
+::: {.callout-tip}
+## Ce chapitre en 1 ligne
+Les **dérivées** servent à trouver les **maxima** (de profit, de surplus…) ; les **équations du 2<sup>nd</sup> degré** servent à résoudre les conditions d'équilibre.
+:::
+
+## Règles de dérivation indispensables
+
+| Fonction | Dérivée |
+|---|---|
+| $f(x) = k$ (constante) | $f'(x) = 0$ |
+| $f(x) = ax + b$ | $f'(x) = a$ |
+| $f(x) = ax^p$ | $f'(x) = p \cdot a \cdot x^{p-1}$ |
+| $f(x) = u(x) \pm v(x)$ | $f'(x) = u'(x) \pm v'(x)$ |
+| $f(x) = u(x) \cdot v(x)$ | $f'(x) = u'v + uv'$ |
+| $f(x) = u(x) / v(x)$ | $f'(x) = (u'v - uv') / v^2$ |
+| $f(x) = f(u),\ u = g(x)$ | $f'(x) = f'(u) \cdot u'(x)$ |
+
+::: {.callout-tip collapse="true"}
+## En simple
+- **Constante** → la pente est 0 (ligne horizontale).
+- **Puissance** : on **descend l'exposant devant**, puis on **enlève 1** à l'exposant.
+- **Somme** : on dérive chaque terme séparément.
+- **Chaîne** : on dérive « l'extérieur » × « l'intérieur ».
+:::
+
+## Trouver un maximum / minimum
+
+Pour une fonction $f(x)$ (par exemple un **profit** $\pi(q)$) :
+
+1. Calculer la dérivée $f'(x)$.
+2. La **poser égale à 0** : $f'(x) = 0$ → on trouve le ou les points candidats.
+3. Vérifier (signe de $f''$, ou bon sens) qu'il s'agit bien d'un maximum.
+
+**Application centrale en micro :**
+
+::: {.callout-note}
+## Maximisation du profit
+$\pi(q) = RT(q) - CT(q)$
+
+$\dfrac{d\pi}{dq} = Rm(q) - Cm(q) = 0$ → **Rm = Cm**
+
+C'est LA condition de base pour TOUTES les structures de marché.
+:::
+
+## Équations du 2<sup>nd</sup> degré
+
+Pour résoudre $ax^2 + bx + c = 0$ :
+
+$$\Delta = b^2 - 4ac \qquad x_{1,2} = \frac{-b \pm \sqrt{\Delta}}{2a}$$
+
+| Signe de $\Delta$ | Nombre de solutions réelles |
+|---|---|
+| $\Delta > 0$ | 2 solutions |
+| $\Delta = 0$ | 1 solution (double) |
+| $\Delta < 0$ | 0 solution réelle |
+
+::: {.callout-tip collapse="true"}
+## En simple
+Le **discriminant** $\Delta$ dit s'il y a 2, 1 ou 0 solution(s). Si $\Delta > 0$, on a deux racines : $x = (-b + \sqrt{\Delta}) / 2a$ et $x = (-b - \sqrt{\Delta}) / 2a$. En micro on prend en général la **solution positive** (les quantités sont $\geq 0$).
+:::
+
+## Mini-exemple : « Trouver q qui maximise le profit »
+
+**Énoncé :** $RT(q) = 50q - q^2/6$ et $CT(q) = 3q^2 - 26q + 20$. Quelle quantité $q^*$ maximise le profit ?
+
+::: {.callout-tip collapse="true"}
+## Solution pas-à-pas
+1. **$Rm = dRT/dq = 50 - q/3$**
+2. **$Cm = dCT/dq = 6q - 26$**
+3. **$Rm = Cm$** : $50 - q/3 = 6q - 26$
+4. $76 = 6q + q/3 = (18q + q)/3 = 19q/3$
+5. $q^* = 76 \cdot 3 / 19 = 12$
+
+Et $p^* = 50 - 12/6 = 48$ (en remplaçant dans la demande inverse).
+:::
+
+## Astuces de calcul
+
+::: {.callout-warning}
+## Pièges classiques
+- **Ne pas confondre $RT$, $Rm$, $RM$** : $RT = p \cdot q$ (total), $Rm = dRT/dq$ (marginal), $RM = RT/q = p$ (moyen).
+- **Cm vs CM** : $Cm = dCT/dq$ ; $CM = CT/q$.
+- **Demande directe vs inverse** : la demande directe $q = D(p)$ donne $q$ en fonction de $p$ ; la demande inverse $p = P(q)$ donne $p$ en fonction de $q$. Pour calculer $RT = p \cdot q$, on a besoin de la demande **inverse**.
+- **Coût fixe ≠ coût marginal nul** : un coût total $C(q) = 25$ veut dire un coût FIXE de 25, donc $Cm = 0$ (le coût ne change pas avec $q$).
+:::

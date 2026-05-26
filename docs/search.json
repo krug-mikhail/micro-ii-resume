@@ -1,0 +1,1111 @@
+[
+  {
+    "objectID": "formules.html",
+    "href": "formules.html",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "",
+    "text": "Symbole\nSignification\n\n\n\n\n\\(P\\)\nPrix\n\n\n\\(Q\\) ou \\(q\\)\nQuantité (totale / individuelle)\n\n\n\\(RT\\)\nRecette totale = \\(P \\cdot q\\)\n\n\n\\(Rm\\)\nRecette marginale = \\(dRT/dq\\)\n\n\n\\(RM\\)\nRecette moyenne = \\(RT/q = P\\)\n\n\n\\(CT\\)\nCoût total\n\n\n\\(CF\\)\nCoût fixe\n\n\n\\(CV\\)\nCoût variable\n\n\n\\(Cm\\)\nCoût marginal = \\(dCT/dq\\)\n\n\n\\(CM\\) ou \\(CTM\\)\nCoût moyen total = \\(CT/q\\)\n\n\n\\(CVM\\)\nCoût variable moyen = \\(CV/q\\)\n\n\n\\(CMLT\\)\nCoût moyen de long terme\n\n\n\\(\\pi\\)\nProfit = \\(RT - CT\\)\n\n\n\\(\\varepsilon\\)\nÉlasticité-prix de la demande",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#notations-standard",
+    "href": "formules.html#notations-standard",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "",
+    "text": "Symbole\nSignification\n\n\n\n\n\\(P\\)\nPrix\n\n\n\\(Q\\) ou \\(q\\)\nQuantité (totale / individuelle)\n\n\n\\(RT\\)\nRecette totale = \\(P \\cdot q\\)\n\n\n\\(Rm\\)\nRecette marginale = \\(dRT/dq\\)\n\n\n\\(RM\\)\nRecette moyenne = \\(RT/q = P\\)\n\n\n\\(CT\\)\nCoût total\n\n\n\\(CF\\)\nCoût fixe\n\n\n\\(CV\\)\nCoût variable\n\n\n\\(Cm\\)\nCoût marginal = \\(dCT/dq\\)\n\n\n\\(CM\\) ou \\(CTM\\)\nCoût moyen total = \\(CT/q\\)\n\n\n\\(CVM\\)\nCoût variable moyen = \\(CV/q\\)\n\n\n\\(CMLT\\)\nCoût moyen de long terme\n\n\n\\(\\pi\\)\nProfit = \\(RT - CT\\)\n\n\n\\(\\varepsilon\\)\nÉlasticité-prix de la demande",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#condition-universelle-de-maximisation-du-profit",
+    "href": "formules.html#condition-universelle-de-maximisation-du-profit",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "2 Condition universelle de maximisation du profit",
+    "text": "2 Condition universelle de maximisation du profit\n\\[\\boxed{\\ \\dfrac{d\\pi}{dq} = Rm - Cm = 0 \\quad\\Longleftrightarrow\\quad Rm = Cm\\ }\\]\nValable pour toute structure de marché. La différence vient juste de ce que vaut \\(Rm\\).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#concurrence-parfaite",
+    "href": "formules.html#concurrence-parfaite",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "3 1. Concurrence parfaite",
+    "text": "3 1. Concurrence parfaite\n\n\n\nCourt terme\nLong terme\n\n\n\n\n\\(P = Rm = Cm\\)\n\\(P = \\min(CMLT)\\)\n\n\nProfit ≷ 0 possible\n\\(\\pi = 0\\)\n\n\nSeuil de fermeture : \\(P &lt; CVM\\)\nSeuil de sortie : \\(P &lt; CMLT\\)\n\n\n\nSeuil de fermeture (CT) : \\(q\\) tel que \\(dCVM/dq = 0\\).\nSeuil de sortie (LT) : \\(q\\) tel que \\(dCMLT/dq = 0\\).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#monopole",
+    "href": "formules.html#monopole",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "4 2. Monopole",
+    "text": "4 2. Monopole\nDemande linéaire \\(P = a - bQ\\) :\n\\[RT = aQ - bQ^2 \\qquad Rm = a - 2bQ\\]\n\n\n\n\n\n\nTipAstuce\n\n\n\nLa pente de \\(Rm\\) = double de la pente de \\(P\\) (même ordonnée à l’origine).\n\n\nAvec \\(Cm\\) constant \\(= c\\) :\n\\[Q_m = \\frac{a - c}{2b} \\qquad P_m = \\frac{a + c}{2} \\qquad \\pi_m = \\frac{(a-c)^2}{4b}\\]\nSurplus du consommateur (demande linéaire) : \\[SC = \\frac{1}{2} \\cdot (P_{max} - P) \\cdot Q\\]\noù \\(P_{max}\\) = prix d’intersection demande/axe (quand \\(Q = 0\\)).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#monopole-discriminant-parfait",
+    "href": "formules.html#monopole-discriminant-parfait",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "5 3. Monopole discriminant parfait",
+    "text": "5 3. Monopole discriminant parfait\nProduction \\(Q^*\\) telle que \\(P(Q^*) = Cm(Q^*)\\) (comme en CP).\nLe monopoleur capte tout le SC : profit = aire entre la demande et le \\(Cm\\), sur \\([0, Q^*]\\) (moins les coûts fixes).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#concurrence-monopolistique-équilibre-lt",
+    "href": "formules.html#concurrence-monopolistique-équilibre-lt",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "6 4. Concurrence monopolistique (équilibre LT)",
+    "text": "6 4. Concurrence monopolistique (équilibre LT)\n\\[Rm = Cm \\quad\\text{et}\\quad P = CTM \\quad (\\pi = 0)\\]\n(profit nul mais production à gauche du min(CTM) → surcapacité)",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#oligopole-cournot-duopole",
+    "href": "formules.html#oligopole-cournot-duopole",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "7 5. Oligopole — Cournot (duopole)",
+    "text": "7 5. Oligopole — Cournot (duopole)\nPour la firme \\(i\\) : \\[\\dfrac{\\partial \\pi_i}{\\partial q_i} = P(Q) + q_i \\cdot P'(Q) - Cm_i(q_i) = 0\\]\n→ Fonction de réaction \\(q_i = R_i(q_j)\\).\nÉquilibre Nash-Cournot : intersection des fonctions de réaction.\nCas symétrique linéaire \\(P = a - b(q_1 + q_2)\\), \\(Cm = c\\) : \\[q_1^* = q_2^* = \\frac{a-c}{3b} \\qquad P^* = \\frac{a + 2c}{3} \\qquad \\pi_i = \\frac{(a-c)^2}{9b}\\]",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#oligopole-stackelberg-leader-suiveur",
+    "href": "formules.html#oligopole-stackelberg-leader-suiveur",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "8 6. Oligopole — Stackelberg (leader / suiveur)",
+    "text": "8 6. Oligopole — Stackelberg (leader / suiveur)\n\nSuiveur : fonction de réaction comme en Cournot.\nLeader : substitue la réaction du suiveur dans son profit, puis maximise.\n\nCas symétrique linéaire \\(P = a - b(q_L + q_S)\\), \\(Cm = c\\) : \\[q_L^* = \\frac{a-c}{2b} \\quad q_S^* = \\frac{a-c}{4b} \\qquad P^* = \\frac{a + 3c}{4}\\]\n→ Le leader produit plus que dans Cournot, le suiveur moins. Quantité totale plus grande → prix plus bas → mieux pour le consommateur.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#oligopole-bertrand",
+    "href": "formules.html#oligopole-bertrand",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "9 7. Oligopole — Bertrand",
+    "text": "9 7. Oligopole — Bertrand\nHomogène : \\(P^* = Cm\\), \\(\\pi = 0\\) (paradoxe).\nDifférencié : poser la fonction de demande croisée, dériver le profit par rapport au prix de chaque firme, résoudre le système des FOC.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#cartel-collusion",
+    "href": "formules.html#cartel-collusion",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "10 8. Cartel (collusion)",
+    "text": "10 8. Cartel (collusion)\nLe cartel agit comme un monopole : \\[Rm_{industrie} = Cm_{industrie}\\]\nPour minimiser le coût total à \\(Q\\) donné : égaliser les \\(Cm\\) des firmes.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#jeux-répétés-gain-actualisé",
+    "href": "formules.html#jeux-répétés-gain-actualisé",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "11 9. Jeux répétés — gain actualisé",
+    "text": "11 9. Jeux répétés — gain actualisé\nCoopération indéfinie : \\[V_{coop} = g_c + w \\cdot g_c + w^2 g_c + \\ldots = \\frac{g_c}{1 - w}\\]\nTrahir à la période \\(t\\) (puis être trahi à jamais) : \\[V_{tricher} = \\underbrace{g_c (1 + w + \\ldots + w^{t-1})}_{\\text{coopère t périodes}} + w^t \\cdot g_T + \\underbrace{w^{t+1} \\cdot \\frac{g_N}{1 - w}}_{\\text{punition}}\\]\noù \\(g_T\\) = gain de tricher quand l’autre coopère, \\(g_N\\) = gain quand les deux trichent.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#élasticité-de-la-demande",
+    "href": "formules.html#élasticité-de-la-demande",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "12 10. Élasticité de la demande",
+    "text": "12 10. Élasticité de la demande\n\\[\\varepsilon = \\frac{\\Delta Q / Q}{\\Delta P / P} = \\frac{dQ}{dP} \\cdot \\frac{P}{Q}\\]\n\n\n\nValeur de \\(|\\varepsilon|\\)\nDemande\n\n\n\n\n&gt; 1\nÉlastique (sensible au prix)\n\n\n= 1\nÉlasticité unitaire\n\n\n&lt; 1\nInélastique (peu sensible au prix)\n\n\n\nRègle de la discrimination 3e degré : prix plus élevé là où la demande est moins élastique.\nPour un monopole : \\[\\frac{P - Cm}{P} = -\\frac{1}{\\varepsilon} \\quad\\text{(formule de Lerner)}\\]",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "formules.html#demande-inverse-vs-directe",
+    "href": "formules.html#demande-inverse-vs-directe",
+    "title": "Formules clés — toutes les structures de marché",
+    "section": "13 11. Demande inverse vs directe",
+    "text": "13 11. Demande inverse vs directe\n\nDirecte : \\(Q = D(P)\\) (combien on consomme à un prix donné).\nInverse : \\(P = D^{-1}(Q)\\) (à quel prix la quantité \\(Q\\) se vend).\n\nPour calculer \\(RT\\) et donc \\(Rm\\), on a besoin de la demande inverse : \\(RT = P(Q) \\cdot Q\\).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "06_Theorie_des_jeux.html",
+    "href": "06_Theorie_des_jeux.html",
+    "title": "6 · Théorie des jeux",
+    "section": "",
+    "text": "TipCe chapitre en 1 ligne\n\n\n\nLa théorie des jeux analyse les interactions stratégiques entre quelques acteurs — où chacun choisit en tenant compte de ce que l’autre va faire ; outil indispensable pour l’oligopole et les négociations.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "6 · Théorie des jeux"
+    ]
+  },
+  {
+    "objectID": "06_Theorie_des_jeux.html#concepts-de-base",
+    "href": "06_Theorie_des_jeux.html#concepts-de-base",
+    "title": "6 · Théorie des jeux",
+    "section": "1 Concepts de base",
+    "text": "1 Concepts de base\n\n\n\n\n\n\n\nTerme\nDéfinition\n\n\n\n\nJoueurs\nLes décideurs\n\n\nStratégies\nLes actions possibles de chaque joueur\n\n\nPaiements (gains)\nCe que chaque joueur obtient selon le profil de stratégies\n\n\nMatrice de gains\nTableau qui résume tout (jeu simultané)\n\n\nArbre de jeu\nReprésentation graphique (jeu séquentiel)\n\n\n\n\n1.1 Types de jeux\n\n\n\n\n\n\n\nDistinction\nA vs B\n\n\n\n\nSimultané vs séquentiel\nLes joueurs choisissent en même temps ou l’un après l’autre\n\n\nCoopératif vs non-coopératif\nLes accords sont contraignants ou pas\n\n\nInformation complète vs incomplète\nConnaît-on les gains de l’autre ?\n\n\nUne fois vs répété\nLe jeu se joue une seule fois ou plusieurs",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "6 · Théorie des jeux"
+    ]
+  },
+  {
+    "objectID": "06_Theorie_des_jeux.html#stratégie-dominante-et-équilibre-de-nash",
+    "href": "06_Theorie_des_jeux.html#stratégie-dominante-et-équilibre-de-nash",
+    "title": "6 · Théorie des jeux",
+    "section": "2 Stratégie dominante et équilibre de Nash",
+    "text": "2 Stratégie dominante et équilibre de Nash\n\n2.1 Stratégie dominante\nUne stratégie est dominante si elle donne le meilleur résultat quel que soit ce que fait l’autre.\n\n\n2.2 Équilibre de Nash\nProfil de stratégies où aucun joueur n’a intérêt à changer unilatéralement de stratégie (étant donné celles des autres).\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\n\nStratégie dominante : « peu importe ce que fait l’autre, je fais X ». Si chacun a une stratégie dominante, leur choix mutuel forme l’équilibre.\nÉquilibre de Nash : « en sachant ce que fait l’autre, je n’ai aucune envie de changer ce que je fais ». Ce concept est plus général — un équilibre de Nash existe presque toujours.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "6 · Théorie des jeux"
+    ]
+  },
+  {
+    "objectID": "06_Theorie_des_jeux.html#le-dilemme-du-prisonnier",
+    "href": "06_Theorie_des_jeux.html#le-dilemme-du-prisonnier",
+    "title": "6 · Théorie des jeux",
+    "section": "3 Le dilemme du prisonnier",
+    "text": "3 Le dilemme du prisonnier\nLe jeu emblématique : deux joueurs, chacun choisit Coopérer ou Trahir (tricher).\n                    Joueur B\n                Coopère    Trahit\n              ┌─────────┬─────────┐\n   Coopère    │ (3, 3)  │ (0, 5)  │\n              ├─────────┼─────────┤\nJoueur A      │         │         │\n   Trahit     │ (5, 0)  │ (1, 1)  │\n              └─────────┴─────────┘\nChacun a une stratégie dominante : trahir. Mais les deux gagneraient plus en coopérant. → équilibre inefficient !\n\n3.1 En oligopole\nLe dilemme s’applique aux cartels :\n\nSi tous coopèrent (respectent les quotas) → tout le monde gagne bien.\nMais chaque firme a intérêt à tricher (produire plus) → si l’autre coopère, je gagne plus ; si l’autre triche aussi, je dois tricher.\n→ équilibre : tout le monde triche → résultat de Cournot/concurrence.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "6 · Théorie des jeux"
+    ]
+  },
+  {
+    "objectID": "06_Theorie_des_jeux.html#jeux-répétés-multipériodiques",
+    "href": "06_Theorie_des_jeux.html#jeux-répétés-multipériodiques",
+    "title": "6 · Théorie des jeux",
+    "section": "4 Jeux répétés (multipériodiques)",
+    "text": "4 Jeux répétés (multipériodiques)\nQuand le jeu se répète, la coopération devient possible — la menace de représailles dissuade la triche.\n\n4.1 Stratégies célèbres\n\n\n\n\n\n\n\nStratégie\nDescription\n\n\n\n\nTit-for-tat\nJe coopère au début ; ensuite je copie ce que l’autre a fait à la période précédente\n\n\nGrim trigger\nJe coopère ; mais dès que l’autre triche une fois, je triche à jamais\n\n\nTrahir toujours\nStratégie dominante en jeu fini\n\n\n\n\n\n4.2 Jeu indéfini (infini ou de durée inconnue)\nAvec un taux d’actualisation \\(w\\) (où \\(0 &lt; w &lt; 1\\)) :\nGain de coopérer indéfiniment : \\[\\text{Gain} = g_{coop} + w \\cdot g_{coop} + w^2 g_{coop} + \\ldots = \\frac{g_{coop}}{1 - w}\\]\n\n\n\n\n\n\nTipExemple chiffré\n\n\n\n\n\nSi \\(g_{coop} = 4\\) par période et \\(w = 0.6\\), la valeur actualisée totale de la coopération est : \\[\\frac{4}{1 - 0.6} = \\frac{4}{0.4} = 10\\]\n\n\n\n\n\n4.3 Critère de coopération soutenable\nLa coopération est soutenable si le gain de coopérer pour toujours &gt; gain de tricher une fois + subir la punition.\n\n\n4.4 Jeu fini (durée connue)\nBackward induction : à la dernière période, tricher est dominant (rien à perdre après). Donc à l’avant-dernière, sachant qu’on va trahir en dernière, tricher est dominant aussi. Et ainsi de suite → trahir dès la première période.\n\n\n\n\n\n\nWarningDifférence fondamentale\n\n\n\n\nJeu indéfini : coopération possible (menace crédible).\nJeu fini connu : coopération impossible en équilibre (backward induction casse tout).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "6 · Théorie des jeux"
+    ]
+  },
+  {
+    "objectID": "06_Theorie_des_jeux.html#application-à-la-détection-de-dominance-oligopolistique",
+    "href": "06_Theorie_des_jeux.html#application-à-la-détection-de-dominance-oligopolistique",
+    "title": "6 · Théorie des jeux",
+    "section": "5 Application à la détection de dominance oligopolistique",
+    "text": "5 Application à la détection de dominance oligopolistique\nQuand observe-t-on qu’une industrie est en collusion (cartel implicite) ?\n\nPrix rigides (peu de variations malgré les chocs de coût).\nAnnonces de prix publiques (signaux).\nPrix très uniformes entre firmes.\nCapacité excédentaire (sert de menace).\n\nLes autorités de la concurrence (Comco en Suisse, DG Comp à l’UE) utilisent ces indices pour repérer les ententes.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "6 · Théorie des jeux"
+    ]
+  },
+  {
+    "objectID": "06_Theorie_des_jeux.html#jeux-séquentiels-arbres-de-jeu-et-menaces-crédibles",
+    "href": "06_Theorie_des_jeux.html#jeux-séquentiels-arbres-de-jeu-et-menaces-crédibles",
+    "title": "6 · Théorie des jeux",
+    "section": "6 Jeux séquentiels — arbres de jeu et menaces crédibles",
+    "text": "6 Jeux séquentiels — arbres de jeu et menaces crédibles\nDans un jeu séquentiel, on résout par backward induction : on commence par la fin et on remonte.\n\n6.1 Exemple : monopoleur A vs entrant potentiel B\n                  Pas d'action de A → (B=1, A=3)\n        ┌── A ───┘\nB n'entre\n  pas\n\n   B ──┤        Collusion → (B=2, A=0)\n        ┌── A ───┘\nB entre\n        ┌── A ───┐\n                 └─ Concurrence acharnée → (B=0, A=1)\nAnalyse : si B entre, A doit choisir entre Collusion (gain 0) et Concurrence acharnée (gain 1) → A préfère Concurrence acharnée. Sachant cela, B choisit entre :\n\nNe pas entrer → gain 1\nEntrer → gain 0 (puisqu’il anticipe la concurrence)\n\n→ B n’entre pas. La menace de A est crédible (parce que A préfère effectivement faire la concurrence).\n\n\n6.2 Menace crédible vs non crédible\nUne menace est crédible si la stratégie menacée est effectivement dans l’intérêt de celui qui la profère, au moment où il devrait l’exécuter.\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\n« Si tu entres sur mon marché, je casse les prix ». Cette menace marche seulement si je gagne effectivement plus à casser les prix qu’à accepter la concurrence (dans le sous-jeu). Sinon, c’est du bluff — l’autre ne te croit pas.\n\n\n\n\n\n\n\n\n\nNoteRécapitulatif Ch.6\n\n\n\n\nDilemme du prisonnier = situation où coopérer serait optimal mais chacun trahit.\nStratégie dominante &gt; tout autre choix quoi que fasse l’autre.\nÉquilibre de Nash : personne n’a intérêt à changer unilatéralement.\nJeux répétés :\n\nIndéfini / infini → coopération possible (tit-for-tat, grim trigger).\nFini connu → backward induction → trahir partout.\n\nJeu séquentiel : résolution par backward induction.\nMenace crédible : seulement si elle est dans l’intérêt du joueur à exécuter.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "6 · Théorie des jeux"
+    ]
+  },
+  {
+    "objectID": "03_Monopole_monopsone.html",
+    "href": "03_Monopole_monopsone.html",
+    "title": "3 · Monopole et monopsone",
+    "section": "",
+    "text": "TipCe chapitre en 1 ligne\n\n\n\nLe monopole (vendeur unique) restreint la quantité pour faire monter le prix → quantité plus faible et prix plus élevé qu’en CP, ce qui crée une perte sèche sauf en cas de discrimination parfaite.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "3 · Monopole et monopsone"
+    ]
+  },
+  {
+    "objectID": "03_Monopole_monopsone.html#données-de-base-quest-ce-quun-monopole",
+    "href": "03_Monopole_monopsone.html#données-de-base-quest-ce-quun-monopole",
+    "title": "3 · Monopole et monopsone",
+    "section": "1 1. Données de base — qu’est-ce qu’un monopole ?",
+    "text": "1 1. Données de base — qu’est-ce qu’un monopole ?\nUn monopole = une seule firme vend un produit pour lequel il n’existe pas de substitut proche, et l’entrée est bloquée par des barrières.\n\n1.1 Sources des barrières à l’entrée\n\n\n\n\n\n\n\nType\nExemple\n\n\n\n\nLégales\nBrevets, licences, monopoles d’État\n\n\nÉconomiques (naturelles)\nÉconomies d’échelle, contrôle d’une ressource rare\n\n\nStratégiques\nCapacité excédentaire, dumping, lock-in clients\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nSi tu es la seule entreprise sur ton marché et que personne ne peut entrer (parce que t’as un brevet, ou parce que ça coûte des milliards pour démarrer), tu es en monopole. Tu n’es pas obligé de subir le prix — tu le choisis (mais à condition d’accepter une quantité plus faible).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "3 · Monopole et monopsone"
+    ]
+  },
+  {
+    "objectID": "03_Monopole_monopsone.html#monopole-non-discriminant",
+    "href": "03_Monopole_monopsone.html#monopole-non-discriminant",
+    "title": "3 · Monopole et monopsone",
+    "section": "2 2. Monopole non discriminant",
+    "text": "2 2. Monopole non discriminant\nLa firme ne peut pas faire payer des prix différents → un seul prix pour tous.\n\n2.1 La règle d’or : Rm = Cm\n\n\n\n\n\n\nImportantCondition de maximisation du profit\n\n\n\n\\[\\boxed{\\ Rm(q) = Cm(q)\\ }\\]\nAttention : ici \\(Rm \\neq P\\) ! La firme monopolistique fait face à la demande de marché entière, donc :\n\\[Rm(q) = P(q) + q \\cdot P'(q)\\]\nComme \\(P'(q) &lt; 0\\) (la demande est décroissante), on a toujours \\(Rm &lt; P\\).\n\n\n\n\n\nMonopole : Q_m, P_m, perte sèche\n\n\n\n\n\n\n\n\nTipAstuce : si la demande est linéaire \\(P = a - bQ\\)\n\n\n\n\n\nAlors \\(Rm = a - 2bQ\\) — la pente de \\(Rm\\) est le double de celle de \\(P\\) (et même ordonnée à l’origine \\(a\\)).\nC’est l’astuce la plus utile pour les exercices.\n\n\n\n\n\n2.2 Conséquences vs concurrence parfaite\n\n\n\n\nConcurrence\nMonopole\n\n\n\n\nQuantité\n\\(Q_c\\)\n\\(Q_m &lt; Q_c\\)\n\n\nPrix\n\\(P_c = Cm\\)\n\\(P_m &gt; P_c\\)\n\n\nProfit\n0 (LT)\n&gt; 0 (souvent positif même LT)\n\n\nSurplus consommateur\nélevé\nréduit\n\n\nPerte sèche\n0\n&gt; 0",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "3 · Monopole et monopsone"
+    ]
+  },
+  {
+    "objectID": "03_Monopole_monopsone.html#monopole-discriminant",
+    "href": "03_Monopole_monopsone.html#monopole-discriminant",
+    "title": "3 · Monopole et monopsone",
+    "section": "3 3. Monopole discriminant",
+    "text": "3 3. Monopole discriminant\nLe monopoleur fait payer des prix différents à différents acheteurs ou pour différentes quantités.\n\n3.1 Les 3 degrés (Pigou)\n\n\n\n\n\n\n\n\nDegré\nDescription\nExemple\n\n\n\n\n1er\nParfait : chaque unité au prix max que l’acheteur est prêt à payer\nVente aux enchères individuelle\n\n\n2e\nPrix selon la quantité achetée\nTarifs dégressifs, abonnement vs unitaire\n\n\n3e\nPrix selon le groupe d’acheteurs (élasticité différente)\nTarif étudiant, heures pleines/creuses, prix par pays\n\n\n\n\n\n3.2 Discrimination parfaite (1er degré)\n\n\n\nDiscrimination parfaite : profit = tout le surplus, pas de perte sèche\n\n\nLe monopoleur produit jusqu’à \\(P = Cm\\) (comme en CP !), mais capte tout le surplus du consommateur.\n\n\n\n\n\n\nImportantRésultat surprenant\n\n\n\nLa discrimination parfaite est efficiente (pas de perte sèche, on produit la quantité « concurrentielle ») — mais injuste : tout le surplus va au monopoleur, rien au consommateur.\n\n\n\n\n3.3 Discrimination de 3e degré (par groupes)\nRègle : prix plus élevé là où la demande est moins élastique.\n\\[\\frac{P_1}{P_2} = \\frac{1 + 1/\\varepsilon_2}{1 + 1/\\varepsilon_1}\\]\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\n\nUn groupe a peu de substituts → demande inélastique → on peut faire payer cher.\nUn groupe a beaucoup d’alternatives → demande élastique → si on monte le prix, il fuit.\n\nExemple : électricité plus chère en journée (consommation industrielle, peu élastique) moins chère la nuit (résidentiel, plus élastique → on incite à reporter).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "3 · Monopole et monopsone"
+    ]
+  },
+  {
+    "objectID": "03_Monopole_monopsone.html#comparaison-monopole-concurrence-parfaite",
+    "href": "03_Monopole_monopsone.html#comparaison-monopole-concurrence-parfaite",
+    "title": "3 · Monopole et monopsone",
+    "section": "4 4. Comparaison monopole — concurrence parfaite",
+    "text": "4 4. Comparaison monopole — concurrence parfaite\nPour une demande linéaire \\(P = a - bQ\\) et un coût marginal constant \\(c\\) :\n\n\n\nVariable\nCP\nMonopole\n\n\n\n\nQuantité\n\\(Q_c = (a - c)/b\\)\n\\(Q_m = (a - c)/(2b) = Q_c / 2\\)\n\n\nPrix\n\\(P_c = c\\)\n\\(P_m = (a + c)/2\\)\n\n\nProfit\n0 (LT)\n\\((a-c)^2/(4b) &gt; 0\\)\n\n\nSurplus total\nmaximal\ninférieur (\\(\\to\\) perte sèche)\n\n\n\n\n\n\n\n\n\nWarningÀ retenir\n\n\n\n\nMonopole = moitié de la quantité concurrentielle (cas linéaire) → prix beaucoup plus élevé.\nPerte sèche = aire entre la demande et le \\(Cm\\) sur \\([Q_m, Q_c]\\).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "3 · Monopole et monopsone"
+    ]
+  },
+  {
+    "objectID": "03_Monopole_monopsone.html#le-monopole-naturel",
+    "href": "03_Monopole_monopsone.html#le-monopole-naturel",
+    "title": "3 · Monopole et monopsone",
+    "section": "5 5. Le monopole naturel",
+    "text": "5 5. Le monopole naturel\nQuand le CTM décroît sur toute la zone de demande, une seule firme produit moins cher que plusieurs → c’est efficient d’avoir un monopole.\n\n\n\nMonopole naturel : tarification au Cm → perte\n\n\n\n\n\n\n\n\nImportantLe dilemme du monopole naturel\n\n\n\n\nTarification au prix \\(P = Cm\\) (idéale en CP) → comme \\(Cm &lt; CTM\\) (puisque \\(CTM\\) décroît), la firme produit à perte → faillite ou subvention.\nTarification au prix \\(P = CTM\\) → profit nul, mais quantité &lt; quantité socialement optimale.\n\n→ Souvent : réglementation + subvention + droits exclusifs (eau, gaz, rail…).\n\n\n\n5.1 Économies d’échelle multi-produits\nPour un monopole naturel multi-produit, les économies d’échelle ne sont ni nécessaires ni suffisantes — il faut la sous-additivité des coûts (économies de gamme).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "3 · Monopole et monopsone"
+    ]
+  },
+  {
+    "objectID": "03_Monopole_monopsone.html#le-monopsone",
+    "href": "03_Monopole_monopsone.html#le-monopsone",
+    "title": "3 · Monopole et monopsone",
+    "section": "6 6. Le monopsone",
+    "text": "6 6. Le monopsone\nLe monopsone = un seul acheteur face à de nombreux vendeurs. Symétrique du monopole.\n\n\n\n\n\n\n\nMonopole (vendeur unique)\nMonopsone (acheteur unique)\n\n\n\n\nFait monter le prix\nFait baisser le prix\n\n\nQuantité &lt; CP\nQuantité &lt; CP\n\n\nRègle : \\(Rm = Cm\\)\nRègle : valeur marginale = \\(C_{marginal\\ du\\ facteur}\\)\n\n\nPouvoir de vente\nPouvoir d’achat\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nSi tu es la seule entreprise qui embauche dans ta région, tu peux faire baisser les salaires (les travailleurs n’ont pas d’autre employeur). C’est un monopsone sur le marché du travail.\nExemple récent : géants du tech qui embauchent presque tous les data scientists d’une région.\n\n\n\n\n\n\n\n\n\nNoteRécapitulatif Ch.3\n\n\n\n\nMonopole non-discriminant : \\(Rm = Cm\\), \\(Q\\) et \\(P\\) moins favorables qu’en CP, perte sèche.\nMonopole discriminant parfait : produit comme CP mais capte tout le surplus.\nDiscrimination 3e degré : prix plus élevé là où la demande est inélastique.\nMonopole naturel : \\(CTM\\) décroissant → un seul producteur est efficient mais pose un dilemme tarifaire.\nMonopsone : symétrique du monopole côté demande de facteurs.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "3 · Monopole et monopsone"
+    ]
+  },
+  {
+    "objectID": "02_Limites_marches.html",
+    "href": "02_Limites_marches.html",
+    "title": "2 · Limites de la perfection des marchés",
+    "section": "",
+    "text": "TipCe chapitre en 1 ligne\n\n\n\nDans la réalité, les hypothèses de la CP sont rarement vérifiées ; il en résulte des défaillances de marché (asymétrie d’information, externalités, biens publics, rendements croissants) qui produisent des résultats inefficients.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "2 · Limites de la perfection des marchés"
+    ]
+  },
+  {
+    "objectID": "02_Limites_marches.html#asymétrie-dinformation",
+    "href": "02_Limites_marches.html#asymétrie-dinformation",
+    "title": "2 · Limites de la perfection des marchés",
+    "section": "1 1. Asymétrie d’information",
+    "text": "1 1. Asymétrie d’information\nUne partie connaît mieux que l’autre la qualité (ou les actions) en jeu.\n\n1.1 Sélection adverse (avant la transaction)\nL’acheteur ne peut pas distinguer les bonnes des mauvaises qualités → le prix s’aligne sur la qualité moyenne → les vendeurs de bonne qualité se retirent → la qualité moyenne baisse → le marché s’effondre.\n\n\n\n\n\n\nTipEn simple : « le marché des tacots » (Akerlof, 1970)\n\n\n\n\n\nTu vends une voiture d’occasion (excellente, 10’000). L’acheteur ne sait pas si c’est un « tacot » (3’000) ou une « bonne » (10’000). Il propose un prix moyen (6’500). Tu refuses. Seuls les tacots restent → le marché disparaît.\n\n\n\n\n\n1.2 Aléa moral (après la transaction)\nUne fois assuré / protégé, l’individu change de comportement (devient moins prudent).\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nTu loues une voiture avec assurance tous risques très chère. Tu la conduis moins prudemment que ta propre voiture — c’est l’aléa moral. L’assurance est chère justement parce que l’assureur sait que tu vas être moins prudent.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "2 · Limites de la perfection des marchés"
+    ]
+  },
+  {
+    "objectID": "02_Limites_marches.html#externalités",
+    "href": "02_Limites_marches.html#externalités",
+    "title": "2 · Limites de la perfection des marchés",
+    "section": "2 2. Externalités",
+    "text": "2 2. Externalités\nL’activité d’un agent affecte un autre agent sans passer par le marché (pas de prix).\n\n\n\n\n\n\n\n\nType\nDéfinition\nExemple\n\n\n\n\nNégative\nCoût imposé à autrui\nPollution d’une usine\n\n\nPositive\nBénéfice donné à autrui\nVaccination, ruche pour le verger voisin\n\n\n\n\n\n\nExternalité négative : le marché produit trop\n\n\n\n\n\n\n\n\nImportantConséquence\n\n\n\nAvec une externalité négative, le marché produit trop (l’offre intègre seulement le coût privé, pas le coût social).\nAvec une externalité positive, le marché produit trop peu.\n\n\nSolutions : taxes pigouviennes (faire payer le coût social), subventions, droits de propriété échangeables, réglementation, négociation à la Coase (si coûts de transaction faibles).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "2 · Limites de la perfection des marchés"
+    ]
+  },
+  {
+    "objectID": "02_Limites_marches.html#biens-publics",
+    "href": "02_Limites_marches.html#biens-publics",
+    "title": "2 · Limites de la perfection des marchés",
+    "section": "3 3. Biens publics",
+    "text": "3 3. Biens publics\nUn bien est public pur s’il est :\n\n\n\n\n\n\n\n\nPropriété\nDéfinition\nExemple\n\n\n\n\nNon-rival\nMa consommation ne réduit pas la tienne\nPhare, défense nationale, feux d’artifice\n\n\nNon-exclusif\nOn ne peut pas empêcher quelqu’un d’en profiter\nAir pur, parc public\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nSi je regarde un feu d’artifice, ça n’empêche personne d’autre de le voir (non-rival) et personne ne peut me chasser pour m’empêcher de regarder (non-exclusif).\n\n\n\n\n3.1 Le problème du passager clandestin (free-rider)\nChacun a intérêt à laisser les autres payer pour le bien public et à en profiter gratuitement → le marché privé en produit trop peu, voire pas du tout → l’État doit financer.\n\n\n\n\n\n\n\n\n\nRival\nNon-rival\n\n\n\n\nExclusif\nBien privé (pomme)\nBien de club (Netflix)\n\n\nNon-exclusif\nBien commun (poissons en mer)\nBien public pur (défense)",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "2 · Limites de la perfection des marchés"
+    ]
+  },
+  {
+    "objectID": "02_Limites_marches.html#rendements-croissants",
+    "href": "02_Limites_marches.html#rendements-croissants",
+    "title": "2 · Limites de la perfection des marchés",
+    "section": "4 4. Rendements croissants",
+    "text": "4 4. Rendements croissants\nQuand les coûts moyens diminuent quand la quantité augmente (économies d’échelle), une seule grande firme est plus efficace que plusieurs petites → monopole naturel (voir Ch.3).\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nConstruire un réseau ferroviaire ou une centrale électrique coûte énormément en coûts fixes. Plus tu produis, plus tu étales ces coûts fixes → coût par unité plus bas. Avoir deux réseaux parallèles serait absurde — un seul est plus efficient. C’est ce qu’on appelle un monopole naturel.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "2 · Limites de la perfection des marchés"
+    ]
+  },
+  {
+    "objectID": "02_Limites_marches.html#récapitulatif-des-4-défaillances",
+    "href": "02_Limites_marches.html#récapitulatif-des-4-défaillances",
+    "title": "2 · Limites de la perfection des marchés",
+    "section": "5 Récapitulatif des 4 défaillances",
+    "text": "5 Récapitulatif des 4 défaillances\n\n\n\n\n\n\n\n\nDéfaillance\nCause\nEffet sur le marché\n\n\n\n\nAsymétrie d’info\nL’une des parties en sait plus\nSélection adverse / aléa moral\n\n\nExternalité\nEffet hors-marché\nSur- ou sous-production\n\n\nBien public\nNon-rivalité + non-exclusion\nSous-production (free-rider)\n\n\nRendements croissants\n\\(CTM\\) décroissant\nMonopole naturel\n\n\n\n\n\n\n\n\n\nWarningPour l’examen\n\n\n\nSache distinguer aléa moral et sélection adverse — c’est un grand classique :\n\nAvant la transaction (qualité cachée) → sélection adverse\nAprès la transaction (comportement caché) → aléa moral\n\nEt reconnaître les 4 propriétés d’un bien : rival/non-rival, exclusif/non-exclusif → identifier bien privé, bien de club, bien commun, bien public.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "2 · Limites de la perfection des marchés"
+    ]
+  },
+  {
+    "objectID": "00_Prerequis_mathematiques.html",
+    "href": "00_Prerequis_mathematiques.html",
+    "title": "0 · Prérequis mathématiques",
+    "section": "",
+    "text": "TipCe chapitre en 1 ligne\n\n\n\nLes dérivées servent à trouver les maxima (de profit, de surplus…) ; les équations du 2nd degré servent à résoudre les conditions d’équilibre.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "0 · Prérequis mathématiques"
+    ]
+  },
+  {
+    "objectID": "00_Prerequis_mathematiques.html#règles-de-dérivation-indispensables",
+    "href": "00_Prerequis_mathematiques.html#règles-de-dérivation-indispensables",
+    "title": "0 · Prérequis mathématiques",
+    "section": "1 Règles de dérivation indispensables",
+    "text": "1 Règles de dérivation indispensables\n\n\n\nFonction\nDérivée\n\n\n\n\n\\(f(x) = k\\) (constante)\n\\(f'(x) = 0\\)\n\n\n\\(f(x) = ax + b\\)\n\\(f'(x) = a\\)\n\n\n\\(f(x) = ax^p\\)\n\\(f'(x) = p \\cdot a \\cdot x^{p-1}\\)\n\n\n\\(f(x) = u(x) \\pm v(x)\\)\n\\(f'(x) = u'(x) \\pm v'(x)\\)\n\n\n\\(f(x) = u(x) \\cdot v(x)\\)\n\\(f'(x) = u'v + uv'\\)\n\n\n\\(f(x) = u(x) / v(x)\\)\n\\(f'(x) = (u'v - uv') / v^2\\)\n\n\n\\(f(x) = f(u),\\ u = g(x)\\)\n\\(f'(x) = f'(u) \\cdot u'(x)\\)\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\n\nConstante → la pente est 0 (ligne horizontale).\nPuissance : on descend l’exposant devant, puis on enlève 1 à l’exposant.\nSomme : on dérive chaque terme séparément.\nChaîne : on dérive « l’extérieur » × « l’intérieur ».",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "0 · Prérequis mathématiques"
+    ]
+  },
+  {
+    "objectID": "00_Prerequis_mathematiques.html#trouver-un-maximum-minimum",
+    "href": "00_Prerequis_mathematiques.html#trouver-un-maximum-minimum",
+    "title": "0 · Prérequis mathématiques",
+    "section": "2 Trouver un maximum / minimum",
+    "text": "2 Trouver un maximum / minimum\nPour une fonction \\(f(x)\\) (par exemple un profit \\(\\pi(q)\\)) :\n\nCalculer la dérivée \\(f'(x)\\).\nLa poser égale à 0 : \\(f'(x) = 0\\) → on trouve le ou les points candidats.\nVérifier (signe de \\(f''\\), ou bon sens) qu’il s’agit bien d’un maximum.\n\nApplication centrale en micro :\n\n\n\n\n\n\nNoteMaximisation du profit\n\n\n\n\\(\\pi(q) = RT(q) - CT(q)\\)\n\\(\\dfrac{d\\pi}{dq} = Rm(q) - Cm(q) = 0\\) → Rm = Cm\nC’est LA condition de base pour TOUTES les structures de marché.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "0 · Prérequis mathématiques"
+    ]
+  },
+  {
+    "objectID": "00_Prerequis_mathematiques.html#équations-du-2nd-degré",
+    "href": "00_Prerequis_mathematiques.html#équations-du-2nd-degré",
+    "title": "0 · Prérequis mathématiques",
+    "section": "3 Équations du 2nd degré",
+    "text": "3 Équations du 2nd degré\nPour résoudre \\(ax^2 + bx + c = 0\\) :\n\\[\\Delta = b^2 - 4ac \\qquad x_{1,2} = \\frac{-b \\pm \\sqrt{\\Delta}}{2a}\\]\n\n\n\nSigne de \\(\\Delta\\)\nNombre de solutions réelles\n\n\n\n\n\\(\\Delta &gt; 0\\)\n2 solutions\n\n\n\\(\\Delta = 0\\)\n1 solution (double)\n\n\n\\(\\Delta &lt; 0\\)\n0 solution réelle\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nLe discriminant \\(\\Delta\\) dit s’il y a 2, 1 ou 0 solution(s). Si \\(\\Delta &gt; 0\\), on a deux racines : \\(x = (-b + \\sqrt{\\Delta}) / 2a\\) et \\(x = (-b - \\sqrt{\\Delta}) / 2a\\). En micro on prend en général la solution positive (les quantités sont \\(\\geq 0\\)).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "0 · Prérequis mathématiques"
+    ]
+  },
+  {
+    "objectID": "00_Prerequis_mathematiques.html#mini-exemple-trouver-q-qui-maximise-le-profit",
+    "href": "00_Prerequis_mathematiques.html#mini-exemple-trouver-q-qui-maximise-le-profit",
+    "title": "0 · Prérequis mathématiques",
+    "section": "4 Mini-exemple : « Trouver q qui maximise le profit »",
+    "text": "4 Mini-exemple : « Trouver q qui maximise le profit »\nÉnoncé : \\(RT(q) = 50q - q^2/6\\) et \\(CT(q) = 3q^2 - 26q + 20\\). Quelle quantité \\(q^*\\) maximise le profit ?\n\n\n\n\n\n\nTipSolution pas-à-pas\n\n\n\n\n\n\n\\(Rm = dRT/dq = 50 - q/3\\)\n\\(Cm = dCT/dq = 6q - 26\\)\n\\(Rm = Cm\\) : \\(50 - q/3 = 6q - 26\\)\n\\(76 = 6q + q/3 = (18q + q)/3 = 19q/3\\)\n\\(q^* = 76 \\cdot 3 / 19 = 12\\)\n\nEt \\(p^* = 50 - 12/6 = 48\\) (en remplaçant dans la demande inverse).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "0 · Prérequis mathématiques"
+    ]
+  },
+  {
+    "objectID": "00_Prerequis_mathematiques.html#astuces-de-calcul",
+    "href": "00_Prerequis_mathematiques.html#astuces-de-calcul",
+    "title": "0 · Prérequis mathématiques",
+    "section": "5 Astuces de calcul",
+    "text": "5 Astuces de calcul\n\n\n\n\n\n\nWarningPièges classiques\n\n\n\n\nNe pas confondre \\(RT\\), \\(Rm\\), \\(RM\\) : \\(RT = p \\cdot q\\) (total), \\(Rm = dRT/dq\\) (marginal), \\(RM = RT/q = p\\) (moyen).\nCm vs CM : \\(Cm = dCT/dq\\) ; \\(CM = CT/q\\).\nDemande directe vs inverse : la demande directe \\(q = D(p)\\) donne \\(q\\) en fonction de \\(p\\) ; la demande inverse \\(p = P(q)\\) donne \\(p\\) en fonction de \\(q\\). Pour calculer \\(RT = p \\cdot q\\), on a besoin de la demande inverse.\nCoût fixe ≠ coût marginal nul : un coût total \\(C(q) = 25\\) veut dire un coût FIXE de 25, donc \\(Cm = 0\\) (le coût ne change pas avec \\(q\\)).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "0 · Prérequis mathématiques"
+    ]
+  },
+  {
+    "objectID": "01_Concurrence_parfaite.html",
+    "href": "01_Concurrence_parfaite.html",
+    "title": "1 · Concurrence parfaite",
+    "section": "",
+    "text": "TipCe chapitre en 1 ligne\n\n\n\nEn concurrence parfaite, chaque firme est « petite » et subit le prix du marché ; à long terme, la libre entrée fait que le profit économique tend vers zéro.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "1 · Concurrence parfaite"
+    ]
+  },
+  {
+    "objectID": "01_Concurrence_parfaite.html#les-5-hypothèses-de-la-concurrence-parfaite",
+    "href": "01_Concurrence_parfaite.html#les-5-hypothèses-de-la-concurrence-parfaite",
+    "title": "1 · Concurrence parfaite",
+    "section": "1 Les 5 hypothèses de la concurrence parfaite",
+    "text": "1 Les 5 hypothèses de la concurrence parfaite\n\n\n\n\n\n\n\nHypothèse\nConséquence\n\n\n\n\n1. Atomicité — beaucoup d’acheteurs et de vendeurs\nPersonne n’influence le prix\n\n\n2. Homogénéité du produit\nLes biens sont parfaitement substituables\n\n\n3. Libre entrée / sortie\nPas de barrières — entrée si profit &gt; 0, sortie si profit &lt; 0\n\n\n4. Information parfaite\nTout le monde connaît les prix et les qualités\n\n\n5. Mobilité parfaite des facteurs\nCapital et travail vont là où ils sont le mieux rémunérés\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nLa CP, c’est le marché « du manuel » : tellement de vendeurs et d’acheteurs, tellement transparent, tellement libre que personne n’a de pouvoir individuel. Chaque firme est un price-taker (preneuse de prix) : elle subit le prix du marché et choisit juste quelle quantité produire à ce prix.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "1 · Concurrence parfaite"
+    ]
+  },
+  {
+    "objectID": "01_Concurrence_parfaite.html#équilibre-du-marché-offre-et-demande",
+    "href": "01_Concurrence_parfaite.html#équilibre-du-marché-offre-et-demande",
+    "title": "1 · Concurrence parfaite",
+    "section": "2 Équilibre du marché (offre et demande)",
+    "text": "2 Équilibre du marché (offre et demande)\n\n\n\nÉquilibre en CP : intersection offre/demande, surplus consommateur et producteur\n\n\nLe prix d’équilibre \\(P^*\\) et la quantité d’équilibre \\(Q^*\\) sont à l’intersection des courbes d’offre et de demande agrégées.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "1 · Concurrence parfaite"
+    ]
+  },
+  {
+    "objectID": "01_Concurrence_parfaite.html#la-firme-en-cp-court-terme",
+    "href": "01_Concurrence_parfaite.html#la-firme-en-cp-court-terme",
+    "title": "1 · Concurrence parfaite",
+    "section": "3 La firme en CP — court terme",
+    "text": "3 La firme en CP — court terme\nAu niveau de la firme individuelle, le prix \\(P\\) est donné par le marché. La firme choisit \\(q\\) pour maximiser son profit.\n\n\n\n\n\n\nImportantCondition fondamentale\n\n\n\n\\[\\boxed{\\ P = Rm = Cm\\ }\\]\nComme la firme est preneuse de prix, \\(P = Rm\\) (chaque unité vendue rapporte le prix). On maximise alors le profit en posant \\(Rm = Cm\\), soit \\(P = Cm\\).\n\n\n\n\n\nFirme en CP — court terme : profit positif possible\n\n\n\n3.1 Le profit à court terme\n\\[\\pi(q) = (P - CTM(q)) \\cdot q\\]\n\nSi \\(P &gt; CTM(q^*)\\) → profit &gt; 0 (la firme gagne de l’argent).\nSi \\(P = CTM(q^*)\\) → profit = 0 (juste couvre ses coûts).\nSi \\(P &lt; CTM(q^*)\\) mais \\(P &gt; CVM(q^*)\\) → perte, mais on continue (on couvre au moins le variable).\nSi \\(P &lt; CVM(q^*)\\) → on arrête (on perd plus en produisant qu’en fermant).\n\n\n\n\n\n\n\nWarningLe seuil de fermeture (Q très important pour l’examen)\n\n\n\nÀ court terme : la firme arrête de produire si \\(P &lt; CVM\\) (coût variable moyen).\nÀ long terme : la firme sort si \\(P &lt; CMLT\\) (coût moyen de long terme).\n\n\n\n\n\n\n\n\nTipEn simple : pourquoi continuer en perte à court terme ?\n\n\n\n\n\nImagine que tu as loué un local pour un an (coût fixe = loyer que tu paies de toute façon). Si tes recettes couvrent au moins les ingrédients et les salaires (coût variable), tu continues — tu perds moins qu’en fermant (où tu paies le loyer pour rien).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "1 · Concurrence parfaite"
+    ]
+  },
+  {
+    "objectID": "01_Concurrence_parfaite.html#la-firme-en-cp-long-terme",
+    "href": "01_Concurrence_parfaite.html#la-firme-en-cp-long-terme",
+    "title": "1 · Concurrence parfaite",
+    "section": "4 La firme en CP — long terme",
+    "text": "4 La firme en CP — long terme\nÀ long terme, la libre entrée et sortie joue à plein.\n\nSi la branche fait des profits &gt; 0 → de nouvelles firmes entrent → l’offre augmente → le prix baisse jusqu’à ce que le profit s’annule.\nSi la branche fait des pertes → des firmes sortent → l’offre diminue → le prix monte jusqu’à ce que les pertes s’annulent.\n\n\n\n\nCP long terme : tangence au minimum du CMLT, profit = 0\n\n\n\n\n\n\n\n\nImportantÉquilibre de long terme en CP\n\n\n\n\\[\\boxed{\\ P^* = \\min(CMLT)\\ }\\]\net chaque firme produit \\(q^*\\) qui correspond à ce minimum.\n\n\n\n4.1 Le seuil de sortie (long terme)\nLe seuil de sortie est la quantité où \\(CMLT\\) est minimal : \\[\\dfrac{d\\, CMLT(q)}{dq} = 0\\]\n\n\n\n\n\n\nTipMini-exemple\n\n\n\n\n\n\\(CT(x) = 5x^3 - 10x^2 + 8x + 20\\)\n\nCoût fixe : 20 (le terme constant). Coût variable : \\(CV(x) = 5x^3 - 10x^2 + 8x\\).\n\\(CVM(x) = CV/x = 5x^2 - 10x + 8\\)\n\\(dCVM/dx = 10x - 10 = 0 \\Rightarrow x = 1\\).\n→ Seuil de sortie : \\(x = 1\\).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "1 · Concurrence parfaite"
+    ]
+  },
+  {
+    "objectID": "01_Concurrence_parfaite.html#conclusion-la-concurrence-parfaite-et-lefficience",
+    "href": "01_Concurrence_parfaite.html#conclusion-la-concurrence-parfaite-et-lefficience",
+    "title": "1 · Concurrence parfaite",
+    "section": "5 Conclusion : la concurrence parfaite et l’efficience",
+    "text": "5 Conclusion : la concurrence parfaite et l’efficience\nÀ l’équilibre de long terme, la CP est efficace au sens de Pareto :\n\nEfficience allocative : \\(P = Cm\\) → la dernière unité produite est exactement « ce que les consommateurs sont prêts à payer pour la coût de la produire ».\nEfficience productive : production au minimum du CMLT → coût unitaire le plus bas possible.\nPas de perte sèche (deadweight loss = 0).\n\n\n\n\n\n\n\nNoteRécapitulatif Ch.1\n\n\n\n\n\n\nCourt terme\nLong terme\n\n\n\n\n\\(P = Cm\\) pour max profit\n\\(P = \\min(CMLT)\\)\n\n\nProfit peut être &gt; 0, = 0 ou &lt; 0\nProfit = 0 (entrée/sortie)\n\n\nArrêt si \\(P &lt; CVM\\)\nSortie si \\(P &lt; CMLT\\)\n\n\nQ dépend de Cm\nProduction efficiente",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "1 · Concurrence parfaite"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html",
+    "href": "05_Oligopole.html",
+    "title": "5 · Oligopole",
+    "section": "",
+    "text": "TipCe chapitre en 1 ligne\n\n\n\nQuelques firmes se partagent le marché ; chaque décision dépend de ce que font les autres → on raisonne en modèles stratégiques (Cournot, Stackelberg, Bertrand) avec des résultats très différents selon ce qui est choisi (quantité, prix, simultanément ou séquentiellement).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html#caractéristiques",
+    "href": "05_Oligopole.html#caractéristiques",
+    "title": "5 · Oligopole",
+    "section": "1 Caractéristiques",
+    "text": "1 Caractéristiques\n\n\n\n\n\n\n\nTrait\nDescription\n\n\n\n\nPetit nombre de firmes\n2 (duopole), 3, 4… typiquement\n\n\nInterdépendance stratégique\nLa décision d’une firme dépend de celle des autres\n\n\nBarrières à l’entrée\nÉconomies d’échelle, brevets, capital élevé, marques\n\n\nProduits homogènes ou différenciés\nSelon les marchés\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nEn oligopole, tout le monde se regarde. Pepsi baisse ses prix ? Coca y pense aussi. Boeing lance un nouvel avion ? Airbus en lance un en réponse. C’est de la stratégie, pas juste de la maximisation isolée — d’où le besoin de la théorie des jeux (Ch.6).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html#les-trois-modèles-classiques",
+    "href": "05_Oligopole.html#les-trois-modèles-classiques",
+    "title": "5 · Oligopole",
+    "section": "2 Les trois modèles classiques",
+    "text": "2 Les trois modèles classiques\n\n\n\n\n\n\n\n\n\nModèle\nChoix\nComment ?\nRésultat (prix)\n\n\n\n\nCournot\nQuantité\nSimultanément\nIntermédiaire\n\n\nStackelberg\nQuantité\nSéquentiellement (un leader, un suiveur)\nPlus bas que Cournot\n\n\nBertrand\nPrix\nSimultanément\n\\(P = Cm\\) (concurrentiel !)",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html#modèle-de-cournot-quantités-simultané",
+    "href": "05_Oligopole.html#modèle-de-cournot-quantités-simultané",
+    "title": "5 · Oligopole",
+    "section": "3 1. Modèle de Cournot (quantités, simultané)",
+    "text": "3 1. Modèle de Cournot (quantités, simultané)\nChaque firme choisit sa quantité en supposant celle de l’autre fixée.\n\n3.1 Construction des fonctions de réaction\nDémarche générale pour une firme :\n\nÉcrire le profit \\(\\pi_i = P(Q) \\cdot q_i - C_i(q_i)\\) avec \\(Q = q_1 + q_2\\).\nDériver par rapport à \\(q_i\\) (en supposant \\(q_j\\) donné) et poser \\(= 0\\).\nOn obtient la fonction de réaction \\(q_i = R_i(q_j)\\).\n\nÉquilibre de Cournot-Nash : intersection des deux fonctions de réaction.\n\n\n\nCournot : équilibre à l’intersection des fonctions de réaction\n\n\n\n\n\n\n\n\nTipMini-exemple détaillé\n\n\n\n\n\nDemande inverse : \\(P = 60 - Q\\) où \\(Q = q_1 + q_2\\). Coûts : \\(C_1 = q_1^2/4\\), \\(C_2 = q_2^2\\).\nFirme 1 : \\(\\pi_1 = (60 - q_1 - q_2)q_1 - q_1^2/4\\) \\[\\dfrac{d\\pi_1}{dq_1} = 60 - 2q_1 - q_2 - q_1/2 = 60 - (5/2)q_1 - q_2 = 0\\] \\[\\Rightarrow q_1 = (60 - q_2) \\cdot 2/5 = 24 - 0.4\\,q_2 \\quad \\text{(fonction de réaction 1)}\\]\nFirme 2 : \\(\\pi_2 = (60 - q_1 - q_2)q_2 - q_2^2\\) \\[\\dfrac{d\\pi_2}{dq_2} = 60 - q_1 - 4q_2 = 0 \\Rightarrow q_2 = 15 - 0.25\\,q_1\\]\nÉquilibre : substituer dans \\(q_1 = 24 - 0.4(15 - 0.25 q_1) = 18 + 0.1 q_1\\) \\[0.9\\, q_1 = 18 \\Rightarrow q_1 = 20,\\ q_2 = 10\\]",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html#modèle-de-stackelberg-quantités-séquentiel",
+    "href": "05_Oligopole.html#modèle-de-stackelberg-quantités-séquentiel",
+    "title": "5 · Oligopole",
+    "section": "4 2. Modèle de Stackelberg (quantités, séquentiel)",
+    "text": "4 2. Modèle de Stackelberg (quantités, séquentiel)\nUne firme (leader) choisit sa quantité en premier, l’autre (suiveur) réagit. Le leader anticipe la réaction du suiveur.\n\n4.1 Démarche\n\nCalculer la fonction de réaction du suiveur (comme en Cournot).\nLa substituer dans le profit du leader.\nMaximiser le profit du leader par rapport à sa propre quantité.\n\n\n\n\n\n\n\nTipSuite de l’exemple — si la firme 2 est leader\n\n\n\n\n\nFonction de réaction de la firme 1 (suiveur) : \\(q_1 = 24 - 0.4 q_2\\).\nProfit de la firme 2 (anticipe la réaction de 1) : \\[\\pi_2 = (60 - q_1 - q_2)q_2 - q_2^2 = (60 - (24 - 0.4q_2) - q_2)q_2 - q_2^2 = (36 - 0.6q_2)q_2 - q_2^2\\] \\[\\dfrac{d\\pi_2}{dq_2} = 36 - 1.2 q_2 - 2 q_2 = 36 - 3.2 q_2 = 0 \\Rightarrow q_2 = 11.25\\] \\[q_1 = 24 - 0.4 \\cdot 11.25 = 19.5\\]\nLe leader produit plus que dans Cournot ; le suiveur, moins. Quantité totale plus grande → prix plus bas → mieux pour le consommateur.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html#modèle-de-bertrand-prix-simultané",
+    "href": "05_Oligopole.html#modèle-de-bertrand-prix-simultané",
+    "title": "5 · Oligopole",
+    "section": "5 3. Modèle de Bertrand (prix, simultané)",
+    "text": "5 3. Modèle de Bertrand (prix, simultané)\nChaque firme choisit son prix. Si les produits sont homogènes et les coûts identiques : la concurrence en prix pousse \\(P\\) jusqu’à \\(Cm\\) (résultat « concurrentiel » !).\n\n\n\n\n\n\nWarningLe paradoxe de Bertrand\n\n\n\nAvec seulement 2 firmes en concurrence par les prix et produits identiques, \\(P^* = Cm\\) et profit = 0 — comme en concurrence parfaite. Surprenant mais logique : si tu fixes \\(P &gt; Cm\\), l’autre fixe juste en dessous et te prend tout le marché.\n→ En pratique, ce résultat est rare ; il faut des produits différenciés (Bertrand différencié) pour obtenir un équilibre avec profits.\n\n\n\n5.1 Bertrand différencié\nSi les produits sont différenciés (demandes croisées), on obtient un équilibre avec \\(P &gt; Cm\\) et profits positifs. Démarche similaire à Cournot, mais avec les prix comme variables stratégiques.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html#demande-coudée-sweezy-pourquoi-les-prix-sont-rigides-en-oligopole",
+    "href": "05_Oligopole.html#demande-coudée-sweezy-pourquoi-les-prix-sont-rigides-en-oligopole",
+    "title": "5 · Oligopole",
+    "section": "6 4. Demande coudée (Sweezy) — pourquoi les prix sont rigides en oligopole",
+    "text": "6 4. Demande coudée (Sweezy) — pourquoi les prix sont rigides en oligopole\nUne firme anticipe :\n\nSi elle augmente son prix → les concurrents ne suivent pas (ils gagnent des clients) → la firme perd beaucoup → demande très élastique vers le haut.\nSi elle baisse son prix → les concurrents suivent (pour ne pas perdre de clients) → la firme gagne peu → demande peu élastique vers le bas.\n\n→ La demande perçue est coudée au prix actuel.\n\n\n\nDemande coudée : prix actuels rigides\n\n\nConséquence : les prix bougent peu en oligopole, même si les coûts changent légèrement.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html#comparaison-des-structures",
+    "href": "05_Oligopole.html#comparaison-des-structures",
+    "title": "5 · Oligopole",
+    "section": "7 Comparaison des structures",
+    "text": "7 Comparaison des structures\n\n\n\nComparaison concurrence, oligopole, monopole\n\n\n\n\n\n\n\n\n\n\n\n\nStructure\nQuantité\nPrix\nProfit\nConsommateur\n\n\n\n\nConcurrence parfaite\nMaximale\n\\(P = Cm\\)\n0 (LT)\nLe mieux\n\n\nOligopole (Bertrand homogène)\n= CP\n= CP\n0\n= CP\n\n\nOligopole (Stackelberg)\n&gt; Cournot\n&lt; Cournot\n&gt; 0\nMieux que Cournot\n\n\nOligopole (Cournot)\nIntermédiaire\nIntermédiaire\n&gt; 0\nIntermédiaire\n\n\nOligopole (cartel)\n= monopole\n= monopole\nmaximal\nLe pire (= monopole)\n\n\nMonopole\nMinimale\nMaximale\nMaximal\nLe pire\n\n\n\n\n\n\n\n\n\nWarningÀ retenir : ordre des quantités totales (cas linéaire symétrique)\n\n\n\n\\[Q_{cartel} &lt; Q_{Cournot} &lt; Q_{Stackelberg} &lt; Q_{CP}\\]\nDonc, pour les prix, l’ordre est inverse : \\(P_{cartel} &gt; P_{Cournot} &gt; P_{Stackelberg} &gt; P_{CP}\\).\n→ Pour les consommateurs : Bertrand homogène / CP = meilleur ; Cartel / Monopole = pire.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "05_Oligopole.html#cartel-collusion",
+    "href": "05_Oligopole.html#cartel-collusion",
+    "title": "5 · Oligopole",
+    "section": "8 Cartel (collusion)",
+    "text": "8 Cartel (collusion)\nSi les firmes coopèrent et fixent ensemble \\(Q\\) pour maximiser le profit total = elles agissent comme un monopole.\nCondition : \\(Rm_{industrie} = Cm_{industrie}\\) pour le niveau total \\(Q\\).\nProblème : le cartel est instable — chaque firme a intérêt à tricher (vendre un peu plus pour gagner plus à court terme). C’est le dilemme du prisonnier appliqué (Ch.6).\n\n\n\n\n\n\nNoteRécapitulatif Ch.5\n\n\n\n\nCournot : on choisit la quantité simultanément → équilibre = intersection des fonctions de réaction.\nStackelberg : un leader, un suiveur → le leader anticipe le suiveur, produit plus, gagne plus.\nBertrand : on choisit le prix → si produits homogènes, \\(P = Cm\\) (paradoxe).\nDemande coudée : explique pourquoi les prix sont rigides en oligopole.\nCartel : équivalent à un monopole, mais instable (chacun a intérêt à tricher).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "5 · Oligopole"
+    ]
+  },
+  {
+    "objectID": "glossaire.html",
+    "href": "glossaire.html",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "",
+    "text": "Cliquez sur un terme pour voir l’explication.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#a",
+    "href": "glossaire.html#a",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "1 A",
+    "text": "1 A\n\n\n\n\n\n\nNoteAléa moral\n\n\n\n\n\nEn simple : une fois assuré ou protégé, on prend plus de risques qu’avant — l’autre partie ne peut pas voir le changement de comportement.\nExemple : louer une voiture avec assurance tous risques → on conduit moins prudemment.\n\n\n\n\n\n\n\n\n\nNoteAsymétrie d’information\n\n\n\n\n\nEn simple : une partie en sait plus que l’autre sur la qualité ou le comportement. Cause sélection adverse (avant transaction) ou aléa moral (après).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#b",
+    "href": "glossaire.html#b",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "2 B",
+    "text": "2 B\n\n\n\n\n\n\nNoteBackward induction (raisonnement à rebours)\n\n\n\n\n\nEn simple : pour résoudre un jeu séquentiel, on commence par la fin et on remonte. À chaque étape on demande : « si on en est là, quelle est la meilleure décision ? ». Puis on remonte d’un cran.\n\n\n\n\n\n\n\n\n\nNoteBertrand (modèle de)\n\n\n\n\n\nEn simple : oligopole où les firmes choisissent leurs prix simultanément. Avec produits homogènes et même coût marginal, le prix d’équilibre tombe à \\(P = Cm\\) → résultat comme en concurrence parfaite (paradoxe de Bertrand).\n\n\n\n\n\n\n\n\n\nNoteBien public pur\n\n\n\n\n\nEn simple : bien à la fois non-rival (ma consommation ne réduit pas la tienne) ET non-exclusif (impossible d’empêcher quelqu’un d’en profiter).\nExemples : défense nationale, phare, air pur.\n\n\n\n\n\n\n\n\n\nNoteBien collectif\n\n\n\n\n\nSynonyme de bien public.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#c",
+    "href": "glossaire.html#c",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "3 C",
+    "text": "3 C\n\n\n\n\n\n\nNoteCartel\n\n\n\n\n\nEn simple : entente entre firmes pour fixer ensemble prix et quantités, en agissant comme un monopole. Maximise le profit total — mais instable (chacun a intérêt à tricher).\n\n\n\n\n\n\n\n\n\nNoteCm (coût marginal)\n\n\n\n\n\nEn simple : le coût d’une unité supplémentaire. Mathématiquement, la dérivée du coût total : \\(Cm = dCT/dq\\).\n\n\n\n\n\n\n\n\n\nNoteCTM ou CM (coût moyen)\n\n\n\n\n\nEn simple : coût par unité = coût total divisé par la quantité. \\(CTM = CT/q\\).\nAstuce : la courbe de \\(Cm\\) coupe la courbe de \\(CTM\\) au minimum du CTM.\n\n\n\n\n\n\n\n\n\nNoteCVM (coût variable moyen)\n\n\n\n\n\nEn simple : \\(CVM = CV/q\\). Sert pour le seuil de fermeture à court terme : si \\(P &lt; CVM\\), on arrête.\n\n\n\n\n\n\n\n\n\nNoteCMLT (coût moyen de long terme)\n\n\n\n\n\nEn simple : coût moyen quand tous les facteurs (y compris fixes) sont ajustables. Sert pour le seuil de sortie à long terme.\n\n\n\n\n\n\n\n\n\nNoteConcurrence monopolistique\n\n\n\n\n\nEn simple : beaucoup de firmes mais produits différenciés (marques, design…). À long terme, libre entrée → profit = 0, mais on produit en surcapacité.\n\n\n\n\n\n\n\n\n\nNoteConcurrence parfaite (CP)\n\n\n\n\n\nEn simple : beaucoup de petits vendeurs, produit identique, info parfaite, libre entrée. Chaque firme subit le prix (price-taker). À long terme, profit = 0.\n\n\n\n\n\n\n\n\n\nNoteCournot (modèle de)\n\n\n\n\n\nEn simple : oligopole où chaque firme choisit sa quantité simultanément, en anticipant celle des autres. Équilibre = intersection des fonctions de réaction.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#d",
+    "href": "glossaire.html#d",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "4 D",
+    "text": "4 D\n\n\n\n\n\n\nNoteDemande coudée (Sweezy)\n\n\n\n\n\nEn simple : modèle d’oligopole où chaque firme pense que les concurrents suivent une baisse de prix mais ne suivent pas une hausse → demande coudée au prix actuel → prix rigide.\n\n\n\n\n\n\n\n\n\nNoteDiscrimination par les prix\n\n\n\n\n\nEn simple : faire payer des prix différents à différents acheteurs (ou pour différentes quantités).\n\n1er degré (parfait) : chaque unité au prix max qu’on est prêt à payer → capte tout le SC.\n2e degré : selon la quantité (tarifs dégressifs, abonnements).\n3e degré : selon le groupe (étudiant, heures pleines/creuses) — prix plus élevé pour la demande moins élastique.\n\n\n\n\n\n\n\n\n\n\nNoteDilemme du prisonnier\n\n\n\n\n\nEn simple : chacun a intérêt à trahir (stratégie dominante), mais les deux gagneraient plus en coopérant. Équilibre individuellement rationnel mais collectivement inefficient.\n\n\n\n\n\n\n\n\n\nNoteDuopole\n\n\n\n\n\nEn simple : oligopole avec deux firmes.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#e",
+    "href": "glossaire.html#e",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "5 E",
+    "text": "5 E\n\n\n\n\n\n\nNoteÉconomies d’échelle\n\n\n\n\n\nEn simple : le coût moyen diminue quand la quantité produite augmente. Quand c’est très marqué → monopole naturel.\n\n\n\n\n\n\n\n\n\nNoteÉconomies de gamme (scope economies)\n\n\n\n\n\nEn simple : il coûte moins cher de produire plusieurs produits ensemble que séparément.\nExemple : une compagnie aérienne qui exploite fret + passagers sur le même avion.\n\n\n\n\n\n\n\n\n\nNoteEffet de réseau\n\n\n\n\n\nEn simple : la valeur d’un service augmente avec le nombre d’utilisateurs. Exemple : un téléphone seul ne sert à rien ; plus il y a de gens qui l’ont, plus c’est utile.\n→ Tendance au winner-takes-all.\n\n\n\n\n\n\n\n\n\nNoteÉlasticité-prix de la demande\n\n\n\n\n\nEn simple : mesure de la sensibilité de la demande au prix. Si \\(|\\varepsilon| &gt; 1\\), la demande est élastique (les acheteurs sont sensibles). Si \\(|\\varepsilon| &lt; 1\\), demande inélastique (insensible).\n\n\n\n\n\n\n\n\n\nNoteÉquilibre de Nash\n\n\n\n\n\nEn simple : profil de stratégies tel que personne n’a intérêt à changer unilatéralement. C’est la notion de référence en théorie des jeux.\n\n\n\n\n\n\n\n\n\nNoteExternalité\n\n\n\n\n\nEn simple : effet d’une action sur autrui, hors marché (pas de prix). Négative (pollution) ou positive (vaccination).\n→ Le marché produit trop (négative) ou trop peu (positive). Solutions : taxes pigouviennes, subventions.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#f",
+    "href": "glossaire.html#f",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "6 F",
+    "text": "6 F\n\n\n\n\n\n\nNoteFonction de réaction\n\n\n\n\n\nEn simple : dans un modèle de Cournot, la quantité optimale pour la firme 1 en fonction de la quantité supposée de la firme 2 : \\(q_1 = R(q_2)\\). L’équilibre de Cournot est à l’intersection des deux fonctions de réaction.\n\n\n\n\n\n\n\n\n\nNoteFree-rider (passager clandestin)\n\n\n\n\n\nEn simple : quelqu’un qui profite d’un bien public sans payer. Cause de la sous-production des biens publics par le marché privé.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#l",
+    "href": "glossaire.html#l",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "7 L",
+    "text": "7 L\n\n\n\n\n\n\nNoteLong terme (LT)\n\n\n\n\n\nEn simple : horizon où tous les facteurs sont ajustables (y compris la taille de l’usine), et où l’entrée/sortie est possible. En CP, profit = 0 à LT.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#m",
+    "href": "glossaire.html#m",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "8 M",
+    "text": "8 M\n\n\n\n\n\n\nNoteMenace crédible\n\n\n\n\n\nEn simple : une menace est crédible si l’auteur a vraiment intérêt à l’exécuter une fois le moment venu. Sinon, c’est du bluff.\n\n\n\n\n\n\n\n\n\nNoteMonopole\n\n\n\n\n\nEn simple : une seule firme vend le bien, l’entrée est bloquée. Maximise son profit avec \\(Rm = Cm\\) et fait payer un prix plus élevé qu’en CP.\n\n\n\n\n\n\n\n\n\nNoteMonopole naturel\n\n\n\n\n\nEn simple : marché où le \\(CTM\\) est décroissant sur toute la zone de demande → une seule grande firme est plus efficiente que plusieurs petites.\nExemples : réseau ferroviaire, distribution d’eau, électricité.\n\n\n\n\n\n\n\n\n\nNoteMonopsone\n\n\n\n\n\nEn simple : un seul acheteur face à de nombreux vendeurs. Symétrique du monopole : peut faire baisser le prix d’achat.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#n",
+    "href": "glossaire.html#n",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "9 N",
+    "text": "9 N\n\n\n\n\n\n\nNoteNon-exclusif\n\n\n\n\n\nEn simple : propriété d’un bien dont on ne peut pas empêcher la consommation par autrui (feu d’artifice, air).\n\n\n\n\n\n\n\n\n\nNoteNon-rival\n\n\n\n\n\nEn simple : propriété d’un bien dont la consommation par un agent ne réduit pas celle disponible pour les autres (musique, idée, code).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#p",
+    "href": "glossaire.html#p",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "10 P",
+    "text": "10 P\n\n\n\n\n\n\nNotePerte sèche (deadweight loss)\n\n\n\n\n\nEn simple : surplus total perdu par la société à cause d’une distorsion (monopole, taxe). C’est l’aire entre la demande et le coût marginal, sur les unités non échangées.\n\n\n\n\n\n\n\n\n\nNotePlateforme biface\n\n\n\n\n\nEn simple : marché numérique qui met en relation deux groupes d’utilisateurs distincts. Exemples : Uber (chauffeurs / passagers), App Store (développeurs / utilisateurs).\n\n\n\n\n\n\n\n\n\nNotePrice-taker (preneur de prix)\n\n\n\n\n\nEn simple : firme qui subit le prix du marché sans pouvoir l’influencer. C’est le cas de chaque firme en concurrence parfaite.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#r",
+    "href": "glossaire.html#r",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "11 R",
+    "text": "11 R\n\n\n\n\n\n\nNoteRecette marginale (Rm)\n\n\n\n\n\nEn simple : la recette supplémentaire d’une unité vendue en plus = \\(dRT/dq\\).\n\nEn CP : \\(Rm = P\\) (le prix est donné).\nEn monopole : \\(Rm &lt; P\\) (vendre une unité de plus fait baisser le prix sur toutes les unités).\n\n\n\n\n\n\n\n\n\n\nNoteRendements croissants\n\n\n\n\n\nEn simple : plus on produit, plus on est efficace (coût moyen baisse). Lié aux économies d’échelle.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#s",
+    "href": "glossaire.html#s",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "12 S",
+    "text": "12 S\n\n\n\n\n\n\nNoteSélection adverse\n\n\n\n\n\nEn simple : avant une transaction, l’acheteur ne peut pas distinguer les bonnes des mauvaises qualités → le prix s’aligne sur la moyenne → les bonnes qualités se retirent → le marché peut s’effondrer (cas des « tacots » d’Akerlof).\n\n\n\n\n\n\n\n\n\nNoteStackelberg (modèle de)\n\n\n\n\n\nEn simple : oligopole séquentiel : un leader choisit sa quantité en premier, le suiveur réagit. Le leader anticipe la réaction → produit plus et gagne plus que dans Cournot.\n\n\n\n\n\n\n\n\n\nNoteStratégie dominante\n\n\n\n\n\nEn simple : stratégie qui donne le meilleur résultat quel que soit ce que fait l’autre. Si chacun a une, l’équilibre se résout immédiatement.\n\n\n\n\n\n\n\n\n\nNoteSurplus du consommateur (SC)\n\n\n\n\n\nEn simple : différence entre ce que l’acheteur était prêt à payer et ce qu’il paie effectivement. Sur un graphique : aire entre la demande et le prix.\nPour une demande linéaire : \\(SC = \\frac{1}{2} \\cdot (P_{max} - P) \\cdot Q\\).\n\n\n\n\n\n\n\n\n\nNoteSurplus du producteur (SP)\n\n\n\n\n\nEn simple : différence entre le prix reçu et le coût marginal de production. Aire entre le prix et la courbe d’offre (= \\(Cm\\)).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#t",
+    "href": "glossaire.html#t",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "13 T",
+    "text": "13 T\n\n\n\n\n\n\nNoteTit-for-tat (œil pour œil)\n\n\n\n\n\nEn simple : stratégie en jeu répété : coopérer à la 1re période, puis copier ce que l’autre a fait à la période précédente. Maintient la coopération si l’autre coopère, punit s’il trahit.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#v",
+    "href": "glossaire.html#v",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "14 V",
+    "text": "14 V\n\n\n\n\n\n\nNoteVariable stratégique\n\n\n\n\n\nEn simple : la variable que chaque firme choisit dans un modèle d’oligopole. Cournot = quantité. Bertrand = prix.",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "glossaire.html#w",
+    "href": "glossaire.html#w",
+    "title": "Glossaire — chaque terme en langage simple",
+    "section": "15 W",
+    "text": "15 W\n\n\n\n\n\n\nNoteWinner-takes-all\n\n\n\n\n\nEn simple : marché où un seul acteur (souvent grâce aux effets de réseau) finit par tout dominer. Typique de l’économie numérique (Google, Facebook, Amazon dans leurs domaines respectifs).",
+    "crumbs": [
+      "Accueil",
+      "Outils de révision",
+      "Glossaire — chaque terme en langage simple"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Microéconomie II — Marchés et Prix",
+    "section": "",
+    "text": "Le cours Microéconomie II parcourt les différentes structures de marché (concurrence parfaite → monopole → oligopole → économie digitale) en montrant comment les firmes se comportent dans chaque cas et quels résultats cela produit pour la société (prix, quantités, efficience).",
+    "crumbs": [
+      "Accueil",
+      "Microéconomie II — Marchés et Prix"
+    ]
+  },
+  {
+    "objectID": "index.html#le-cours-en-une-phrase",
+    "href": "index.html#le-cours-en-une-phrase",
+    "title": "Microéconomie II — Marchés et Prix",
+    "section": "",
+    "text": "Le cours Microéconomie II parcourt les différentes structures de marché (concurrence parfaite → monopole → oligopole → économie digitale) en montrant comment les firmes se comportent dans chaque cas et quels résultats cela produit pour la société (prix, quantités, efficience).",
+    "crumbs": [
+      "Accueil",
+      "Microéconomie II — Marchés et Prix"
+    ]
+  },
+  {
+    "objectID": "index.html#le-fil-conducteur",
+    "href": "index.html#le-fil-conducteur",
+    "title": "Microéconomie II — Marchés et Prix",
+    "section": "2 Le fil conducteur",
+    "text": "2 Le fil conducteur\n       Concurrence parfaite (Ch.1)        ← le marché idéal\n                  ↓\n       Limites du modèle (Ch.2)           ← pourquoi la réalité diffère\n                  ↓\n       Monopole / monopsone (Ch.3)        ← le cas opposé extrême\n                  ↓\n       Concurrence monopolistique (Ch.4)  ← entre les deux : produits différenciés\n                  ↓\n       Oligopole (Ch.5)                   ← peu de firmes en interaction\n                  ↓\n       Théorie des jeux (Ch.6)            ← l'outil pour analyser ces interactions\n                  ↓\n       Économie digitale (Ch.7)           ← comment le numérique change tout",
+    "crumbs": [
+      "Accueil",
+      "Microéconomie II — Marchés et Prix"
+    ]
+  },
+  {
+    "objectID": "index.html#navigation",
+    "href": "index.html#navigation",
+    "title": "Microéconomie II — Marchés et Prix",
+    "section": "3 Navigation",
+    "text": "3 Navigation\n\n\n\nChapitre\nSujet\nIdée à retenir\n\n\n\n\n0 · Prérequis maths\nDérivées, optimisation, équations 2nd degré\nLes outils pour résoudre\n\n\n1 · Concurrence parfaite\nLe marché idéal\nÀ long terme, profit = 0\n\n\n2 · Limites des marchés\nAsymétrie info, externalités, biens publics\nLe marché peut échouer\n\n\n3 · Monopole\nVendeur unique, discrimination\nQ ↓, P ↑, perte sèche\n\n\n4 · Concurrence monopolistique\nBeaucoup de firmes, produits différenciés\nÀ LT, profit = 0 mais surcapacité\n\n\n5 · Oligopole\nCournot, Bertrand, Stackelberg\nStratégies interdépendantes\n\n\n6 · Théorie des jeux\nNash, dilemme du prisonnier, jeux répétés\nCoopération possible si répété\n\n\n7 · Économie digitale\nPlateformes, effets de réseau, sharing\nWinner-takes-all",
+    "crumbs": [
+      "Accueil",
+      "Microéconomie II — Marchés et Prix"
+    ]
+  },
+  {
+    "objectID": "index.html#outils-de-révision",
+    "href": "index.html#outils-de-révision",
+    "title": "Microéconomie II — Marchés et Prix",
+    "section": "4 Outils de révision",
+    "text": "4 Outils de révision\n\nFormules clés — toutes les formules importantes en un coup d’œil\nGlossaire — chaque terme expliqué en langage simple\nExamen blanc — les 45 + 1 questions du prof, corrigées et interactives",
+    "crumbs": [
+      "Accueil",
+      "Microéconomie II — Marchés et Prix"
+    ]
+  },
+  {
+    "objectID": "index.html#calendrier",
+    "href": "index.html#calendrier",
+    "title": "Microéconomie II — Marchés et Prix",
+    "section": "5 Calendrier",
+    "text": "5 Calendrier\n\n20–27 fév · 13–20 mars · 17 avril · 1er mai : théorie en classe\n6 mars · 27 mars · 24 avril · 8 mai · 22 mai : exercices\n29 mai : examen à blanc en classe\nPâques : 3 & 10 avril · Ascension : 15 mai",
+    "crumbs": [
+      "Accueil",
+      "Microéconomie II — Marchés et Prix"
+    ]
+  },
+  {
+    "objectID": "index.html#astuces-pour-réviser",
+    "href": "index.html#astuces-pour-réviser",
+    "title": "Microéconomie II — Marchés et Prix",
+    "section": "6 Astuces pour réviser",
+    "text": "6 Astuces pour réviser\n\n\n\n\n\n\nTipLe réflexe à avoir\n\n\n\n\nIdentifie la structure de marché (CP / monopole / oligopole / etc.) → ça dicte les hypothèses.\nCherche la condition d’équilibre (P = Cm pour CP ? Rm = Cm pour monopole ? Cournot ?).\nPose les équations, dérive, résous.\nInterprète : qui gagne, qui perd, perte sèche ?",
+    "crumbs": [
+      "Accueil",
+      "Microéconomie II — Marchés et Prix"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html",
+    "href": "07_Economie_digitale.html",
+    "title": "7 · Économie digitale",
+    "section": "",
+    "text": "TipCe chapitre en 1 ligne\n\n\n\nLe numérique change radicalement la microéconomie : biens à coût marginal quasi-nul, effets de réseau, plateformes bifaces et économie de partage → tendance forte au winner-takes-all (monopoles « naturels » numériques).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html#caractéristiques-du-produit-dans-une-économie-digitale",
+    "href": "07_Economie_digitale.html#caractéristiques-du-produit-dans-une-économie-digitale",
+    "title": "7 · Économie digitale",
+    "section": "1 1. Caractéristiques du produit dans une économie digitale",
+    "text": "1 1. Caractéristiques du produit dans une économie digitale\n\n\n\n\n\n\n\nCaractéristique\nConséquence\n\n\n\n\nCoût marginal proche de zéro\nUne copie numérique coûte ~0 → tarification radicalement différente\n\n\nNon-rival\nMon usage de Spotify n’empêche pas le tien\n\n\nCoûts fixes élevés au départ\nDévelopper une plateforme coûte cher (R&D) — mais une fois faite, dupliquer = gratuit\n\n\nPersonnalisable\nAlgorithmes, données → produits adaptés à chacun\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nProduire un nouveau morceau de musique numérique pour un client supplémentaire ne coûte presque rien à Spotify. La structure de coût est : coût fixe massif (catalogue, infra) + coût variable quasi-nul. C’est l’inverse d’une boulangerie où chaque pain coûte de la farine.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html#définition-du-marché-des-produits-digitaux",
+    "href": "07_Economie_digitale.html#définition-du-marché-des-produits-digitaux",
+    "title": "7 · Économie digitale",
+    "section": "2 2. Définition du marché des produits digitaux",
+    "text": "2 2. Définition du marché des produits digitaux\nDélimiter un marché numérique est complexe :\n\nFrontières floues : un téléphone est-il en concurrence avec un appareil photo, une console, un ordinateur ?\nMulti-faces : Uber a deux marchés (chauffeurs + passagers) liés.\nEffets transversaux : Amazon est e-commerce + cloud (AWS) + streaming + …\n\n→ Les autorités de la concurrence doivent souvent redéfinir leurs critères.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html#nouvelles-structures-de-marché",
+    "href": "07_Economie_digitale.html#nouvelles-structures-de-marché",
+    "title": "7 · Économie digitale",
+    "section": "3 3. Nouvelles structures de marché",
+    "text": "3 3. Nouvelles structures de marché\n\nPlateformes : font se rencontrer offre et demande (Airbnb, Uber, AppStore).\nÉcosystèmes : un acteur dominant + de nombreux partenaires (Apple, Google).\nMarchés bifaces : deux groupes d’utilisateurs reliés (annonceurs ↔︎ utilisateurs sur Google).\nConcurrence pour le marché plutôt que sur le marché : on ne se bat pas une part de marché, on se bat pour devenir LE marché.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html#caractéristiques-de-la-demande",
+    "href": "07_Economie_digitale.html#caractéristiques-de-la-demande",
+    "title": "7 · Économie digitale",
+    "section": "4 4. Caractéristiques de la demande",
+    "text": "4 4. Caractéristiques de la demande\n\n\n\n\n\n\n\nCaractéristique\nDescription\n\n\n\n\nCoûts de transaction faibles\nAchat en 1 clic → demande plus élastique sur le prix\n\n\nComparaison facilitée\nSites comparateurs → moins de friction\n\n\nCoûts de basculement (switching costs)\nUne fois sur iOS, passer à Android coûte cher (apps, photos, contacts…)\n\n\nLock-in\nHabitudes, données accumulées, intégration",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html#caractéristiques-de-loffre",
+    "href": "07_Economie_digitale.html#caractéristiques-de-loffre",
+    "title": "7 · Économie digitale",
+    "section": "5 5. Caractéristiques de l’offre",
+    "text": "5 5. Caractéristiques de l’offre\n\nÉconomies d’échelle énormes : coût moyen qui tend vers 0 quand n grandit.\nÉconomies de gamme : la même infra sert plusieurs produits (Amazon vend tout).\nDonnées = nouvel actif : plus on a d’utilisateurs, plus on a de données, mieux on optimise → cercle vertueux.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html#effets-de-réseau",
+    "href": "07_Economie_digitale.html#effets-de-réseau",
+    "title": "7 · Économie digitale",
+    "section": "6 6. Effets de réseau",
+    "text": "6 6. Effets de réseau\nDéfinition : la valeur d’un service pour un utilisateur augmente avec le nombre total d’utilisateurs.\n\n\n\nEffets de réseau : utilité croît avec n, masse critique à franchir\n\n\n\n6.1 Types d’effets de réseau\n\n\n\n\n\n\n\n\nType\nDéfinition\nExemple\n\n\n\n\nDirect\nPlus d’utilisateurs = plus utile pour chaque utilisateur\nWhatsApp, téléphone\n\n\nIndirect\nPlus d’utilisateurs d’un côté = plus utile pour l’autre côté\nApp Store (plus d’apps si plus de users iOS)\n\n\nDe données\nPlus d’utilisateurs = meilleures données = meilleur service\nGoogle, Netflix\n\n\nLocal\nEffet limité à un groupe (ville, langue)\nTinder, Le Bon Coin\n\n\n\n\n\n6.2 Conséquence : winner-takes-all\nUne fois la masse critique atteinte, le service domine. Il est très difficile pour un concurrent d’arriver — même un produit meilleur peut échouer faute d’utilisateurs.\n\n\n\n\n\n\nWarningLes fameux « monopoles naturels du numérique »\n\n\n\nGAFAM : Google (search), Amazon (e-commerce), Facebook/Meta (social), Apple/Android (smartphones), Microsoft (OS). Tous bénéficient d’effets de réseau massifs → positions dominantes très durables.\nD’où les enquêtes antitrust contre Google, Meta, Apple ces dernières années.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html#léconomie-de-partage",
+    "href": "07_Economie_digitale.html#léconomie-de-partage",
+    "title": "7 · Économie digitale",
+    "section": "7 7. L’économie de partage",
+    "text": "7 7. L’économie de partage\nDéfinition : plateforme qui permet à des particuliers de louer ou partager des biens / services sous-utilisés.\n\n\n\nExemple\nCe qui est partagé\n\n\n\n\nAirbnb\nLogement\n\n\nUber, BlaBlaCar\nTrajet en voiture\n\n\nTaskRabbit\nTravail à la tâche\n\n\nVinted, eBay\nBiens d’occasion\n\n\n\n\n7.1 Effets économiques\n\n\n\n\n\n\n\nAvantage\nInconvénient\n\n\n\n\nMeilleure utilisation des biens sous-utilisés\nPrécarisation des travailleurs (statut indépendant, pas de sécurité sociale)\n\n\nRéduction des coûts pour les consommateurs\nConcurrence déloyale envers les acteurs traditionnels (hôtels, taxis)\n\n\nCréation de nouveaux marchés\nExternalités négatives (Airbnb fait monter les loyers)\n\n\nÉmergence d’une réputation (notation)\nAsymétrie : la plateforme fixe les règles\n\n\n\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nL’économie de partage transforme des biens dormants (ta voiture garée 95 % du temps, ta chambre d’amis vide) en revenus. C’est efficace mais ça déstabilise les marchés existants (taxis, hôtels) et crée des questions sociales (statut des chauffeurs Uber, hausse des loyers à cause d’Airbnb).",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "07_Economie_digitale.html#lien-avec-les-chapitres-précédents",
+    "href": "07_Economie_digitale.html#lien-avec-les-chapitres-précédents",
+    "title": "7 · Économie digitale",
+    "section": "8 Lien avec les chapitres précédents",
+    "text": "8 Lien avec les chapitres précédents\n\n\n\n\n\n\n\nConcept du cours\nApparition dans l’économie digitale\n\n\n\n\nMonopole naturel\nPlateformes dominantes avec effets de réseau\n\n\nDiscrimination par les prix\nTarification personnalisée (algos, A/B tests)\n\n\nBien public\nWikipédia, logiciels libres\n\n\nExternalités\nRéseau social = externalité positive ; effets de mode négatifs\n\n\nAsymétrie d’information\nNotes / reviews comme mécanisme\n\n\nThéorie des jeux\nPlateformes bifaces, signaux, équilibres multiples\n\n\n\n\n\n\n\n\n\nNoteRécapitulatif Ch.7\n\n\n\n\nCoût marginal ≈ 0 + coûts fixes élevés → tarification radicale, tendance au winner-takes-all.\nEffets de réseau (direct, indirect, données, local) → masse critique à franchir.\nPlateformes bifaces / écosystèmes : nouvelles structures.\nÉconomie de partage : utilisation des biens sous-utilisés, mais précarisation et externalités.\nTendance à des monopoles « naturels » numériques (GAFAM) → enjeu de régulation.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "7 · Économie digitale"
+    ]
+  },
+  {
+    "objectID": "04_Concurrence_monopolistique.html",
+    "href": "04_Concurrence_monopolistique.html",
+    "title": "4 · Concurrence monopolistique",
+    "section": "",
+    "text": "TipCe chapitre en 1 ligne\n\n\n\nBeaucoup de firmes vendent des produits différenciés (proches mais pas identiques) → chacune a un mini-monopole sur sa version, mais la libre entrée ramène le profit à zéro à long terme — au prix d’une surcapacité.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "4 · Concurrence monopolistique"
+    ]
+  },
+  {
+    "objectID": "04_Concurrence_monopolistique.html#concept-clé-différenciation-des-produits",
+    "href": "04_Concurrence_monopolistique.html#concept-clé-différenciation-des-produits",
+    "title": "4 · Concurrence monopolistique",
+    "section": "1 Concept-clé : différenciation des produits",
+    "text": "1 Concept-clé : différenciation des produits\nLe marché ressemble à la CP (beaucoup de firmes, libre entrée) mais les produits ne sont plus identiques. Chaque firme propose sa propre version : couleur, marque, design, emplacement, service…\n\n\n\n\n\n\nTipEn simple\n\n\n\n\n\nPense à toutes les marques de shampooing : Tresemmé, Garnier, Pantene, Schwarzkopf, marque blanche du supermarché… Beaucoup de marques (≈ concurrence) mais chacune fidélise un peu ses clients (≈ mini-monopole). Si Pantene augmente son prix de 50 centimes, certains clients restent par habitude — mais pas tous.\n\n\n\n\n\n\n\n\n\n\n\n\nCritère\nConcurrence parfaite\nConcurrence monopolistique\nMonopole\n\n\n\n\nNombre de firmes\nTrès nombreuses\nNombreuses\nUne seule\n\n\nProduit\nHomogène\nDifférencié\nUnique\n\n\nEntrée\nLibre\nLibre\nBloquée\n\n\nPouvoir de marché\nAucun\nLimité\nTotal\n\n\nCourbe de demande\nHorizontale\nDécroissante (peu pentue)\nDécroissante (de marché)",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "4 · Concurrence monopolistique"
+    ]
+  },
+  {
+    "objectID": "04_Concurrence_monopolistique.html#comportement-de-la-firme",
+    "href": "04_Concurrence_monopolistique.html#comportement-de-la-firme",
+    "title": "4 · Concurrence monopolistique",
+    "section": "2 Comportement de la firme",
+    "text": "2 Comportement de la firme\nChaque firme fait face à une demande décroissante (mais très élastique, vu les substituts). Elle se comporte donc comme un mini-monopole :\n\\[Rm(q) = Cm(q) \\quad \\text{pour max profit}\\]\n→ elle choisit \\(q^*\\) et \\(P^*\\) selon sa propre demande, exactement comme un monopole.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "4 · Concurrence monopolistique"
+    ]
+  },
+  {
+    "objectID": "04_Concurrence_monopolistique.html#court-terme-vs-long-terme",
+    "href": "04_Concurrence_monopolistique.html#court-terme-vs-long-terme",
+    "title": "4 · Concurrence monopolistique",
+    "section": "3 Court terme vs long terme",
+    "text": "3 Court terme vs long terme\n\n3.1 Court terme\nLa firme peut faire un profit &gt; 0 (comme un monopole). Mais ce profit attire de nouveaux entrants (libre entrée).\n\n\n3.2 Long terme : ajustement et tangence\nQuand de nouvelles firmes entrent :\n\nLa demande adressée à chaque firme se réduit (le marché se partage).\nLa courbe de demande de la firme se déplace vers la gauche.\nL’entrée continue tant qu’il reste un profit &gt; 0.\nÀ l’équilibre LT, la demande est tangente au \\(CTM\\) au point optimal → profit = 0.\n\n\n\n\nConcurrence monopolistique LT : tangence demande/CTM, profit = 0\n\n\n\n\n\n\n\n\nImportantÉquilibre LT en concurrence monopolistique\n\n\n\n\\[\\boxed{\\ Rm = Cm \\quad \\text{et} \\quad P = CTM\\ }\\]\n(profit nul, mais ce n’est pas au minimum du CTM comme en CP)",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "4 · Concurrence monopolistique"
+    ]
+  },
+  {
+    "objectID": "04_Concurrence_monopolistique.html#efficience-de-la-concurrence-monopolistique",
+    "href": "04_Concurrence_monopolistique.html#efficience-de-la-concurrence-monopolistique",
+    "title": "4 · Concurrence monopolistique",
+    "section": "4 Efficience de la concurrence monopolistique",
+    "text": "4 Efficience de la concurrence monopolistique\nC’est un cas mixte :\n\n\n\nCritère\nÉvaluation\n\n\n\n\nProfit LT\n= 0 ✓ (comme CP)\n\n\nProduction au min(CTM)\nNon ✗ (à la gauche du min)\n\n\n\\(P = Cm\\)\nNon ✗ (\\(P &gt; Cm\\), donc perte sèche modérée)\n\n\nVariété de produits\nOui ✓ (consommateurs aiment le choix)\n\n\n\n\n4.1 La « surcapacité »\nComme la production se fait à gauche du min(CTM), chaque firme produit moins que sa taille optimale → si elles étaient moins nombreuses et plus grandes, elles produiraient à coût moyen plus bas.\n\n\n\n\n\n\nTipEn simple : le « prix de la variété »\n\n\n\n\n\nOn a beaucoup de marques de café, chacune avec son petit côté unique. Le revers : aucune ne tourne à son plein régime. Si on avait juste 2 super-marques au lieu de 20, le café serait moins cher — mais on n’aurait plus le choix.\nC’est un arbitrage : un peu d’inefficience contre la variété.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "4 · Concurrence monopolistique"
+    ]
+  },
+  {
+    "objectID": "04_Concurrence_monopolistique.html#effet-dune-campagne-publicitaire",
+    "href": "04_Concurrence_monopolistique.html#effet-dune-campagne-publicitaire",
+    "title": "4 · Concurrence monopolistique",
+    "section": "5 Effet d’une campagne publicitaire",
+    "text": "5 Effet d’une campagne publicitaire\nUne campagne publicitaire renforce la différenciation perçue :\n\nLa demande adressée à la firme devient moins élastique (les clients ont du mal à voir les substituts comme équivalents).\nLa courbe de demande se déplace parfois aussi vers la droite (plus de demande).\n\n\n\n\n\n\n\nWarningEffet sur l’élasticité\n\n\n\nPlus la firme se différencie (pub, image), plus son élasticité-prix de la demande diminue en valeur absolue → elle peut augmenter le prix sans perdre trop de clients.\n\n\n\n\n\n\n\n\nNoteRécapitulatif Ch.4\n\n\n\n\nBeaucoup de firmes, produits différenciés, libre entrée.\nÀ court terme : profit possible (mini-monopole).\nÀ long terme : entrée jusqu’à profit = 0 → tangence demande/CTM.\nInefficience modérée : surcapacité (production &lt; min CTM) et \\(P &gt; Cm\\).\nEn contrepartie : la variété que les consommateurs apprécient.\nUne campagne publicitaire réduit l’élasticité (en valeur absolue) → plus de pouvoir de marché.",
+    "crumbs": [
+      "Accueil",
+      "Cours",
+      "4 · Concurrence monopolistique"
+    ]
+  }
+]
