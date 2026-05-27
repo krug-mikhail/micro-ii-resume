@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0441d281c0042f78ca5e6da214781463.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a70b8fcb314266886581305ff1ac447c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +70,37 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -176,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Microéconomie II — Marchés et Prix</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Naviguer le cours</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -186,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -199,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Microéconomie II — Marchés et Prix</span></a>
+ <span class="menu-text">Naviguer le cours</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -289,136 +319,97 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#le-cours-en-une-phrase" id="toc-le-cours-en-une-phrase" class="nav-link active" data-scroll-target="#le-cours-en-une-phrase"><span class="header-section-number">1</span> Le cours en une phrase</a></li>
-  <li><a href="#le-fil-conducteur" id="toc-le-fil-conducteur" class="nav-link" data-scroll-target="#le-fil-conducteur"><span class="header-section-number">2</span> Le fil conducteur</a></li>
-  <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation"><span class="header-section-number">3</span> Navigation</a></li>
-  <li><a href="#outils-de-révision" id="toc-outils-de-révision" class="nav-link" data-scroll-target="#outils-de-révision"><span class="header-section-number">4</span> Outils de révision</a></li>
-  <li><a href="#calendrier" id="toc-calendrier" class="nav-link" data-scroll-target="#calendrier"><span class="header-section-number">5</span> Calendrier</a></li>
-  <li><a href="#astuces-pour-réviser" id="toc-astuces-pour-réviser" class="nav-link" data-scroll-target="#astuces-pour-réviser"><span class="header-section-number">6</span> Astuces pour réviser</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Microéconomie II — Marchés et Prix</h1>
-<p class="subtitle lead">Résumé pédagogique · UNIFR · SP 2026</p>
-</div>
+<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Microéconomie II</h1></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
+<div class="hero">
   
-    
+  <p class="hero-subtitle">Marchés et Prix — résumé pédagogique complet · Prof. Gugler · SP 2026</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><span class="num">7</span><span class="lbl">chapitres</span></div>
+    <div class="hero-stat"><span class="num">12</span><span class="lbl">graphiques</span></div>
+    <div class="hero-stat"><span class="num">120+</span><span class="lbl">questions</span></div>
+    <div class="hero-stat"><span class="num">4</span><span class="lbl">examens blancs</span></div>
   </div>
-  
-
-
-</header>
-
-
-<section id="le-cours-en-une-phrase" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="le-cours-en-une-phrase"><span class="header-section-number">1</span> Le cours en une phrase</h2>
-<p>Le cours <strong>Microéconomie II</strong> parcourt les différentes <strong>structures de marché</strong> (concurrence parfaite → monopole → oligopole → économie digitale) en montrant <strong>comment les firmes se comportent</strong> dans chaque cas et <strong>quels résultats</strong> cela produit pour la société (prix, quantités, efficience).</p>
+</div>
+<section id="naviguer-le-cours" class="level2">
+<h2 class="anchored" data-anchor-id="naviguer-le-cours">Naviguer le cours</h2>
+<div class="ch-grid">
+  <a href="00_Prerequis_mathematiques.html" class="ch-card">
+    <span class="ch-num">0</span>
+    <h4 class="anchored">Prérequis maths</h4>
+    <p>Dérivées, équations 2ᵉ degré, maximisation de profit.</p>
+  </a>
+  <a href="01_Concurrence_parfaite.html" class="ch-card">
+    <span class="ch-num">1</span>
+    <h4 class="anchored">Concurrence parfaite</h4>
+    <p>Le marché idéal. Court vs long terme, seuils de fermeture.</p>
+  </a>
+  <a href="02_Limites_marches.html" class="ch-card">
+    <span class="ch-num">2</span>
+    <h4 class="anchored">Limites des marchés</h4>
+    <p>Asymétrie d'info, externalités, biens publics, rendements croissants.</p>
+  </a>
+  <a href="03_Monopole_monopsone.html" class="ch-card">
+    <span class="ch-num">3</span>
+    <h4 class="anchored">Monopole &amp; monopsone</h4>
+    <p>Vendeur unique, discrimination par les prix, monopole naturel.</p>
+  </a>
+  <a href="04_Concurrence_monopolistique.html" class="ch-card">
+    <span class="ch-num">4</span>
+    <h4 class="anchored">Concurrence monopolistique</h4>
+    <p>Produits différenciés, tangence à long terme, surcapacité.</p>
+  </a>
+  <a href="05_Oligopole.html" class="ch-card">
+    <span class="ch-num">5</span>
+    <h4 class="anchored">Oligopole</h4>
+    <p>Cournot, Bertrand, Stackelberg, demande coudée, cartel.</p>
+  </a>
+  <a href="06_Theorie_des_jeux.html" class="ch-card">
+    <span class="ch-num">6</span>
+    <h4 class="anchored">Théorie des jeux</h4>
+    <p>Dilemme du prisonnier, jeux répétés, backward induction.</p>
+  </a>
+  <a href="07_Economie_digitale.html" class="ch-card">
+    <span class="ch-num">7</span>
+    <h4 class="anchored">Économie digitale</h4>
+    <p>Plateformes, effets de réseau, économie de partage, winner-takes-all.</p>
+  </a>
+</div>
 </section>
-<section id="le-fil-conducteur" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="le-fil-conducteur"><span class="header-section-number">2</span> Le fil conducteur</h2>
-<pre><code>       Concurrence parfaite (Ch.1)        ← le marché idéal
-                  ↓
-       Limites du modèle (Ch.2)           ← pourquoi la réalité diffère
-                  ↓
-       Monopole / monopsone (Ch.3)        ← le cas opposé extrême
-                  ↓
-       Concurrence monopolistique (Ch.4)  ← entre les deux : produits différenciés
-                  ↓
-       Oligopole (Ch.5)                   ← peu de firmes en interaction
-                  ↓
-       Théorie des jeux (Ch.6)            ← l'outil pour analyser ces interactions
-                  ↓
-       Économie digitale (Ch.7)           ← comment le numérique change tout</code></pre>
+<section id="outils-de-révision" class="level2">
+<h2 class="anchored" data-anchor-id="outils-de-révision">Outils de révision</h2>
+<div class="ch-grid">
+  <a href="formules.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#16a34a,#0d9488)">∑</span>
+    <h4 class="anchored">Formules clés</h4>
+    <p>Toutes les formules importantes des 7 chapitres en un coup d'œil.</p>
+  </a>
+  <a href="glossaire.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#0891b2,#0e7490)">A</span>
+    <h4 class="anchored">Glossaire</h4>
+    <p>Chaque terme expliqué « en langage simple », avec exemple du quotidien.</p>
+  </a>
+  <a href="examen_blanc.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#be123c,#881337)">?</span>
+    <h4 class="anchored">Examens blancs (×4)</h4>
+    <p>Officiel + facile + moyen + corsé, tous interactifs avec corrigé.</p>
+  </a>
+</div>
 </section>
-<section id="navigation" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="navigation"><span class="header-section-number">3</span> Navigation</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Chapitre</th>
-<th>Sujet</th>
-<th>Idée à retenir</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="./00_Prerequis_mathematiques.html">0 · Prérequis maths</a></td>
-<td>Dérivées, optimisation, équations 2<sup>nd</sup> degré</td>
-<td>Les outils pour résoudre</td>
-</tr>
-<tr class="even">
-<td><a href="./01_Concurrence_parfaite.html">1 · Concurrence parfaite</a></td>
-<td>Le marché idéal</td>
-<td>À long terme, profit = 0</td>
-</tr>
-<tr class="odd">
-<td><a href="./02_Limites_marches.html">2 · Limites des marchés</a></td>
-<td>Asymétrie info, externalités, biens publics</td>
-<td>Le marché peut échouer</td>
-</tr>
-<tr class="even">
-<td><a href="./03_Monopole_monopsone.html">3 · Monopole</a></td>
-<td>Vendeur unique, discrimination</td>
-<td>Q ↓, P ↑, perte sèche</td>
-</tr>
-<tr class="odd">
-<td><a href="./04_Concurrence_monopolistique.html">4 · Concurrence monopolistique</a></td>
-<td>Beaucoup de firmes, produits différenciés</td>
-<td>À LT, profit = 0 mais surcapacité</td>
-</tr>
-<tr class="even">
-<td><a href="./05_Oligopole.html">5 · Oligopole</a></td>
-<td>Cournot, Bertrand, Stackelberg</td>
-<td>Stratégies interdépendantes</td>
-</tr>
-<tr class="odd">
-<td><a href="./06_Theorie_des_jeux.html">6 · Théorie des jeux</a></td>
-<td>Nash, dilemme du prisonnier, jeux répétés</td>
-<td>Coopération possible si répété</td>
-</tr>
-<tr class="even">
-<td><a href="./07_Economie_digitale.html">7 · Économie digitale</a></td>
-<td>Plateformes, effets de réseau, sharing</td>
-<td>Winner-takes-all</td>
-</tr>
-</tbody>
-</table>
+<section id="le-fil-conducteur" class="level2">
+<h2 class="anchored" data-anchor-id="le-fil-conducteur">Le fil conducteur</h2>
+<p>Le cours parcourt les <strong>structures de marché du plus concurrentiel au moins concurrentiel</strong>, puis les outils stratégiques :</p>
+<div class="retenir">
+<p><strong>Concurrence parfaite</strong> (Ch.1) — le marché idéal → <strong>Limites du modèle</strong> (Ch.2) — pourquoi la réalité diffère → <strong>Monopole</strong> (Ch.3) — cas extrême opposé → <strong>Concurrence monopolistique</strong> (Ch.4) — produits différenciés → <strong>Oligopole</strong> (Ch.5) — peu de firmes en interaction → <strong>Théorie des jeux</strong> (Ch.6) — l’outil d’analyse → <strong>Économie digitale</strong> (Ch.7) — comment le numérique change tout.</p>
+</div>
 </section>
-<section id="outils-de-révision" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="outils-de-révision"><span class="header-section-number">4</span> Outils de révision</h2>
-<ul>
-<li><strong><a href="./formules.html">Formules clés</a></strong> — toutes les formules importantes en un coup d’œil</li>
-<li><strong><a href="./glossaire.html">Glossaire</a></strong> — chaque terme expliqué en langage simple</li>
-<li><strong><a href="examen_blanc.html">Examen blanc</a></strong> — les 45 + 1 questions du prof, corrigées et interactives</li>
-</ul>
-</section>
-<section id="calendrier" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="calendrier"><span class="header-section-number">5</span> Calendrier</h2>
-<ul>
-<li><strong>20–27 fév · 13–20 mars · 17 avril · 1er mai</strong> : théorie en classe</li>
-<li><strong>6 mars · 27 mars · 24 avril · 8 mai · 22 mai</strong> : exercices</li>
-<li><strong>29 mai</strong> : examen à blanc en classe</li>
-<li><strong>Pâques</strong> : 3 &amp; 10 avril · <strong>Ascension</strong> : 15 mai</li>
-</ul>
-</section>
-<section id="astuces-pour-réviser" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="astuces-pour-réviser"><span class="header-section-number">6</span> Astuces pour réviser</h2>
+<section id="astuces-pour-réviser" class="level2">
+<h2 class="anchored" data-anchor-id="astuces-pour-réviser">Astuces pour réviser</h2>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -430,13 +421,46 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <ol type="1">
-<li><strong>Identifie la structure de marché</strong> (CP / monopole / oligopole / etc.) → ça dicte les hypothèses.</li>
-<li><strong>Cherche la condition d’équilibre</strong> (P = Cm pour CP ? Rm = Cm pour monopole ? Cournot ?).</li>
-<li><strong>Pose les équations</strong>, dérive, résous.</li>
-<li><strong>Interprète</strong> : qui gagne, qui perd, perte sèche ?</li>
+<li><strong>Identifier la structure de marché</strong> (CP / monopole / oligopole / etc.) → ça dicte les hypothèses.</li>
+<li><strong>Trouver la condition d’équilibre</strong> (<span class="math inline">\(P = Cm\)</span> pour CP ? <span class="math inline">\(Rm = Cm\)</span> pour monopole ? Cournot ?).</li>
+<li><strong>Poser les équations</strong>, dériver, résoudre.</li>
+<li><strong>Interpréter</strong> : qui gagne, qui perd, perte sèche, efficience ?</li>
 </ol>
 </div>
 </div>
+</section>
+<section id="calendrier-du-semestre" class="level2">
+<h2 class="anchored" data-anchor-id="calendrier-du-semestre">Calendrier du semestre</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Activité</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>20 fév – 1er mai</td>
+<td>Cours théoriques</td>
+</tr>
+<tr class="even">
+<td>6 mars · 27 mars · 24 avril · 8 mai · 22 mai</td>
+<td>Séances d’exercices</td>
+</tr>
+<tr class="odd">
+<td>3 &amp; 10 avril</td>
+<td>Vacances de Pâques</td>
+</tr>
+<tr class="even">
+<td>15 mai</td>
+<td>Ascension</td>
+</tr>
+<tr class="odd">
+<td><strong>29 mai</strong></td>
+<td><strong>Examen à blanc en classe</strong></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
@@ -529,6 +553,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -847,4 +876,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

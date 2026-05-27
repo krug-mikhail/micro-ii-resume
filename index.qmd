@@ -1,62 +1,116 @@
 ---
-title: "Microéconomie II — Marchés et Prix"
-subtitle: "Résumé pédagogique · UNIFR · SP 2026"
+title: ""
+toc: false
+page-layout: full
 ---
 
-## Le cours en une phrase
-
-Le cours **Microéconomie II** parcourt les différentes **structures de marché** (concurrence parfaite → monopole → oligopole → économie digitale) en montrant **comment les firmes se comportent** dans chaque cas et **quels résultats** cela produit pour la société (prix, quantités, efficience).
-
-## Le fil conducteur
-
-```
-       Concurrence parfaite (Ch.1)        ← le marché idéal
-                  ↓
-       Limites du modèle (Ch.2)           ← pourquoi la réalité diffère
-                  ↓
-       Monopole / monopsone (Ch.3)        ← le cas opposé extrême
-                  ↓
-       Concurrence monopolistique (Ch.4)  ← entre les deux : produits différenciés
-                  ↓
-       Oligopole (Ch.5)                   ← peu de firmes en interaction
-                  ↓
-       Théorie des jeux (Ch.6)            ← l'outil pour analyser ces interactions
-                  ↓
-       Économie digitale (Ch.7)           ← comment le numérique change tout
+```{=html}
+<div class="hero">
+  <h1>Microéconomie II</h1>
+  <p class="hero-subtitle">Marchés et Prix — résumé pédagogique complet · Prof. Gugler · SP 2026</p>
+  <div class="hero-stats">
+    <div class="hero-stat"><span class="num">7</span><span class="lbl">chapitres</span></div>
+    <div class="hero-stat"><span class="num">12</span><span class="lbl">graphiques</span></div>
+    <div class="hero-stat"><span class="num">120+</span><span class="lbl">questions</span></div>
+    <div class="hero-stat"><span class="num">4</span><span class="lbl">examens blancs</span></div>
+  </div>
+</div>
 ```
 
-## Navigation
+## Naviguer le cours
 
-| Chapitre | Sujet | Idée à retenir |
-|---|---|---|
-| [0 · Prérequis maths](00_Prerequis_mathematiques.qmd) | Dérivées, optimisation, équations 2<sup>nd</sup> degré | Les outils pour résoudre |
-| [1 · Concurrence parfaite](01_Concurrence_parfaite.qmd) | Le marché idéal | À long terme, profit = 0 |
-| [2 · Limites des marchés](02_Limites_marches.qmd) | Asymétrie info, externalités, biens publics | Le marché peut échouer |
-| [3 · Monopole](03_Monopole_monopsone.qmd) | Vendeur unique, discrimination | Q ↓, P ↑, perte sèche |
-| [4 · Concurrence monopolistique](04_Concurrence_monopolistique.qmd) | Beaucoup de firmes, produits différenciés | À LT, profit = 0 mais surcapacité |
-| [5 · Oligopole](05_Oligopole.qmd) | Cournot, Bertrand, Stackelberg | Stratégies interdépendantes |
-| [6 · Théorie des jeux](06_Theorie_des_jeux.qmd) | Nash, dilemme du prisonnier, jeux répétés | Coopération possible si répété |
-| [7 · Économie digitale](07_Economie_digitale.qmd) | Plateformes, effets de réseau, sharing | Winner-takes-all |
+```{=html}
+<div class="ch-grid">
+  <a href="00_Prerequis_mathematiques.html" class="ch-card">
+    <span class="ch-num">0</span>
+    <h4>Prérequis maths</h4>
+    <p>Dérivées, équations 2ᵉ degré, maximisation de profit.</p>
+  </a>
+  <a href="01_Concurrence_parfaite.html" class="ch-card">
+    <span class="ch-num">1</span>
+    <h4>Concurrence parfaite</h4>
+    <p>Le marché idéal. Court vs long terme, seuils de fermeture.</p>
+  </a>
+  <a href="02_Limites_marches.html" class="ch-card">
+    <span class="ch-num">2</span>
+    <h4>Limites des marchés</h4>
+    <p>Asymétrie d'info, externalités, biens publics, rendements croissants.</p>
+  </a>
+  <a href="03_Monopole_monopsone.html" class="ch-card">
+    <span class="ch-num">3</span>
+    <h4>Monopole &amp; monopsone</h4>
+    <p>Vendeur unique, discrimination par les prix, monopole naturel.</p>
+  </a>
+  <a href="04_Concurrence_monopolistique.html" class="ch-card">
+    <span class="ch-num">4</span>
+    <h4>Concurrence monopolistique</h4>
+    <p>Produits différenciés, tangence à long terme, surcapacité.</p>
+  </a>
+  <a href="05_Oligopole.html" class="ch-card">
+    <span class="ch-num">5</span>
+    <h4>Oligopole</h4>
+    <p>Cournot, Bertrand, Stackelberg, demande coudée, cartel.</p>
+  </a>
+  <a href="06_Theorie_des_jeux.html" class="ch-card">
+    <span class="ch-num">6</span>
+    <h4>Théorie des jeux</h4>
+    <p>Dilemme du prisonnier, jeux répétés, backward induction.</p>
+  </a>
+  <a href="07_Economie_digitale.html" class="ch-card">
+    <span class="ch-num">7</span>
+    <h4>Économie digitale</h4>
+    <p>Plateformes, effets de réseau, économie de partage, winner-takes-all.</p>
+  </a>
+</div>
+```
 
 ## Outils de révision
 
-- **[Formules clés](formules.qmd)** — toutes les formules importantes en un coup d'œil
-- **[Glossaire](glossaire.qmd)** — chaque terme expliqué en langage simple
-- **[Examen blanc](examen_blanc.html)** — les 45 + 1 questions du prof, corrigées et interactives
+```{=html}
+<div class="ch-grid">
+  <a href="formules.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#16a34a,#0d9488)">∑</span>
+    <h4>Formules clés</h4>
+    <p>Toutes les formules importantes des 7 chapitres en un coup d'œil.</p>
+  </a>
+  <a href="glossaire.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#0891b2,#0e7490)">A</span>
+    <h4>Glossaire</h4>
+    <p>Chaque terme expliqué « en langage simple », avec exemple du quotidien.</p>
+  </a>
+  <a href="examen_blanc.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#be123c,#881337)">?</span>
+    <h4>Examens blancs (×4)</h4>
+    <p>Officiel + facile + moyen + corsé, tous interactifs avec corrigé.</p>
+  </a>
+</div>
+```
 
-## Calendrier
+## Le fil conducteur
 
-- **20–27 fév · 13–20 mars · 17 avril · 1er mai** : théorie en classe
-- **6 mars · 27 mars · 24 avril · 8 mai · 22 mai** : exercices
-- **29 mai** : examen à blanc en classe
-- **Pâques** : 3 & 10 avril · **Ascension** : 15 mai
+Le cours parcourt les **structures de marché du plus concurrentiel au moins concurrentiel**, puis les outils stratégiques :
+
+::: {.retenir}
+**Concurrence parfaite** (Ch.1) — le marché idéal → **Limites du modèle** (Ch.2) — pourquoi la réalité diffère → **Monopole** (Ch.3) — cas extrême opposé → **Concurrence monopolistique** (Ch.4) — produits différenciés → **Oligopole** (Ch.5) — peu de firmes en interaction → **Théorie des jeux** (Ch.6) — l'outil d'analyse → **Économie digitale** (Ch.7) — comment le numérique change tout.
+:::
 
 ## Astuces pour réviser
 
 ::: {.callout-tip}
 ## Le réflexe à avoir
-1. **Identifie la structure de marché** (CP / monopole / oligopole / etc.) → ça dicte les hypothèses.
-2. **Cherche la condition d'équilibre** (P = Cm pour CP ? Rm = Cm pour monopole ? Cournot ?).
-3. **Pose les équations**, dérive, résous.
-4. **Interprète** : qui gagne, qui perd, perte sèche ?
+
+1. **Identifier la structure de marché** (CP / monopole / oligopole / etc.) → ça dicte les hypothèses.
+2. **Trouver la condition d'équilibre** ($P = Cm$ pour CP ? $Rm = Cm$ pour monopole ? Cournot ?).
+3. **Poser les équations**, dériver, résoudre.
+4. **Interpréter** : qui gagne, qui perd, perte sèche, efficience ?
 :::
+
+## Calendrier du semestre
+
+| Date | Activité |
+|------|----------|
+| 20 fév – 1er mai | Cours théoriques |
+| 6 mars · 27 mars · 24 avril · 8 mai · 22 mai | Séances d'exercices |
+| 3 & 10 avril | Vacances de Pâques |
+| 15 mai | Ascension |
+| **29 mai** | **Examen à blanc en classe** |

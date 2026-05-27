@@ -71,9 +71,17 @@ execute:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - theme.scss
     toc: true
     toc-depth: 3
-    number-sections: true
+    toc-title: "Sommaire"
+    number-sections: false
     code-copy: true
     code-overflow: wrap
+    smooth-scroll: true
+    fig-cap-location: bottom
+    link-external-newwindow: true
+    grid:
+      content-mode: standard
