@@ -33,10 +33,10 @@ Délimiter un marché numérique est **complexe** :
 
 ## 3. Nouvelles structures de marché
 
-- **Plateformes** : font se rencontrer offre et demande (Airbnb, Uber, AppStore).
+- **Plateformes** : font se rencontrer offre et demande (Airbnb, Uber, App Store).
 - **Écosystèmes** : un acteur dominant + de nombreux partenaires (Apple, Google).
 - **Marchés bifaces** : deux groupes d'utilisateurs reliés (annonceurs ↔ utilisateurs sur Google).
-- **Concurrence pour le marché** plutôt que **sur le marché** : on ne se bat pas une part de marché, on se bat pour devenir LE marché.
+- **Concurrence pour le marché** plutôt que **sur le marché** : on ne se bat pas pour une part de marché, on se bat pour devenir LE marché.
 
 ## 4. Caractéristiques de la demande
 

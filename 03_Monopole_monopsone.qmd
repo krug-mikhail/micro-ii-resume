@@ -24,7 +24,7 @@ Un **monopole** = **une seule firme** vend un produit pour lequel il n'existe pa
 Si tu es la **seule** entreprise sur ton marché et que **personne ne peut entrer** (parce que t'as un brevet, ou parce que ça coûte des milliards pour démarrer), tu es en **monopole**. Tu n'es pas obligé de subir le prix — tu le **choisis** (mais à condition d'accepter une quantité plus faible).
 :::
 
-## 2. Monopole non discriminant
+## 2. Monopole non-discriminant
 
 La firme **ne peut pas** faire payer des prix différents → un **seul prix** pour tous.
 

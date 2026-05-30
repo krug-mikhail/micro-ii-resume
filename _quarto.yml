@@ -32,6 +32,8 @@ website:
             text: "6 · Théorie des jeux"
           - href: 07_Economie_digitale.qmd
             text: "7 · Économie digitale"
+      - href: synthese_modeles.qmd
+        text: "Synthèse des modèles"
       - href: formules.qmd
         text: "Formules clés"
       - href: glossaire.qmd
@@ -63,6 +65,7 @@ website:
           - 07_Economie_digitale.qmd
       - section: "Outils de révision"
         contents:
+          - synthese_modeles.qmd
           - formules.qmd
           - glossaire.qmd
 

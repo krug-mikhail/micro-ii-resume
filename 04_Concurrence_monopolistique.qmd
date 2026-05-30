@@ -63,7 +63,7 @@ C'est un cas **mixte** :
 | Critère | Évaluation |
 |---|---|
 | Profit LT | = 0 ✓ (comme CP) |
-| Production au min(CTM) | **Non** ✗ (à la gauche du min) |
+| Production au min(CTM) | **Non** ✗ (à gauche du min) |
 | $P = Cm$ | **Non** ✗ ($P > Cm$, donc perte sèche modérée) |
 | Variété de produits | **Oui** ✓ (consommateurs aiment le choix) |
 

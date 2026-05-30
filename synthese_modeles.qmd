@@ -1,0 +1,367 @@
+---
+title: "Synthèse — tous les modèles en un coup d'œil"
+---
+
+::: {.callout-tip}
+## À quoi sert cette page
+Le cours est **séquentiel** (chapitre par chapitre). Cette page le **transverse** : tu identifies la structure, tu lis la règle d'équilibre, tu appliques la formule, tu interprètes. Tout est rassemblé pour la révision finale.
+:::
+
+## 1. Identifier la structure de marché — l'arbre de décision
+
+Avant tout exercice, pose-toi **3 questions dans cet ordre** :
+
+| # | Question | Réponses possibles | Conclusion |
+|---|---|---|---|
+| **1** | Combien de **vendeurs** ? | Beaucoup, identiques | → **CP** (Ch.1) |
+|   |   | Beaucoup, produits différenciés | → **Concurrence monopolistique** (Ch.4) |
+|   |   | Quelques-uns (2-10) | → **Oligopole** (Ch.5) |
+|   |   | Un seul | → **Monopole** (Ch.3) |
+| **2** | Combien d'**acheteurs** ? | Beaucoup | → reste comme ci-dessus |
+|   |   | Un seul (face à beaucoup de vendeurs) | → **Monopsone** (Ch.3) |
+| **3** | (Si oligopole) **Quoi** se choisit, et **quand** ? | Quantités, simultanément | → **Cournot** |
+|   |   | Quantités, séquentiellement | → **Stackelberg** |
+|   |   | Prix, simultanément | → **Bertrand** |
+|   |   | Coordination cachée | → **Cartel** |
+
+::: {.callout-warning}
+## Indices secondaires
+- L'énoncé parle de **brevets, licence d'État, barrière infranchissable** → monopole.
+- L'énoncé parle de **marques, design, fidélité** → concurrence monopolistique.
+- L'énoncé parle de **leader / suiveur, je joue en premier** → Stackelberg.
+- L'énoncé parle d'**entente, accord, quotas** → cartel.
+- L'énoncé parle de **CTM décroissant partout** → monopole naturel.
+:::
+
+## 2. Tableau maître — toutes les structures comparées
+
+| Structure | Hypothèse-clé | Règle d'équilibre | Prix vs $Cm$ | Profit LT | Perte sèche | Référence |
+|---|---|---|---|---|---|---|
+| **Concurrence parfaite (CP)** | Atomicité + homogénéité + libre entrée + info parfaite | $P = Cm$ | $P = Cm$ | $\pi = 0$ | aucune | Ch.1 |
+| **Monopole non-discriminant** | 1 firme, entrée bloquée | $Rm = Cm$ | $P > Cm$ | $\pi > 0$ | **élevée** | Ch.3 |
+| **Monopole discriminant parfait (1ᵉʳ degré)** | Connaît la disposition à payer de chaque client | Produit jusqu'à $P = Cm$ | $P = Cm$ sur la dernière unité | $\pi = $ tout le SC | **aucune** | Ch.3 |
+| **Monopole discriminant 3ᵉ degré** | Sépare des groupes par élasticité | $Rm_i = Cm$ pour chaque groupe | $P_i$ ↑ si $|\varepsilon_i|$ ↓ | $\pi > 0$ | réduite | Ch.3 |
+| **Monopole naturel** | $CTM$ décroissant sur toute la demande | dépend de la régulation | $P_{Cm} < CTM$ (firme à perte) | dépend | dépend | Ch.3 |
+| **Monopsone** | 1 acheteur | $VM\!P = CM\!F$ | $w < VM\!P$ | $\pi_{acheteur} > 0$ | oui | Ch.3 |
+| **Concurrence monopolistique** | Beaucoup, produits différenciés, libre entrée | $Rm = Cm$ ET $P = CTM$ (LT) | $P > Cm$ (modéré) | $\pi = 0$ (LT) | modérée + **surcapacité** | Ch.4 |
+| **Cournot (oligopole quantité simultané)** | Quelques firmes, $q_i$ simultané | $\dfrac{\partial \pi_i}{\partial q_i} = 0$ → réactions, intersection | $P > Cm$ | $\pi > 0$ | intermédiaire | Ch.5 |
+| **Stackelberg (quantité séquentiel)** | Leader → suiveur | Leader substitue la réaction du suiveur | $P_{Stb} < P_{Cournot}$ | $\pi_L > \pi_S > 0$ | < Cournot | Ch.5 |
+| **Bertrand homogène** | Prix simultané, produits identiques | undercut → $P = Cm$ | $P = Cm$ | $\pi = 0$ | aucune | Ch.5 |
+| **Bertrand différencié** | Prix simultané, produits proches | $\partial \pi_i / \partial P_i = 0$, système | $P > Cm$ | $\pi > 0$ | modérée | Ch.5 |
+| **Cartel** | Collusion stable | $Rm_{ind} = Cm_{ind}$, partage des quotas | = monopole | maximal | **maximale** | Ch.5 |
+
+::: {.callout-important}
+## L'ordre à mémoriser (cas linéaire symétrique)
+$$Q_{Cartel/Monopole} < Q_{Cournot} < Q_{Stackelberg} < Q_{Bertrand/CP}$$
+$$P_{Cartel/Monopole} > P_{Cournot} > P_{Stackelberg} > P_{Bertrand/CP}$$
+$$\pi_{Cartel/Monopole} > \pi_{Stackelberg, leader} > \pi_{Cournot} > \pi_{Bertrand} = 0$$
+:::
+
+## 3. Fiches modèle par modèle — règle + formule + exemple chiffré
+
+### 3.1 Concurrence parfaite
+
+**Règle :** chaque firme est price-taker → $P = Rm = Cm$.
+
+**Court terme :**
+$$q^* \text{ tel que } P = Cm(q^*) \qquad \pi = (P - CTM(q^*)) \cdot q^*$$
+- Continue tant que $P \geq CVM(q^*)$.
+- Arrête si $P < CVM$.
+
+**Long terme :**
+$$P^* = \min(CMLT) \qquad q^* \text{ au minimum du } CMLT \qquad \pi = 0$$
+
+::: {.callout-tip collapse="true"}
+## Exemple chiffré
+Demande de marché : $Q^D = 100 - P$. Offre de marché : $Q^O = 2P - 20$.
+
+**Équilibre marché :** $100 - P = 2P - 20 \Rightarrow 3P = 120 \Rightarrow P^* = 40, Q^* = 60$.
+
+**Firme :** $CT(q) = q^2 + 4q + 9$, $Cm = 2q + 4$.
+
+Avec $P = 40$ : $40 = 2q + 4 \Rightarrow q^* = 18$. Profit : $\pi = 40 \cdot 18 - (18^2 + 4\cdot 18 + 9) = 720 - 405 = 315$.
+
+**Seuil de fermeture :** $CVM = q + 4$, minimum au point où $dCVM/dq = 1 = 0$… (constante, pas de minimum) — c'est un $CVM$ croissant, le seuil est $q = 0$, soit $CVM(0) = 4$. **Arrêt si $P < 4$**.
+:::
+
+### 3.2 Monopole non-discriminant
+
+**Règle :** $Rm = Cm$ avec $Rm < P$.
+
+**Demande linéaire** $P = a - bQ$, $Cm = c$ constant :
+$$Rm = a - 2bQ \quad\Rightarrow\quad Q_m = \frac{a-c}{2b} \quad P_m = \frac{a+c}{2} \quad \pi_m = \frac{(a-c)^2}{4b}$$
+
+**Perte sèche** (par rapport à la CP $P=c$) :
+$$DWL = \frac{1}{2} (P_m - c)(Q_c - Q_m) = \frac{(a-c)^2}{8b}$$
+
+**Formule de Lerner** (mark-up) :
+$$\frac{P - Cm}{P} = -\frac{1}{\varepsilon}$$
+
+::: {.callout-tip collapse="true"}
+## Exemple chiffré
+Demande : $P = 60 - Q$. Coût marginal constant $Cm = 12$.
+
+- $Rm = 60 - 2Q = 12 \Rightarrow Q_m = 24$
+- $P_m = 60 - 24 = 36$
+- $\pi_m = (36 - 12) \cdot 24 = 576$
+- En CP : $P_c = 12$, $Q_c = 48$, $\pi_c = 0$
+- Perte sèche : $\frac{1}{2}(36-12)(48-24) = \frac{1}{2} \cdot 24 \cdot 24 = 288$
+- Lerner : $(36-12)/36 = 0{,}67$ → $\varepsilon = -1{,}5$
+:::
+
+### 3.3 Monopole discriminant parfait (1ᵉʳ degré)
+
+**Règle :** chaque unité vendue à la **disposition maximale à payer** de l'acheteur.
+
+**Conséquence :** quantité $Q^* = Q_c$ (comme en CP), mais tout le SC est capté.
+$$\pi = \int_0^{Q^*} \left[ P(q) - Cm(q) \right] dq$$
+
+::: {.callout-tip collapse="true"}
+## Exemple chiffré
+Reprenons $P = 60 - Q$, $Cm = 12$.
+
+- $Q^*$ : on produit jusqu'à $P = Cm \Rightarrow 60 - Q = 12 \Rightarrow Q^* = 48$.
+- Profit (aire du triangle) : $\frac{1}{2} (60 - 12) \cdot 48 = \frac{1}{2} \cdot 48 \cdot 48 = 1152$.
+
+C'est **double** du monopole non-discriminant (576). Et aucune perte sèche.
+:::
+
+### 3.4 Monopole discriminant 3ᵉ degré
+
+**Règle :** $Rm_1 = Rm_2 = Cm$ pour deux groupes 1 et 2.
+
+$$\frac{P_1}{P_2} = \frac{1 + 1/\varepsilon_2}{1 + 1/\varepsilon_1}$$
+
+Si $|\varepsilon_1| < |\varepsilon_2|$ (groupe 1 inélastique), alors $P_1 > P_2$.
+
+::: {.callout-tip collapse="true"}
+## Exemple chiffré
+Groupes 1 (étudiants, élastique, $\varepsilon_1 = -3$) et 2 (salariés, inélastique, $\varepsilon_2 = -1{,}5$). Cinéma, $Cm = 0$.
+
+Formule de Lerner par groupe : $P_i = Cm \cdot \frac{|\varepsilon_i|}{|\varepsilon_i| - 1}$, mais avec $Cm = 0$ il faut passer par les demandes spécifiques. Idée : **étudiant moins cher** (demande élastique), **salarié plus cher** (demande inélastique).
+:::
+
+### 3.5 Monopole naturel
+
+**Règle :** $CTM$ décroissant partout → impossible d'avoir $P = Cm$ et $\pi \geq 0$ simultanément (car $Cm < CTM$).
+
+Solutions de régulation :
+
+| Tarification | Effet |
+|---|---|
+| $P = Cm$ (1ᵉʳ best) | Production optimale **mais** firme à perte → subvention nécessaire |
+| $P = CTM$ (2ᵈ best) | Profit nul, production sous-optimale (mais > monopole libre) |
+| Monopole libre | Profit max, mais quantité très réduite |
+
+### 3.6 Concurrence monopolistique — équilibre LT
+
+**Court terme :** comme un monopole, $Rm = Cm$, profit possible.
+
+**Long terme :** entrée jusqu'à profit nul. Deux conditions simultanées :
+$$Rm = Cm \quad \text{ET} \quad P = CTM(q^*)$$
+
+**Résultat :** $P > Cm$ (mark-up modéré), production **à gauche** du min(CTM) → **surcapacité**.
+
+### 3.7 Oligopole — Cournot (duopole)
+
+**Démarche standard (3 étapes) :**
+
+1. Écrire $\pi_i = P(q_1 + q_2) \cdot q_i - C_i(q_i)$.
+2. $\partial \pi_i / \partial q_i = 0$ → fonction de réaction $q_i^* = R_i(q_j)$.
+3. Résoudre le système $\{q_1 = R_1(q_2),\ q_2 = R_2(q_1)\}$.
+
+**Cas symétrique linéaire** $P = a - b(q_1+q_2)$, $Cm = c$ :
+$$q_i^* = \frac{a-c}{3b} \qquad Q^* = \frac{2(a-c)}{3b} \qquad P^* = \frac{a + 2c}{3} \qquad \pi_i = \frac{(a-c)^2}{9b}$$
+
+::: {.callout-tip collapse="true"}
+## Exemple chiffré
+$P = 60 - Q$, $Cm = 12$ (mêmes coûts pour les deux firmes), donc $a = 60$, $b = 1$, $c = 12$.
+
+- $q_i^* = (60-12)/3 = 16$ chacune, $Q^* = 32$
+- $P^* = (60 + 24)/3 = 28$
+- $\pi_i = (60-12)^2/9 = 256$ chacune
+
+Comparaison :
+| | Quantité | Prix | Profit (par firme) |
+|---|---|---|---|
+| Monopole | 24 | 36 | 576 (total) |
+| Cournot | 32 | 28 | 256 (×2 = 512 total) |
+| CP | 48 | 12 | 0 |
+:::
+
+### 3.8 Oligopole — Stackelberg
+
+**Démarche (4 étapes) :**
+
+1. Fonction de réaction du **suiveur** (comme en Cournot).
+2. **Substituer** dans $\pi_{leader}$.
+3. Dériver par rapport à $q_{leader}$, poser $=0$.
+4. Reporter dans la réaction du suiveur pour avoir $q_{suiveur}^*$.
+
+**Cas symétrique linéaire** $P = a - b(q_L + q_S)$, $Cm = c$ :
+$$q_L^* = \frac{a-c}{2b} \qquad q_S^* = \frac{a-c}{4b} \qquad Q^* = \frac{3(a-c)}{4b} \qquad P^* = \frac{a + 3c}{4}$$
+$$\pi_L = \frac{(a-c)^2}{8b} \qquad \pi_S = \frac{(a-c)^2}{16b}$$
+
+::: {.callout-tip collapse="true"}
+## Exemple chiffré
+$P = 60 - Q$, $Cm = 12$.
+
+- $q_L^* = 48/2 = 24$, $q_S^* = 48/4 = 12$, $Q^* = 36$
+- $P^* = (60 + 36)/4 = 24$
+- $\pi_L = 48^2/8 = 288$, $\pi_S = 48^2/16 = 144$
+
+**Avantage du premier-arrivant** : leader gagne 288 vs suiveur 144 (× 2). Et $Q$ plus grand qu'en Cournot (36 > 32) → prix plus bas → meilleur pour les consommateurs.
+:::
+
+### 3.9 Oligopole — Bertrand
+
+**Homogène** (mêmes produits, mêmes $Cm$) : **paradoxe** → $P^* = Cm$, $\pi = 0$.
+
+**Logique :** si $P_1 > Cm$, la firme 2 fixe $P_2 = P_1 - \epsilon$ et capture tout. Race vers le bas jusqu'à $Cm$.
+
+**Différencié** : on retrouve un équilibre intérieur. Démarche : écrire la demande de chaque firme $D_i(P_1, P_2)$, dériver $\pi_i$ par rapport à $P_i$, résoudre le système des FOC.
+
+### 3.10 Cartel
+
+Le cartel maximise $\pi_1 + \pi_2 + \ldots$ comme un monopole unique. Règle :
+$$Rm_{industrie} = Cm_{industrie}$$
+
+Pour minimiser le coût total à $Q$ donné, **égaliser les $Cm_i$** entre firmes.
+
+**Instabilité** : chaque firme a un gain individuel à tricher (vendre plus que son quota) → dilemme du prisonnier → cartel difficile à maintenir sauf jeu répété infini avec menaces crédibles.
+
+## 4. Théorie des jeux — boîte à outils
+
+### 4.1 Jeu simultané
+
+| Concept | Définition | Comment trouver |
+|---|---|---|
+| **Stratégie dominante** | Meilleure réponse quoi que fasse l'autre | Comparer les lignes (ou colonnes) une à une |
+| **Équilibre de Nash (EN)** | Profil où personne ne veut dévier seul | Souligner les meilleures réponses de chaque joueur ; case avec **les deux** soulignées = EN |
+| **EN multiples** | Possibles | Souvent dans les jeux de coordination |
+
+### 4.2 Dilemme du prisonnier (canonique)
+
+|  | B coopère | B trahit |
+|---|---|---|
+| **A coopère** | (3, 3) | (0, 5) |
+| **A trahit** | **(5, 0)** | **(1, 1)** ← EN |
+
+EN = (Trahit, Trahit) — Pareto-dominé par (Coopère, Coopère).
+
+### 4.3 Jeu répété fini connu
+
+→ **Backward induction** : à la dernière période, trahir est dominant → avant-dernière idem → … → **trahir partout**. Pas de coopération possible.
+
+### 4.4 Jeu répété infini ou indéfini
+
+→ Coopération possible si la **valeur actualisée** de la coopération dépasse le gain instantané de la trahison + la punition future.
+
+$$V_{coop} = \frac{g_c}{1 - w} \qquad V_{tricher\ une\ fois} = g_T + \frac{w \cdot g_N}{1 - w}$$
+
+**Coopération soutenable** ⇔ $V_{coop} \geq V_{tricher}$, soit :
+$$\frac{g_c}{1-w} \geq g_T + \frac{w \cdot g_N}{1-w} \quad\Longleftrightarrow\quad w \geq \frac{g_T - g_c}{g_T - g_N}$$
+
+::: {.callout-tip collapse="true"}
+## Exemple : seuil de coopération
+$g_c = 4$, $g_T = 6$, $g_N = 2$ (et $g_{trahi} = 0$).
+
+$w \geq (6-4)/(6-2) = 0{,}5$.
+
+Si $w \geq 0{,}5$, la coopération est soutenable avec **grim trigger**. Si $w < 0{,}5$, on triche.
+:::
+
+### 4.5 Stratégies célèbres en jeu répété
+
+| Stratégie | Description | Effet |
+|---|---|---|
+| **Tit-for-tat** | Coopère ; copie ensuite | Maintient la coop si l'autre coopère |
+| **Grim trigger** | Coopère ; trahit à jamais à la 1ʳᵉ trahison | Très punitive, équilibre fragile |
+| **Trahir toujours** | Stratégie dominante en jeu fini | Seul équilibre en jeu fini connu |
+
+### 4.6 Jeu séquentiel — backward induction
+
+1. Dessine **l'arbre**.
+2. Pars de la **fin** : à chaque nœud terminal, identifie le **meilleur paiement** du joueur qui décide là.
+3. Remonte d'un cran : le joueur précédent anticipe → choisit en conséquence.
+4. Continue jusqu'à la racine.
+
+**Menace crédible** ⇔ la menace est **dans l'intérêt** du joueur au moment de l'exécuter (sinon = bluff).
+
+## 5. Défaillances de marché — synthèse Ch.2
+
+| Défaillance | Avant ou après la transaction ? | Effet | Solution |
+|---|---|---|---|
+| **Sélection adverse** | Avant | Mauvaises qualités chassent les bonnes | Signaux (garantie, diplôme), screening, certification |
+| **Aléa moral** | Après | Comportement moins prudent | Franchise, bonus-malus, contrats incitatifs |
+| **Externalité négative** | Pendant | Surproduction | Taxe pigouvienne, droits échangeables, réglementation |
+| **Externalité positive** | Pendant | Sous-production | Subvention |
+| **Bien public pur** | (intrinsèque) | Sous-production (free-rider) | Financement public, contribution volontaire conditionnelle |
+| **Rendements croissants** | (intrinsèque) | Monopole naturel | Régulation tarifaire ou propriété publique |
+
+**Classification des biens** (mémoriser) :
+
+|  | **Rival** | **Non-rival** |
+|---|---|---|
+| **Exclusif** | Bien privé (pomme) | Bien de club (Netflix, autoroute payante) |
+| **Non-exclusif** | Bien commun (poissons en mer, pâturage) | Bien public pur (défense, phare) |
+
+## 6. Économie digitale — synthèse Ch.7
+
+**Mécanismes clés** qui changent la donne par rapport aux marchés classiques :
+
+| Mécanisme | Conséquence économique |
+|---|---|
+| $Cm \approx 0$ | Tarification ≠ classique (forfait, gratuité financée par pub, freemium) |
+| Coûts fixes énormes | Pousse vers le monopole naturel |
+| **Effets de réseau** (direct, indirect, données, local) | Winner-takes-all, masse critique à franchir |
+| **Plateformes bifaces** | Pricing asymétrique entre les deux côtés (souvent : un côté gratuit, l'autre paie) |
+| **Lock-in / switching costs** | Pouvoir de marché durable |
+| **Données = actif** | Avantage cumulatif des leaders |
+
+→ Tendance : **monopoles « naturels » numériques** (GAFAM), enjeux antitrust contemporains.
+
+## 7. Workflow pour l'examen — la marche à suivre
+
+::: {.callout-important}
+## Le réflexe en 5 étapes
+1. **Identifier la structure de marché** (cf. arbre §1).
+2. **Énoncer la règle d'équilibre** correspondante (cf. tableau §2).
+3. **Poser les équations** : demande, coûts, profit.
+4. **Dériver et résoudre** (souvent $Rm = Cm$ ou $\partial \pi/\partial q = 0$).
+5. **Interpréter** : qui gagne ? qui perd ? perte sèche ? efficience ?
+:::
+
+::: {.callout-warning}
+## Pièges fréquents
+- **En monopole**, $Rm \neq P$ ! Si tu poses $P = Cm$, tu calcules la CP, pas le monopole.
+- **Cas linéaire** : $Rm$ a la **même** ordonnée à l'origine que $P$ mais **pente double**.
+- **Cournot symétrique** : ne pas oublier que $Q = q_1 + q_2 = 2 q_i^*$ — le prix dépend du $Q$ total.
+- **Seuil de fermeture (CT)** : c'est $P < CVM$, **pas** $P < CTM$ (à court terme, le fixe est de toute façon payé).
+- **Bertrand homogène** : ne pas chercher d'équilibre intérieur, c'est $P = Cm$ directement.
+- **Bien public** : non-rival ET non-exclusif (les deux !). Sinon c'est un bien de club ou un bien commun.
+- **Discrimination parfaite** : la quantité est celle de **CP** ($P=Cm$), pas celle du monopole non-discriminant.
+:::
+
+## 8. Mini-tableau de récap chiffré (cas $P = 60 - Q$, $Cm = 12$)
+
+Pour mémoriser les rapports d'ordre, voici tous les modèles sur **la même demande** ($a = 60$, $b = 1$, $c = 12$, $a - c = 48$) :
+
+| Structure | $Q^*$ | $P^*$ | $\pi$ total | DWL (vs CP) |
+|---|---|---|---|---|
+| **CP** | 48 | 12 | 0 | 0 |
+| **Bertrand homogène** | 48 | 12 | 0 | 0 |
+| **Stackelberg** | 36 | 24 | 288 + 144 = 432 | 72 |
+| **Cournot duopole** | 32 | 28 | 256 + 256 = 512 | 128 |
+| **Monopole non-discriminant** | 24 | 36 | 576 | 288 |
+| **Monopole discriminant parfait** | 48 | (variable) | 1152 | 0 |
+| **Cartel** | 24 | 36 | 576 | 288 |
+
+**Ordre des quantités :** Monopole = Cartel < Cournot < Stackelberg < Bertrand = CP ✓
+
+**Ordre des profits totaux :** Discriminant parfait (1152) > Monopole = Cartel (576) > Cournot (512) > Stackelberg (432) > Bertrand = CP (0) ✓
+
+::: {.callout-note}
+## En une phrase
+**Plus une firme a de pouvoir de marché, plus elle réduit la quantité et augmente le prix → plus le profit privé augmente, plus le surplus social diminue (perte sèche).** La seule exception : la discrimination parfaite, efficiente mais injuste.
+:::

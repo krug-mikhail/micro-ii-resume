@@ -97,7 +97,7 @@ $CT(x) = 5x^3 - 10x^2 + 8x + 20$
 
 À l'équilibre de long terme, la CP est **efficace au sens de Pareto** :
 
-- **Efficience allocative** : $P = Cm$ → la dernière unité produite est exactement « ce que les consommateurs sont prêts à payer pour la coût de la produire ».
+- **Efficience allocative** : $P = Cm$ → la dernière unité produite est exactement « ce que les consommateurs sont prêts à payer pour le coût de la produire ».
 - **Efficience productive** : production au minimum du CMLT → coût unitaire le plus bas possible.
 - **Pas de perte sèche** (deadweight loss = 0).
 

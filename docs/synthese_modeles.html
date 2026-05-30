@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Synthèse — tous les modèles en un coup d’œil – Microéconomie II — Marchés et Prix</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Microéconomie II — Marchés et Prix</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Accueil</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-chapitres" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Chapitres</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-chapitres">    
+        <li>
+    <a class="dropdown-item" href="./00_Prerequis_mathematiques.html">
+ <span class="dropdown-text">0 · Prérequis maths</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./01_Concurrence_parfaite.html">
+ <span class="dropdown-text">1 · Concurrence parfaite</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./02_Limites_marches.html">
+ <span class="dropdown-text">2 · Limites des marchés</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./03_Monopole_monopsone.html">
+ <span class="dropdown-text">3 · Monopole &amp; monopsone</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./04_Concurrence_monopolistique.html">
+ <span class="dropdown-text">4 · Concurrence monopolistique</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./05_Oligopole.html">
+ <span class="dropdown-text">5 · Oligopole</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./06_Theorie_des_jeux.html">
+ <span class="dropdown-text">6 · Théorie des jeux</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./07_Economie_digitale.html">
+ <span class="dropdown-text">7 · Économie digitale</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./synthese_modeles.html"> 
+<span class="menu-text">Synthèse des modèles</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./formules.html"> 
+<span class="menu-text">Formules clés</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./glossaire.html"> 
+<span class="menu-text">Glossaire</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-examens-blancs" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Examens blancs</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-examens-blancs">    
+        <li>
+    <a class="dropdown-item" href="./examen_blanc.html">
+ <span class="dropdown-text">Officiel (Prof.&nbsp;Gugler, 45+1)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./examen_blanc_2.html">
+ <span class="dropdown-text">2 · Niveau facile</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./examen_blanc_3.html">
+ <span class="dropdown-text">3 · Niveau moyen</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./examen_blanc_4.html">
+ <span class="dropdown-text">4 · Niveau corsé</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./synthese_modeles.html">Outils de révision</a></li><li class="breadcrumb-item"><a href="./synthese_modeles.html">Synthèse — tous les modèles en un coup d’œil</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Naviguer le cours</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Cours</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./00_Prerequis_mathematiques.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">0 · Prérequis mathématiques</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01_Concurrence_parfaite.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1 · Concurrence parfaite</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02_Limites_marches.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2 · Limites de la perfection des marchés</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03_Monopole_monopsone.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3 · Monopole et monopsone</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./04_Concurrence_monopolistique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4 · Concurrence monopolistique</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./05_Oligopole.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5 · Oligopole</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./06_Theorie_des_jeux.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6 · Théorie des jeux</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./07_Economie_digitale.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7 · Économie digitale</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Outils de révision</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./synthese_modeles.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Synthèse — tous les modèles en un coup d’œil</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./formules.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Formules clés — toutes les structures de marché</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossaire.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossaire — chaque terme en langage simple</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sommaire</h2>
+   
+  <ul>
+  <li><a href="#identifier-la-structure-de-marché-larbre-de-décision" id="toc-identifier-la-structure-de-marché-larbre-de-décision" class="nav-link active" data-scroll-target="#identifier-la-structure-de-marché-larbre-de-décision">1. Identifier la structure de marché — l’arbre de décision</a></li>
+  <li><a href="#tableau-maître-toutes-les-structures-comparées" id="toc-tableau-maître-toutes-les-structures-comparées" class="nav-link" data-scroll-target="#tableau-maître-toutes-les-structures-comparées">2. Tableau maître — toutes les structures comparées</a></li>
+  <li><a href="#fiches-modèle-par-modèle-règle-formule-exemple-chiffré" id="toc-fiches-modèle-par-modèle-règle-formule-exemple-chiffré" class="nav-link" data-scroll-target="#fiches-modèle-par-modèle-règle-formule-exemple-chiffré">3. Fiches modèle par modèle — règle + formule + exemple chiffré</a>
+  <ul class="collapse">
+  <li><a href="#concurrence-parfaite" id="toc-concurrence-parfaite" class="nav-link" data-scroll-target="#concurrence-parfaite">3.1 Concurrence parfaite</a></li>
+  <li><a href="#monopole-non-discriminant" id="toc-monopole-non-discriminant" class="nav-link" data-scroll-target="#monopole-non-discriminant">3.2 Monopole non-discriminant</a></li>
+  <li><a href="#monopole-discriminant-parfait-1ᵉʳ-degré" id="toc-monopole-discriminant-parfait-1ᵉʳ-degré" class="nav-link" data-scroll-target="#monopole-discriminant-parfait-1ᵉʳ-degré">3.3 Monopole discriminant parfait (1ᵉʳ degré)</a></li>
+  <li><a href="#monopole-discriminant-3ᵉ-degré" id="toc-monopole-discriminant-3ᵉ-degré" class="nav-link" data-scroll-target="#monopole-discriminant-3ᵉ-degré">3.4 Monopole discriminant 3ᵉ degré</a></li>
+  <li><a href="#monopole-naturel" id="toc-monopole-naturel" class="nav-link" data-scroll-target="#monopole-naturel">3.5 Monopole naturel</a></li>
+  <li><a href="#concurrence-monopolistique-équilibre-lt" id="toc-concurrence-monopolistique-équilibre-lt" class="nav-link" data-scroll-target="#concurrence-monopolistique-équilibre-lt">3.6 Concurrence monopolistique — équilibre LT</a></li>
+  <li><a href="#oligopole-cournot-duopole" id="toc-oligopole-cournot-duopole" class="nav-link" data-scroll-target="#oligopole-cournot-duopole">3.7 Oligopole — Cournot (duopole)</a></li>
+  <li><a href="#oligopole-stackelberg" id="toc-oligopole-stackelberg" class="nav-link" data-scroll-target="#oligopole-stackelberg">3.8 Oligopole — Stackelberg</a></li>
+  <li><a href="#oligopole-bertrand" id="toc-oligopole-bertrand" class="nav-link" data-scroll-target="#oligopole-bertrand">3.9 Oligopole — Bertrand</a></li>
+  <li><a href="#cartel" id="toc-cartel" class="nav-link" data-scroll-target="#cartel">3.10 Cartel</a></li>
+  </ul></li>
+  <li><a href="#théorie-des-jeux-boîte-à-outils" id="toc-théorie-des-jeux-boîte-à-outils" class="nav-link" data-scroll-target="#théorie-des-jeux-boîte-à-outils">4. Théorie des jeux — boîte à outils</a>
+  <ul class="collapse">
+  <li><a href="#jeu-simultané" id="toc-jeu-simultané" class="nav-link" data-scroll-target="#jeu-simultané">4.1 Jeu simultané</a></li>
+  <li><a href="#dilemme-du-prisonnier-canonique" id="toc-dilemme-du-prisonnier-canonique" class="nav-link" data-scroll-target="#dilemme-du-prisonnier-canonique">4.2 Dilemme du prisonnier (canonique)</a></li>
+  <li><a href="#jeu-répété-fini-connu" id="toc-jeu-répété-fini-connu" class="nav-link" data-scroll-target="#jeu-répété-fini-connu">4.3 Jeu répété fini connu</a></li>
+  <li><a href="#jeu-répété-infini-ou-indéfini" id="toc-jeu-répété-infini-ou-indéfini" class="nav-link" data-scroll-target="#jeu-répété-infini-ou-indéfini">4.4 Jeu répété infini ou indéfini</a></li>
+  <li><a href="#stratégies-célèbres-en-jeu-répété" id="toc-stratégies-célèbres-en-jeu-répété" class="nav-link" data-scroll-target="#stratégies-célèbres-en-jeu-répété">4.5 Stratégies célèbres en jeu répété</a></li>
+  <li><a href="#jeu-séquentiel-backward-induction" id="toc-jeu-séquentiel-backward-induction" class="nav-link" data-scroll-target="#jeu-séquentiel-backward-induction">4.6 Jeu séquentiel — backward induction</a></li>
+  </ul></li>
+  <li><a href="#défaillances-de-marché-synthèse-ch.2" id="toc-défaillances-de-marché-synthèse-ch.2" class="nav-link" data-scroll-target="#défaillances-de-marché-synthèse-ch.2">5. Défaillances de marché — synthèse Ch.2</a></li>
+  <li><a href="#économie-digitale-synthèse-ch.7" id="toc-économie-digitale-synthèse-ch.7" class="nav-link" data-scroll-target="#économie-digitale-synthèse-ch.7">6. Économie digitale — synthèse Ch.7</a></li>
+  <li><a href="#workflow-pour-lexamen-la-marche-à-suivre" id="toc-workflow-pour-lexamen-la-marche-à-suivre" class="nav-link" data-scroll-target="#workflow-pour-lexamen-la-marche-à-suivre">7. Workflow pour l’examen — la marche à suivre</a></li>
+  <li><a href="#mini-tableau-de-récap-chiffré-cas-p-60---q-cm-12" id="toc-mini-tableau-de-récap-chiffré-cas-p-60---q-cm-12" class="nav-link" data-scroll-target="#mini-tableau-de-récap-chiffré-cas-p-60---q-cm-12">8. Mini-tableau de récap chiffré (cas <span class="math inline">\(P = 60 - Q\)</span>, <span class="math inline">\(Cm = 12\)</span>)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./synthese_modeles.html">Outils de révision</a></li><li class="breadcrumb-item"><a href="./synthese_modeles.html">Synthèse — tous les modèles en un coup d’œil</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Synthèse — tous les modèles en un coup d’œil</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+À quoi sert cette page
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Le cours est <strong>séquentiel</strong> (chapitre par chapitre). Cette page le <strong>transverse</strong> : tu identifies la structure, tu lis la règle d’équilibre, tu appliques la formule, tu interprètes. Tout est rassemblé pour la révision finale.</p>
+</div>
+</div>
+<section id="identifier-la-structure-de-marché-larbre-de-décision" class="level2">
+<h2 class="anchored" data-anchor-id="identifier-la-structure-de-marché-larbre-de-décision">1. Identifier la structure de marché — l’arbre de décision</h2>
+<p>Avant tout exercice, pose-toi <strong>3 questions dans cet ordre</strong> :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Question</th>
+<th>Réponses possibles</th>
+<th>Conclusion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Combien de <strong>vendeurs</strong> ?</td>
+<td>Beaucoup, identiques</td>
+<td>→ <strong>CP</strong> (Ch.1)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Beaucoup, produits différenciés</td>
+<td>→ <strong>Concurrence monopolistique</strong> (Ch.4)</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Quelques-uns (2-10)</td>
+<td>→ <strong>Oligopole</strong> (Ch.5)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Un seul</td>
+<td>→ <strong>Monopole</strong> (Ch.3)</td>
+</tr>
+<tr class="odd">
+<td><strong>2</strong></td>
+<td>Combien d’<strong>acheteurs</strong> ?</td>
+<td>Beaucoup</td>
+<td>→ reste comme ci-dessus</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Un seul (face à beaucoup de vendeurs)</td>
+<td>→ <strong>Monopsone</strong> (Ch.3)</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>(Si oligopole) <strong>Quoi</strong> se choisit, et <strong>quand</strong> ?</td>
+<td>Quantités, simultanément</td>
+<td>→ <strong>Cournot</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Quantités, séquentiellement</td>
+<td>→ <strong>Stackelberg</strong></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Prix, simultanément</td>
+<td>→ <strong>Bertrand</strong></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Coordination cachée</td>
+<td>→ <strong>Cartel</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Indices secondaires
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>L’énoncé parle de <strong>brevets, licence d’État, barrière infranchissable</strong> → monopole.</li>
+<li>L’énoncé parle de <strong>marques, design, fidélité</strong> → concurrence monopolistique.</li>
+<li>L’énoncé parle de <strong>leader / suiveur, je joue en premier</strong> → Stackelberg.</li>
+<li>L’énoncé parle d’<strong>entente, accord, quotas</strong> → cartel.</li>
+<li>L’énoncé parle de <strong>CTM décroissant partout</strong> → monopole naturel.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="tableau-maître-toutes-les-structures-comparées" class="level2">
+<h2 class="anchored" data-anchor-id="tableau-maître-toutes-les-structures-comparées">2. Tableau maître — toutes les structures comparées</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Structure</th>
+<th>Hypothèse-clé</th>
+<th>Règle d’équilibre</th>
+<th>Prix vs <span class="math inline">\(Cm\)</span></th>
+<th>Profit LT</th>
+<th>Perte sèche</th>
+<th>Référence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Concurrence parfaite (CP)</strong></td>
+<td>Atomicité + homogénéité + libre entrée + info parfaite</td>
+<td><span class="math inline">\(P = Cm\)</span></td>
+<td><span class="math inline">\(P = Cm\)</span></td>
+<td><span class="math inline">\(\pi = 0\)</span></td>
+<td>aucune</td>
+<td>Ch.1</td>
+</tr>
+<tr class="even">
+<td><strong>Monopole non-discriminant</strong></td>
+<td>1 firme, entrée bloquée</td>
+<td><span class="math inline">\(Rm = Cm\)</span></td>
+<td><span class="math inline">\(P &gt; Cm\)</span></td>
+<td><span class="math inline">\(\pi &gt; 0\)</span></td>
+<td><strong>élevée</strong></td>
+<td>Ch.3</td>
+</tr>
+<tr class="odd">
+<td><strong>Monopole discriminant parfait (1ᵉʳ degré)</strong></td>
+<td>Connaît la disposition à payer de chaque client</td>
+<td>Produit jusqu’à <span class="math inline">\(P = Cm\)</span></td>
+<td><span class="math inline">\(P = Cm\)</span> sur la dernière unité</td>
+<td>$= $ tout le SC</td>
+<td><strong>aucune</strong></td>
+<td>Ch.3</td>
+</tr>
+<tr class="even">
+<td><strong>Monopole discriminant 3ᵉ degré</strong></td>
+<td>Sépare des groupes par élasticité</td>
+<td><span class="math inline">\(Rm_i = Cm\)</span> pour chaque groupe</td>
+<td><span class="math inline">\(P_i\)</span> ↑ si <span class="math inline">\(|\varepsilon_i|\)</span> ↓</td>
+<td><span class="math inline">\(\pi &gt; 0\)</span></td>
+<td>réduite</td>
+<td>Ch.3</td>
+</tr>
+<tr class="odd">
+<td><strong>Monopole naturel</strong></td>
+<td><span class="math inline">\(CTM\)</span> décroissant sur toute la demande</td>
+<td>dépend de la régulation</td>
+<td><span class="math inline">\(P_{Cm} &lt; CTM\)</span> (firme à perte)</td>
+<td>dépend</td>
+<td>dépend</td>
+<td>Ch.3</td>
+</tr>
+<tr class="even">
+<td><strong>Monopsone</strong></td>
+<td>1 acheteur</td>
+<td><span class="math inline">\(VM\!P = CM\!F\)</span></td>
+<td><span class="math inline">\(w &lt; VM\!P\)</span></td>
+<td><span class="math inline">\(\pi_{acheteur} &gt; 0\)</span></td>
+<td>oui</td>
+<td>Ch.3</td>
+</tr>
+<tr class="odd">
+<td><strong>Concurrence monopolistique</strong></td>
+<td>Beaucoup, produits différenciés, libre entrée</td>
+<td><span class="math inline">\(Rm = Cm\)</span> ET <span class="math inline">\(P = CTM\)</span> (LT)</td>
+<td><span class="math inline">\(P &gt; Cm\)</span> (modéré)</td>
+<td><span class="math inline">\(\pi = 0\)</span> (LT)</td>
+<td>modérée + <strong>surcapacité</strong></td>
+<td>Ch.4</td>
+</tr>
+<tr class="even">
+<td><strong>Cournot (oligopole quantité simultané)</strong></td>
+<td>Quelques firmes, <span class="math inline">\(q_i\)</span> simultané</td>
+<td><span class="math inline">\(\dfrac{\partial \pi_i}{\partial q_i} = 0\)</span> → réactions, intersection</td>
+<td><span class="math inline">\(P &gt; Cm\)</span></td>
+<td><span class="math inline">\(\pi &gt; 0\)</span></td>
+<td>intermédiaire</td>
+<td>Ch.5</td>
+</tr>
+<tr class="odd">
+<td><strong>Stackelberg (quantité séquentiel)</strong></td>
+<td>Leader → suiveur</td>
+<td>Leader substitue la réaction du suiveur</td>
+<td><span class="math inline">\(P_{Stb} &lt; P_{Cournot}\)</span></td>
+<td><span class="math inline">\(\pi_L &gt; \pi_S &gt; 0\)</span></td>
+<td>&lt; Cournot</td>
+<td>Ch.5</td>
+</tr>
+<tr class="even">
+<td><strong>Bertrand homogène</strong></td>
+<td>Prix simultané, produits identiques</td>
+<td>undercut → <span class="math inline">\(P = Cm\)</span></td>
+<td><span class="math inline">\(P = Cm\)</span></td>
+<td><span class="math inline">\(\pi = 0\)</span></td>
+<td>aucune</td>
+<td>Ch.5</td>
+</tr>
+<tr class="odd">
+<td><strong>Bertrand différencié</strong></td>
+<td>Prix simultané, produits proches</td>
+<td><span class="math inline">\(\partial \pi_i / \partial P_i = 0\)</span>, système</td>
+<td><span class="math inline">\(P &gt; Cm\)</span></td>
+<td><span class="math inline">\(\pi &gt; 0\)</span></td>
+<td>modérée</td>
+<td>Ch.5</td>
+</tr>
+<tr class="even">
+<td><strong>Cartel</strong></td>
+<td>Collusion stable</td>
+<td><span class="math inline">\(Rm_{ind} = Cm_{ind}\)</span>, partage des quotas</td>
+<td>= monopole</td>
+<td>maximal</td>
+<td><strong>maximale</strong></td>
+<td>Ch.5</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+L’ordre à mémoriser (cas linéaire symétrique)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[Q_{Cartel/Monopole} &lt; Q_{Cournot} &lt; Q_{Stackelberg} &lt; Q_{Bertrand/CP}\]</span> <span class="math display">\[P_{Cartel/Monopole} &gt; P_{Cournot} &gt; P_{Stackelberg} &gt; P_{Bertrand/CP}\]</span> <span class="math display">\[\pi_{Cartel/Monopole} &gt; \pi_{Stackelberg, leader} &gt; \pi_{Cournot} &gt; \pi_{Bertrand} = 0\]</span></p>
+</div>
+</div>
+</section>
+<section id="fiches-modèle-par-modèle-règle-formule-exemple-chiffré" class="level2">
+<h2 class="anchored" data-anchor-id="fiches-modèle-par-modèle-règle-formule-exemple-chiffré">3. Fiches modèle par modèle — règle + formule + exemple chiffré</h2>
+<section id="concurrence-parfaite" class="level3">
+<h3 class="anchored" data-anchor-id="concurrence-parfaite">3.1 Concurrence parfaite</h3>
+<p><strong>Règle :</strong> chaque firme est price-taker → <span class="math inline">\(P = Rm = Cm\)</span>.</p>
+<p><strong>Court terme :</strong> <span class="math display">\[q^* \text{ tel que } P = Cm(q^*) \qquad \pi = (P - CTM(q^*)) \cdot q^*\]</span> - Continue tant que <span class="math inline">\(P \geq CVM(q^*)\)</span>. - Arrête si <span class="math inline">\(P &lt; CVM\)</span>.</p>
+<p><strong>Long terme :</strong> <span class="math display">\[P^* = \min(CMLT) \qquad q^* \text{ au minimum du } CMLT \qquad \pi = 0\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple chiffré
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Demande de marché : <span class="math inline">\(Q^D = 100 - P\)</span>. Offre de marché : <span class="math inline">\(Q^O = 2P - 20\)</span>.</p>
+<p><strong>Équilibre marché :</strong> <span class="math inline">\(100 - P = 2P - 20 \Rightarrow 3P = 120 \Rightarrow P^* = 40, Q^* = 60\)</span>.</p>
+<p><strong>Firme :</strong> <span class="math inline">\(CT(q) = q^2 + 4q + 9\)</span>, <span class="math inline">\(Cm = 2q + 4\)</span>.</p>
+<p>Avec <span class="math inline">\(P = 40\)</span> : <span class="math inline">\(40 = 2q + 4 \Rightarrow q^* = 18\)</span>. Profit : <span class="math inline">\(\pi = 40 \cdot 18 - (18^2 + 4\cdot 18 + 9) = 720 - 405 = 315\)</span>.</p>
+<p><strong>Seuil de fermeture :</strong> <span class="math inline">\(CVM = q + 4\)</span>, minimum au point où <span class="math inline">\(dCVM/dq = 1 = 0\)</span>… (constante, pas de minimum) — c’est un <span class="math inline">\(CVM\)</span> croissant, le seuil est <span class="math inline">\(q = 0\)</span>, soit <span class="math inline">\(CVM(0) = 4\)</span>. <strong>Arrêt si <span class="math inline">\(P &lt; 4\)</span></strong>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="monopole-non-discriminant" class="level3">
+<h3 class="anchored" data-anchor-id="monopole-non-discriminant">3.2 Monopole non-discriminant</h3>
+<p><strong>Règle :</strong> <span class="math inline">\(Rm = Cm\)</span> avec <span class="math inline">\(Rm &lt; P\)</span>.</p>
+<p><strong>Demande linéaire</strong> <span class="math inline">\(P = a - bQ\)</span>, <span class="math inline">\(Cm = c\)</span> constant : <span class="math display">\[Rm = a - 2bQ \quad\Rightarrow\quad Q_m = \frac{a-c}{2b} \quad P_m = \frac{a+c}{2} \quad \pi_m = \frac{(a-c)^2}{4b}\]</span></p>
+<p><strong>Perte sèche</strong> (par rapport à la CP <span class="math inline">\(P=c\)</span>) : <span class="math display">\[DWL = \frac{1}{2} (P_m - c)(Q_c - Q_m) = \frac{(a-c)^2}{8b}\]</span></p>
+<p><strong>Formule de Lerner</strong> (mark-up) : <span class="math display">\[\frac{P - Cm}{P} = -\frac{1}{\varepsilon}\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple chiffré
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Demande : <span class="math inline">\(P = 60 - Q\)</span>. Coût marginal constant <span class="math inline">\(Cm = 12\)</span>.</p>
+<ul>
+<li><span class="math inline">\(Rm = 60 - 2Q = 12 \Rightarrow Q_m = 24\)</span></li>
+<li><span class="math inline">\(P_m = 60 - 24 = 36\)</span></li>
+<li><span class="math inline">\(\pi_m = (36 - 12) \cdot 24 = 576\)</span></li>
+<li>En CP : <span class="math inline">\(P_c = 12\)</span>, <span class="math inline">\(Q_c = 48\)</span>, <span class="math inline">\(\pi_c = 0\)</span></li>
+<li>Perte sèche : <span class="math inline">\(\frac{1}{2}(36-12)(48-24) = \frac{1}{2} \cdot 24 \cdot 24 = 288\)</span></li>
+<li>Lerner : <span class="math inline">\((36-12)/36 = 0{,}67\)</span> → <span class="math inline">\(\varepsilon = -1{,}5\)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="monopole-discriminant-parfait-1ᵉʳ-degré" class="level3">
+<h3 class="anchored" data-anchor-id="monopole-discriminant-parfait-1ᵉʳ-degré">3.3 Monopole discriminant parfait (1ᵉʳ degré)</h3>
+<p><strong>Règle :</strong> chaque unité vendue à la <strong>disposition maximale à payer</strong> de l’acheteur.</p>
+<p><strong>Conséquence :</strong> quantité <span class="math inline">\(Q^* = Q_c\)</span> (comme en CP), mais tout le SC est capté. <span class="math display">\[\pi = \int_0^{Q^*} \left[ P(q) - Cm(q) \right] dq\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple chiffré
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Reprenons <span class="math inline">\(P = 60 - Q\)</span>, <span class="math inline">\(Cm = 12\)</span>.</p>
+<ul>
+<li><span class="math inline">\(Q^*\)</span> : on produit jusqu’à <span class="math inline">\(P = Cm \Rightarrow 60 - Q = 12 \Rightarrow Q^* = 48\)</span>.</li>
+<li>Profit (aire du triangle) : <span class="math inline">\(\frac{1}{2} (60 - 12) \cdot 48 = \frac{1}{2} \cdot 48 \cdot 48 = 1152\)</span>.</li>
+</ul>
+<p>C’est <strong>double</strong> du monopole non-discriminant (576). Et aucune perte sèche.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="monopole-discriminant-3ᵉ-degré" class="level3">
+<h3 class="anchored" data-anchor-id="monopole-discriminant-3ᵉ-degré">3.4 Monopole discriminant 3ᵉ degré</h3>
+<p><strong>Règle :</strong> <span class="math inline">\(Rm_1 = Rm_2 = Cm\)</span> pour deux groupes 1 et 2.</p>
+<p><span class="math display">\[\frac{P_1}{P_2} = \frac{1 + 1/\varepsilon_2}{1 + 1/\varepsilon_1}\]</span></p>
+<p>Si <span class="math inline">\(|\varepsilon_1| &lt; |\varepsilon_2|\)</span> (groupe 1 inélastique), alors <span class="math inline">\(P_1 &gt; P_2\)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple chiffré
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Groupes 1 (étudiants, élastique, <span class="math inline">\(\varepsilon_1 = -3\)</span>) et 2 (salariés, inélastique, <span class="math inline">\(\varepsilon_2 = -1{,}5\)</span>). Cinéma, <span class="math inline">\(Cm = 0\)</span>.</p>
+<p>Formule de Lerner par groupe : <span class="math inline">\(P_i = Cm \cdot \frac{|\varepsilon_i|}{|\varepsilon_i| - 1}\)</span>, mais avec <span class="math inline">\(Cm = 0\)</span> il faut passer par les demandes spécifiques. Idée : <strong>étudiant moins cher</strong> (demande élastique), <strong>salarié plus cher</strong> (demande inélastique).</p>
+</div>
+</div>
+</div>
+</section>
+<section id="monopole-naturel" class="level3">
+<h3 class="anchored" data-anchor-id="monopole-naturel">3.5 Monopole naturel</h3>
+<p><strong>Règle :</strong> <span class="math inline">\(CTM\)</span> décroissant partout → impossible d’avoir <span class="math inline">\(P = Cm\)</span> et <span class="math inline">\(\pi \geq 0\)</span> simultanément (car <span class="math inline">\(Cm &lt; CTM\)</span>).</p>
+<p>Solutions de régulation :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tarification</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(P = Cm\)</span> (1ᵉʳ best)</td>
+<td>Production optimale <strong>mais</strong> firme à perte → subvention nécessaire</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(P = CTM\)</span> (2ᵈ best)</td>
+<td>Profit nul, production sous-optimale (mais &gt; monopole libre)</td>
+</tr>
+<tr class="odd">
+<td>Monopole libre</td>
+<td>Profit max, mais quantité très réduite</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="concurrence-monopolistique-équilibre-lt" class="level3">
+<h3 class="anchored" data-anchor-id="concurrence-monopolistique-équilibre-lt">3.6 Concurrence monopolistique — équilibre LT</h3>
+<p><strong>Court terme :</strong> comme un monopole, <span class="math inline">\(Rm = Cm\)</span>, profit possible.</p>
+<p><strong>Long terme :</strong> entrée jusqu’à profit nul. Deux conditions simultanées : <span class="math display">\[Rm = Cm \quad \text{ET} \quad P = CTM(q^*)\]</span></p>
+<p><strong>Résultat :</strong> <span class="math inline">\(P &gt; Cm\)</span> (mark-up modéré), production <strong>à gauche</strong> du min(CTM) → <strong>surcapacité</strong>.</p>
+</section>
+<section id="oligopole-cournot-duopole" class="level3">
+<h3 class="anchored" data-anchor-id="oligopole-cournot-duopole">3.7 Oligopole — Cournot (duopole)</h3>
+<p><strong>Démarche standard (3 étapes) :</strong></p>
+<ol type="1">
+<li>Écrire <span class="math inline">\(\pi_i = P(q_1 + q_2) \cdot q_i - C_i(q_i)\)</span>.</li>
+<li><span class="math inline">\(\partial \pi_i / \partial q_i = 0\)</span> → fonction de réaction <span class="math inline">\(q_i^* = R_i(q_j)\)</span>.</li>
+<li>Résoudre le système <span class="math inline">\(\{q_1 = R_1(q_2),\ q_2 = R_2(q_1)\}\)</span>.</li>
+</ol>
+<p><strong>Cas symétrique linéaire</strong> <span class="math inline">\(P = a - b(q_1+q_2)\)</span>, <span class="math inline">\(Cm = c\)</span> : <span class="math display">\[q_i^* = \frac{a-c}{3b} \qquad Q^* = \frac{2(a-c)}{3b} \qquad P^* = \frac{a + 2c}{3} \qquad \pi_i = \frac{(a-c)^2}{9b}\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple chiffré
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(P = 60 - Q\)</span>, <span class="math inline">\(Cm = 12\)</span> (mêmes coûts pour les deux firmes), donc <span class="math inline">\(a = 60\)</span>, <span class="math inline">\(b = 1\)</span>, <span class="math inline">\(c = 12\)</span>.</p>
+<ul>
+<li><span class="math inline">\(q_i^* = (60-12)/3 = 16\)</span> chacune, <span class="math inline">\(Q^* = 32\)</span></li>
+<li><span class="math inline">\(P^* = (60 + 24)/3 = 28\)</span></li>
+<li><span class="math inline">\(\pi_i = (60-12)^2/9 = 256\)</span> chacune</li>
+</ul>
+<p>Comparaison : | | Quantité | Prix | Profit (par firme) | |—|—|—|—| | Monopole | 24 | 36 | 576 (total) | | Cournot | 32 | 28 | 256 (×2 = 512 total) | | CP | 48 | 12 | 0 |</p>
+</div>
+</div>
+</div>
+</section>
+<section id="oligopole-stackelberg" class="level3">
+<h3 class="anchored" data-anchor-id="oligopole-stackelberg">3.8 Oligopole — Stackelberg</h3>
+<p><strong>Démarche (4 étapes) :</strong></p>
+<ol type="1">
+<li>Fonction de réaction du <strong>suiveur</strong> (comme en Cournot).</li>
+<li><strong>Substituer</strong> dans <span class="math inline">\(\pi_{leader}\)</span>.</li>
+<li>Dériver par rapport à <span class="math inline">\(q_{leader}\)</span>, poser <span class="math inline">\(=0\)</span>.</li>
+<li>Reporter dans la réaction du suiveur pour avoir <span class="math inline">\(q_{suiveur}^*\)</span>.</li>
+</ol>
+<p><strong>Cas symétrique linéaire</strong> <span class="math inline">\(P = a - b(q_L + q_S)\)</span>, <span class="math inline">\(Cm = c\)</span> : <span class="math display">\[q_L^* = \frac{a-c}{2b} \qquad q_S^* = \frac{a-c}{4b} \qquad Q^* = \frac{3(a-c)}{4b} \qquad P^* = \frac{a + 3c}{4}\]</span> <span class="math display">\[\pi_L = \frac{(a-c)^2}{8b} \qquad \pi_S = \frac{(a-c)^2}{16b}\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple chiffré
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(P = 60 - Q\)</span>, <span class="math inline">\(Cm = 12\)</span>.</p>
+<ul>
+<li><span class="math inline">\(q_L^* = 48/2 = 24\)</span>, <span class="math inline">\(q_S^* = 48/4 = 12\)</span>, <span class="math inline">\(Q^* = 36\)</span></li>
+<li><span class="math inline">\(P^* = (60 + 36)/4 = 24\)</span></li>
+<li><span class="math inline">\(\pi_L = 48^2/8 = 288\)</span>, <span class="math inline">\(\pi_S = 48^2/16 = 144\)</span></li>
+</ul>
+<p><strong>Avantage du premier-arrivant</strong> : leader gagne 288 vs suiveur 144 (× 2). Et <span class="math inline">\(Q\)</span> plus grand qu’en Cournot (36 &gt; 32) → prix plus bas → meilleur pour les consommateurs.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="oligopole-bertrand" class="level3">
+<h3 class="anchored" data-anchor-id="oligopole-bertrand">3.9 Oligopole — Bertrand</h3>
+<p><strong>Homogène</strong> (mêmes produits, mêmes <span class="math inline">\(Cm\)</span>) : <strong>paradoxe</strong> → <span class="math inline">\(P^* = Cm\)</span>, <span class="math inline">\(\pi = 0\)</span>.</p>
+<p><strong>Logique :</strong> si <span class="math inline">\(P_1 &gt; Cm\)</span>, la firme 2 fixe <span class="math inline">\(P_2 = P_1 - \epsilon\)</span> et capture tout. Race vers le bas jusqu’à <span class="math inline">\(Cm\)</span>.</p>
+<p><strong>Différencié</strong> : on retrouve un équilibre intérieur. Démarche : écrire la demande de chaque firme <span class="math inline">\(D_i(P_1, P_2)\)</span>, dériver <span class="math inline">\(\pi_i\)</span> par rapport à <span class="math inline">\(P_i\)</span>, résoudre le système des FOC.</p>
+</section>
+<section id="cartel" class="level3">
+<h3 class="anchored" data-anchor-id="cartel">3.10 Cartel</h3>
+<p>Le cartel maximise <span class="math inline">\(\pi_1 + \pi_2 + \ldots\)</span> comme un monopole unique. Règle : <span class="math display">\[Rm_{industrie} = Cm_{industrie}\]</span></p>
+<p>Pour minimiser le coût total à <span class="math inline">\(Q\)</span> donné, <strong>égaliser les <span class="math inline">\(Cm_i\)</span></strong> entre firmes.</p>
+<p><strong>Instabilité</strong> : chaque firme a un gain individuel à tricher (vendre plus que son quota) → dilemme du prisonnier → cartel difficile à maintenir sauf jeu répété infini avec menaces crédibles.</p>
+</section>
+</section>
+<section id="théorie-des-jeux-boîte-à-outils" class="level2">
+<h2 class="anchored" data-anchor-id="théorie-des-jeux-boîte-à-outils">4. Théorie des jeux — boîte à outils</h2>
+<section id="jeu-simultané" class="level3">
+<h3 class="anchored" data-anchor-id="jeu-simultané">4.1 Jeu simultané</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Concept</th>
+<th>Définition</th>
+<th>Comment trouver</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Stratégie dominante</strong></td>
+<td>Meilleure réponse quoi que fasse l’autre</td>
+<td>Comparer les lignes (ou colonnes) une à une</td>
+</tr>
+<tr class="even">
+<td><strong>Équilibre de Nash (EN)</strong></td>
+<td>Profil où personne ne veut dévier seul</td>
+<td>Souligner les meilleures réponses de chaque joueur ; case avec <strong>les deux</strong> soulignées = EN</td>
+</tr>
+<tr class="odd">
+<td><strong>EN multiples</strong></td>
+<td>Possibles</td>
+<td>Souvent dans les jeux de coordination</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="dilemme-du-prisonnier-canonique" class="level3">
+<h3 class="anchored" data-anchor-id="dilemme-du-prisonnier-canonique">4.2 Dilemme du prisonnier (canonique)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>B coopère</th>
+<th>B trahit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A coopère</strong></td>
+<td>(3, 3)</td>
+<td>(0, 5)</td>
+</tr>
+<tr class="even">
+<td><strong>A trahit</strong></td>
+<td><strong>(5, 0)</strong></td>
+<td><strong>(1, 1)</strong> ← EN</td>
+</tr>
+</tbody>
+</table>
+<p>EN = (Trahit, Trahit) — Pareto-dominé par (Coopère, Coopère).</p>
+</section>
+<section id="jeu-répété-fini-connu" class="level3">
+<h3 class="anchored" data-anchor-id="jeu-répété-fini-connu">4.3 Jeu répété fini connu</h3>
+<p>→ <strong>Backward induction</strong> : à la dernière période, trahir est dominant → avant-dernière idem → … → <strong>trahir partout</strong>. Pas de coopération possible.</p>
+</section>
+<section id="jeu-répété-infini-ou-indéfini" class="level3">
+<h3 class="anchored" data-anchor-id="jeu-répété-infini-ou-indéfini">4.4 Jeu répété infini ou indéfini</h3>
+<p>→ Coopération possible si la <strong>valeur actualisée</strong> de la coopération dépasse le gain instantané de la trahison + la punition future.</p>
+<p><span class="math display">\[V_{coop} = \frac{g_c}{1 - w} \qquad V_{tricher\ une\ fois} = g_T + \frac{w \cdot g_N}{1 - w}\]</span></p>
+<p><strong>Coopération soutenable</strong> ⇔ <span class="math inline">\(V_{coop} \geq V_{tricher}\)</span>, soit : <span class="math display">\[\frac{g_c}{1-w} \geq g_T + \frac{w \cdot g_N}{1-w} \quad\Longleftrightarrow\quad w \geq \frac{g_T - g_c}{g_T - g_N}\]</span></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple : seuil de coopération
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(g_c = 4\)</span>, <span class="math inline">\(g_T = 6\)</span>, <span class="math inline">\(g_N = 2\)</span> (et <span class="math inline">\(g_{trahi} = 0\)</span>).</p>
+<p><span class="math inline">\(w \geq (6-4)/(6-2) = 0{,}5\)</span>.</p>
+<p>Si <span class="math inline">\(w \geq 0{,}5\)</span>, la coopération est soutenable avec <strong>grim trigger</strong>. Si <span class="math inline">\(w &lt; 0{,}5\)</span>, on triche.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="stratégies-célèbres-en-jeu-répété" class="level3">
+<h3 class="anchored" data-anchor-id="stratégies-célèbres-en-jeu-répété">4.5 Stratégies célèbres en jeu répété</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Stratégie</th>
+<th>Description</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Tit-for-tat</strong></td>
+<td>Coopère ; copie ensuite</td>
+<td>Maintient la coop si l’autre coopère</td>
+</tr>
+<tr class="even">
+<td><strong>Grim trigger</strong></td>
+<td>Coopère ; trahit à jamais à la 1ʳᵉ trahison</td>
+<td>Très punitive, équilibre fragile</td>
+</tr>
+<tr class="odd">
+<td><strong>Trahir toujours</strong></td>
+<td>Stratégie dominante en jeu fini</td>
+<td>Seul équilibre en jeu fini connu</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="jeu-séquentiel-backward-induction" class="level3">
+<h3 class="anchored" data-anchor-id="jeu-séquentiel-backward-induction">4.6 Jeu séquentiel — backward induction</h3>
+<ol type="1">
+<li>Dessine <strong>l’arbre</strong>.</li>
+<li>Pars de la <strong>fin</strong> : à chaque nœud terminal, identifie le <strong>meilleur paiement</strong> du joueur qui décide là.</li>
+<li>Remonte d’un cran : le joueur précédent anticipe → choisit en conséquence.</li>
+<li>Continue jusqu’à la racine.</li>
+</ol>
+<p><strong>Menace crédible</strong> ⇔ la menace est <strong>dans l’intérêt</strong> du joueur au moment de l’exécuter (sinon = bluff).</p>
+</section>
+</section>
+<section id="défaillances-de-marché-synthèse-ch.2" class="level2">
+<h2 class="anchored" data-anchor-id="défaillances-de-marché-synthèse-ch.2">5. Défaillances de marché — synthèse Ch.2</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Défaillance</th>
+<th>Avant ou après la transaction ?</th>
+<th>Effet</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Sélection adverse</strong></td>
+<td>Avant</td>
+<td>Mauvaises qualités chassent les bonnes</td>
+<td>Signaux (garantie, diplôme), screening, certification</td>
+</tr>
+<tr class="even">
+<td><strong>Aléa moral</strong></td>
+<td>Après</td>
+<td>Comportement moins prudent</td>
+<td>Franchise, bonus-malus, contrats incitatifs</td>
+</tr>
+<tr class="odd">
+<td><strong>Externalité négative</strong></td>
+<td>Pendant</td>
+<td>Surproduction</td>
+<td>Taxe pigouvienne, droits échangeables, réglementation</td>
+</tr>
+<tr class="even">
+<td><strong>Externalité positive</strong></td>
+<td>Pendant</td>
+<td>Sous-production</td>
+<td>Subvention</td>
+</tr>
+<tr class="odd">
+<td><strong>Bien public pur</strong></td>
+<td>(intrinsèque)</td>
+<td>Sous-production (free-rider)</td>
+<td>Financement public, contribution volontaire conditionnelle</td>
+</tr>
+<tr class="even">
+<td><strong>Rendements croissants</strong></td>
+<td>(intrinsèque)</td>
+<td>Monopole naturel</td>
+<td>Régulation tarifaire ou propriété publique</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Classification des biens</strong> (mémoriser) :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Rival</strong></th>
+<th><strong>Non-rival</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Exclusif</strong></td>
+<td>Bien privé (pomme)</td>
+<td>Bien de club (Netflix, autoroute payante)</td>
+</tr>
+<tr class="even">
+<td><strong>Non-exclusif</strong></td>
+<td>Bien commun (poissons en mer, pâturage)</td>
+<td>Bien public pur (défense, phare)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="économie-digitale-synthèse-ch.7" class="level2">
+<h2 class="anchored" data-anchor-id="économie-digitale-synthèse-ch.7">6. Économie digitale — synthèse Ch.7</h2>
+<p><strong>Mécanismes clés</strong> qui changent la donne par rapport aux marchés classiques :</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Mécanisme</th>
+<th>Conséquence économique</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(Cm \approx 0\)</span></td>
+<td>Tarification ≠ classique (forfait, gratuité financée par pub, freemium)</td>
+</tr>
+<tr class="even">
+<td>Coûts fixes énormes</td>
+<td>Pousse vers le monopole naturel</td>
+</tr>
+<tr class="odd">
+<td><strong>Effets de réseau</strong> (direct, indirect, données, local)</td>
+<td>Winner-takes-all, masse critique à franchir</td>
+</tr>
+<tr class="even">
+<td><strong>Plateformes bifaces</strong></td>
+<td>Pricing asymétrique entre les deux côtés (souvent : un côté gratuit, l’autre paie)</td>
+</tr>
+<tr class="odd">
+<td><strong>Lock-in / switching costs</strong></td>
+<td>Pouvoir de marché durable</td>
+</tr>
+<tr class="even">
+<td><strong>Données = actif</strong></td>
+<td>Avantage cumulatif des leaders</td>
+</tr>
+</tbody>
+</table>
+<p>→ Tendance : <strong>monopoles « naturels » numériques</strong> (GAFAM), enjeux antitrust contemporains.</p>
+</section>
+<section id="workflow-pour-lexamen-la-marche-à-suivre" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-pour-lexamen-la-marche-à-suivre">7. Workflow pour l’examen — la marche à suivre</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Le réflexe en 5 étapes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><strong>Identifier la structure de marché</strong> (cf.&nbsp;arbre §1).</li>
+<li><strong>Énoncer la règle d’équilibre</strong> correspondante (cf.&nbsp;tableau §2).</li>
+<li><strong>Poser les équations</strong> : demande, coûts, profit.</li>
+<li><strong>Dériver et résoudre</strong> (souvent <span class="math inline">\(Rm = Cm\)</span> ou <span class="math inline">\(\partial \pi/\partial q = 0\)</span>).</li>
+<li><strong>Interpréter</strong> : qui gagne ? qui perd ? perte sèche ? efficience ?</li>
+</ol>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pièges fréquents
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>En monopole</strong>, <span class="math inline">\(Rm \neq P\)</span> ! Si tu poses <span class="math inline">\(P = Cm\)</span>, tu calcules la CP, pas le monopole.</li>
+<li><strong>Cas linéaire</strong> : <span class="math inline">\(Rm\)</span> a la <strong>même</strong> ordonnée à l’origine que <span class="math inline">\(P\)</span> mais <strong>pente double</strong>.</li>
+<li><strong>Cournot symétrique</strong> : ne pas oublier que <span class="math inline">\(Q = q_1 + q_2 = 2 q_i^*\)</span> — le prix dépend du <span class="math inline">\(Q\)</span> total.</li>
+<li><strong>Seuil de fermeture (CT)</strong> : c’est <span class="math inline">\(P &lt; CVM\)</span>, <strong>pas</strong> <span class="math inline">\(P &lt; CTM\)</span> (à court terme, le fixe est de toute façon payé).</li>
+<li><strong>Bertrand homogène</strong> : ne pas chercher d’équilibre intérieur, c’est <span class="math inline">\(P = Cm\)</span> directement.</li>
+<li><strong>Bien public</strong> : non-rival ET non-exclusif (les deux !). Sinon c’est un bien de club ou un bien commun.</li>
+<li><strong>Discrimination parfaite</strong> : la quantité est celle de <strong>CP</strong> (<span class="math inline">\(P=Cm\)</span>), pas celle du monopole non-discriminant.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="mini-tableau-de-récap-chiffré-cas-p-60---q-cm-12" class="level2">
+<h2 class="anchored" data-anchor-id="mini-tableau-de-récap-chiffré-cas-p-60---q-cm-12">8. Mini-tableau de récap chiffré (cas <span class="math inline">\(P = 60 - Q\)</span>, <span class="math inline">\(Cm = 12\)</span>)</h2>
+<p>Pour mémoriser les rapports d’ordre, voici tous les modèles sur <strong>la même demande</strong> (<span class="math inline">\(a = 60\)</span>, <span class="math inline">\(b = 1\)</span>, <span class="math inline">\(c = 12\)</span>, <span class="math inline">\(a - c = 48\)</span>) :</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Structure</th>
+<th><span class="math inline">\(Q^*\)</span></th>
+<th><span class="math inline">\(P^*\)</span></th>
+<th><span class="math inline">\(\pi\)</span> total</th>
+<th>DWL (vs CP)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>CP</strong></td>
+<td>48</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>Bertrand homogène</strong></td>
+<td>48</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>Stackelberg</strong></td>
+<td>36</td>
+<td>24</td>
+<td>288 + 144 = 432</td>
+<td>72</td>
+</tr>
+<tr class="even">
+<td><strong>Cournot duopole</strong></td>
+<td>32</td>
+<td>28</td>
+<td>256 + 256 = 512</td>
+<td>128</td>
+</tr>
+<tr class="odd">
+<td><strong>Monopole non-discriminant</strong></td>
+<td>24</td>
+<td>36</td>
+<td>576</td>
+<td>288</td>
+</tr>
+<tr class="even">
+<td><strong>Monopole discriminant parfait</strong></td>
+<td>48</td>
+<td>(variable)</td>
+<td>1152</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>Cartel</strong></td>
+<td>24</td>
+<td>36</td>
+<td>576</td>
+<td>288</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ordre des quantités :</strong> Monopole = Cartel &lt; Cournot &lt; Stackelberg &lt; Bertrand = CP ✓</p>
+<p><strong>Ordre des profits totaux :</strong> Discriminant parfait (1152) &gt; Monopole = Cartel (576) &gt; Cournot (512) &gt; Stackelberg (432) &gt; Bertrand = CP (0) ✓</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+En une phrase
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Plus une firme a de pouvoir de marché, plus elle réduit la quantité et augmente le prix → plus le profit privé augmente, plus le surplus social diminue (perte sèche).</strong> La seule exception : la discrimination parfaite, efficiente mais injuste.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
