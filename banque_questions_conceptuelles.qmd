@@ -1,0 +1,384 @@
+---
+title: "Banque de questions — Microéconomie II (QCM conceptuel, format réel)"
+subtitle: "40 questions avec réponses correctes et explications — pour révision NotebookLM"
+---
+
+Ce document rassemble 40 questions de type examen (QCM conceptuel, sans calculs) couvrant les 7 chapitres du cours Microéconomie II (Prof. Gugler, UNIFR). Pour chaque question : l'énoncé, les options, la **réponse correcte** et l'**explication**.
+
+
+## Ch.1 · Concurrence parfaite (Q1–Q5)
+
+### Q1. En concurrence parfaite, chaque firme est « preneuse de prix » (price-taker) parce que :
+
+- a. L'État fixe les prix
+- b. Chaque firme est trop petite pour influencer le prix du marché (atomicité) et les produits sont homogènes **← RÉPONSE CORRECTE**
+- c. Les firmes s'entendent sur un prix commun
+- d. La demande est parfaitement inélastique
+
+**Explication :** b. Atomicité + homogénéité du produit → aucune firme ne peut influencer le prix ; elle le subit et choisit seulement sa quantité.
+
+### Q2. À long terme en concurrence parfaite, le profit économique des firmes tend vers zéro parce que :
+
+- a. Les coûts augmentent toujours
+- b. La libre entrée attire de nouvelles firmes tant qu'il y a des profits, ce qui augmente l'offre et fait baisser le prix **← RÉPONSE CORRECTE**
+- c. Les consommateurs refusent de payer
+- d. L'État taxe tous les profits
+
+**Explication :** b. Mécanisme d'entrée/sortie : profit > 0 → entrée → offre ↑ → prix ↓ jusqu'à profit = 0 (au minimum du coût moyen de long terme).
+
+### Q3. Une firme concurrentielle subit une perte à court terme. Elle continue de produire tant que :
+
+- a. Le prix couvre le coût total moyen
+- b. Le prix couvre au moins le coût variable moyen **← RÉPONSE CORRECTE**
+- c. Le prix couvre le coût fixe
+- d. Elle arrête immédiatement dès la première perte
+
+**Explication :** b. Seuil de fermeture à court terme : si P ≥ CVM, produire couvre les coûts variables et une partie des coûts fixes (qu'on paie de toute façon) → on continue. On arrête seulement si P < CVM.
+
+### Q4. Sur un marché concurrentiel, la courbe d'offre d'une entreprise correspond à :
+
+- a. Sa courbe de coût total moyen (CTM)
+- b. Sa courbe de coût marginal (au-dessus du minimum du CVM) **← RÉPONSE CORRECTE**
+- c. Sa courbe de recette moyenne
+- d. Sa courbe de demande
+
+**Explication :** b. Piège classique (déjà dans l'examen blanc du prof) : l'offre = la courbe de Cm au-dessus du min du CVM, PAS le CTM.
+
+### Q5. Pourquoi dit-on que la concurrence parfaite est « efficiente » à long terme ?
+
+- a. Parce que les firmes font des profits élevés
+- b. Parce que le prix égale le coût marginal (efficience allocative) et la production se fait au coût moyen minimal (efficience productive), sans perte sèche **← RÉPONSE CORRECTE**
+- c. Parce que l'État régule les prix
+- d. Parce que les consommateurs paient le prix le plus élevé possible
+
+**Explication :** b. P = Cm (on produit tant que la valeur pour le consommateur dépasse le coût) + production au min du CMLT + perte sèche nulle → optimum de Pareto.
+
+
+## Ch.2 · Limites des marchés (Q6–Q10)
+
+### Q6. Un bien collectif pur se définit par :
+
+- a. Un prix nul et une production publique
+- b. La non-rivalité (ma consommation ne réduit pas la tienne) et la non-exclusion (impossible d'en empêcher l'accès) **← RÉPONSE CORRECTE**
+- c. Le fait que le secteur privé veuille le financer
+- d. Sa rareté naturelle
+
+**Explication :** b. Les deux propriétés définitoires. Exemples : défense nationale, phare. Conséquence : free-riding → sous-production par le marché.
+
+### Q7. Quelle situation illustre un aléa moral (et non une sélection adverse) ?
+
+- a. Seules les personnes à haut risque souscrivent une assurance
+- b. Une fois assuré tous risques, un conducteur devient moins prudent **← RÉPONSE CORRECTE**
+- c. Les vendeurs de bonnes voitures d'occasion quittent le marché
+- d. L'acheteur ne peut pas distinguer la qualité avant l'achat
+
+**Explication :** b. Aléa moral = changement de comportement APRÈS la transaction (comportement caché). a, c, d décrivent la sélection adverse (qualité cachée AVANT la transaction, marché des « lemons »).
+
+### Q8. En présence d'une externalité négative (ex. pollution), le marché non régulé :
+
+- a. Produit trop par rapport à l'optimum social, car les producteurs n'intègrent que leurs coûts privés **← RÉPONSE CORRECTE**
+- b. Produit trop peu
+- c. Produit exactement l'optimum social
+- d. Cesse de produire
+
+**Explication :** a. Coût marginal social > coût marginal privé → le marché surproduit. Externalité positive = l'inverse (sous-production).
+
+### Q9. Le problème du « passager clandestin » (free-rider) explique pourquoi :
+
+- a. Les monopoles font des profits
+- b. Le marché privé produit trop peu (ou pas du tout) de biens collectifs purs **← RÉPONSE CORRECTE**
+- c. Les cartels sont instables
+- d. Les prix sont rigides en oligopole
+
+**Explication :** b. Chacun peut profiter du bien sans payer (non-exclusion) → personne ne veut le financer → sous-production → l'État doit intervenir.
+
+### Q10. Les rendements croissants (coût moyen qui baisse avec la quantité) sont une défaillance de marché car ils conduisent à :
+
+- a. Une concurrence toujours plus intense
+- b. Un monopole naturel : une seule grande firme est plus efficace que plusieurs petites **← RÉPONSE CORRECTE**
+- c. Une hausse des prix systématique
+- d. La disparition des coûts fixes
+
+**Explication :** b. Si le CTM décroît sur toute la zone de demande, dupliquer les infrastructures serait du gaspillage → monopole naturel (rail, eau, électricité).
+
+
+## Ch.3 · Monopole et monopsone (Q11–Q17)
+
+### Q11. Pour un monopole non-discriminant, la recette marginale est toujours inférieure au prix parce que :
+
+- a. Pour vendre une unité de plus, il doit baisser le prix sur TOUTES les unités vendues **← RÉPONSE CORRECTE**
+- b. L'État plafonne ses recettes
+- c. Ses coûts marginaux sont croissants
+- d. C'est faux : Rm = P pour un monopole
+
+**Explication :** a. Le monopole fait face à la demande de marché décroissante : vendre plus = baisser le prix pour tous → la recette de l'unité supplémentaire est inférieure au prix affiché. (En CP, Rm = P.)
+
+### Q12. Comparé à la concurrence parfaite, un monopole non-discriminant :
+
+- a. Produit plus et vend moins cher
+- b. Produit moins, vend plus cher, et crée une perte sèche **← RÉPONSE CORRECTE**
+- c. Produit autant au même prix
+- d. Produit moins mais vend moins cher
+
+**Explication :** b. Le monopole restreint la quantité pour faire monter le prix → surplus du consommateur réduit + perte sèche (échanges mutuellement avantageux non réalisés).
+
+### Q13. Dans le cas d'un monopole parfaitement discriminant (1er degré) :
+
+- a. Il y a une grande perte sèche
+- b. Il n'y a PAS de perte sèche, mais le monopoleur capte la totalité du surplus du consommateur **← RÉPONSE CORRECTE**
+- c. Le consommateur garde tout son surplus
+- d. La quantité produite est inférieure à celle du monopole simple
+
+**Explication :** b. Chaque unité est vendue au prix maximal que l'acheteur accepte → production jusqu'à la quantité concurrentielle (efficient, pas de perte sèche) mais SC = 0 : tout va au producteur. Question déjà présente dans l'examen blanc du prof.
+
+### Q14. La discrimination par les prix du 3e degré (par groupes) consiste à fixer un prix plus élevé pour le groupe :
+
+- a. Dont la demande est la plus élastique
+- b. Dont la demande est la moins élastique (en valeur absolue) **← RÉPONSE CORRECTE**
+- c. Le plus nombreux
+- d. Le plus jeune
+
+**Explication :** b. Demande inélastique = clients captifs, peu sensibles au prix → on peut leur faire payer plus (ex. électricité en journée, billets d'avion business). Les élastiques fuient si le prix monte.
+
+### Q15. Le problème de la tarification au coût marginal pour un monopole naturel est que :
+
+- a. Le monopoleur ferait des profits excessifs
+- b. Le monopoleur produirait à perte, car avec un CTM décroissant, le coût marginal est inférieur au coût moyen **← RÉPONSE CORRECTE**
+- c. Les consommateurs paieraient trop cher
+- d. Il n'y a aucun problème
+
+**Explication :** b. CTM décroissant → Cm < CTM partout → si P = Cm, alors P < CTM → perte → besoin de subvention ou tarification alternative (P = CTM). Dilemme classique de la régulation.
+
+### Q16. Un monopsone est une situation de marché où :
+
+- a. Il y a un seul vendeur
+- b. Il y a un seul acheteur face à de nombreux vendeurs, ce qui lui permet de faire baisser le prix d'achat **← RÉPONSE CORRECTE**
+- c. Deux firmes se partagent le marché
+- d. L'État achète toute la production
+
+**Explication :** b. Symétrique du monopole côté demande. Exemple : un employeur unique dans une région fait pression sur les salaires.
+
+### Q17. Pour augmenter ses ventes, un monopole non-discriminant doit ____ ses prix, et un monopole discriminant (parfait) doit ____ ses prix :
+
+- a. augmenter ; augmenter
+- b. augmenter ; baisser
+- c. baisser ; baisser (le prix de la dernière unité vendue) **← RÉPONSE CORRECTE**
+- d. baisser ; augmenter
+
+**Explication :** c. Question des exercices du prof (Ch3). Non-discriminant : demande décroissante → baisser le prix pour vendre plus. Discriminant : il vend chaque unité supplémentaire au prix (plus bas) que le client marginal accepte.
+
+
+## Ch.4–5 · Concurrence monopolistique et oligopole (Q18–Q25)
+
+### Q18. La concurrence monopolistique se caractérise par :
+
+- a. De nombreuses firmes, des produits différenciés et la libre entrée **← RÉPONSE CORRECTE**
+- b. Une seule firme et des barrières infranchissables
+- c. Des produits parfaitement homogènes
+- d. Quelques firmes en interaction stratégique
+
+**Explication :** a. Chaque firme a un mini-monopole sur SA version du produit (marques, design), mais la libre entrée ramène le profit à zéro à long terme.
+
+### Q19. À long terme, une firme en concurrence monopolistique fait un profit nul MAIS :
+
+- a. Produit au minimum de son coût moyen, comme en CP
+- b. Produit à gauche du minimum du coût moyen (surcapacité) et son prix reste supérieur au coût marginal **← RÉPONSE CORRECTE**
+- c. Fait face à une demande parfaitement horizontale
+- d. N'a aucun pouvoir de marché
+
+**Explication :** b. La tangence demande/CTM se fait à gauche du minimum → surcapacité + P > Cm (perte sèche modérée). C'est le « prix de la variété ». La demande reste décroissante (piège c).
+
+### Q20. Une campagne publicitaire réussie qui différencie le produit d'une firme a pour effet :
+
+- a. D'augmenter l'élasticité-prix de sa demande en valeur absolue
+- b. De diminuer l'élasticité-prix de sa demande en valeur absolue (clients plus fidèles, moins sensibles au prix) **← RÉPONSE CORRECTE**
+- c. De déplacer la courbe de coût moyen vers le bas
+- d. Aucun effet sur la demande
+
+**Explication :** b. Question de l'examen blanc du prof (Q12). Différencier = rendre les substituts moins évidents → demande moins élastique → plus de pouvoir de marché. La pub est un coût, elle ne baisse pas le CM (piège c).
+
+### Q21. Quelle est la différence fondamentale entre les modèles de Cournot et de Bertrand ?
+
+- a. Cournot : les firmes choisissent leurs QUANTITÉS ; Bertrand : elles choisissent leurs PRIX **← RÉPONSE CORRECTE**
+- b. Cournot : séquentiel ; Bertrand : simultané
+- c. Cournot : 2 firmes ; Bertrand : plusieurs
+- d. Aucune différence
+
+**Explication :** a. La variable stratégique diffère : quantités (Cournot) vs prix (Bertrand). Les deux sont simultanés ; c'est Stackelberg qui est séquentiel (leader/suiveur).
+
+### Q22. Le « paradoxe de Bertrand » énonce qu'avec seulement deux firmes, des produits homogènes et les mêmes coûts :
+
+- a. Le prix est celui du monopole
+- b. Le prix tombe au niveau du coût marginal, comme en concurrence parfaite **← RÉPONSE CORRECTE**
+- c. Les firmes fusionnent forcément
+- d. Aucun équilibre n'existe
+
+**Explication :** b. Chacune a intérêt à passer juste sous le prix de l'autre pour rafler tout le marché → escalade vers P = Cm et profit nul. « Paradoxal » : 2 firmes suffisent pour un résultat concurrentiel. C'est la structure la plus favorable au consommateur (question du prof).
+
+### Q23. Dans le modèle de la demande coudée (Sweezy), les prix sont rigides en oligopole parce que chaque firme anticipe que :
+
+- a. Si elle augmente son prix, AUCUN concurrent ne suit ; si elle le baisse, TOUS suivent **← RÉPONSE CORRECTE**
+- b. Tous les concurrents suivent dans les deux sens
+- c. Aucun concurrent ne réagit jamais
+- d. L'État bloque les prix
+
+**Explication :** a. Monter son prix = perdre beaucoup de clients (personne ne suit) ; le baisser = gagner peu (tout le monde suit) → aucun intérêt à bouger → prix rigides, même si le Cm varie un peu.
+
+### Q24. Un cartel qui maximise le profit de l'industrie se comporte comme :
+
+- a. Une concurrence parfaite
+- b. Un monopole (quantité réduite, prix élevé) — mais il est instable car chaque membre a intérêt à tricher **← RÉPONSE CORRECTE**
+- c. Un duopole de Bertrand
+- d. Une firme en concurrence monopolistique
+
+**Explication :** b. Le cartel = monopole collectif. Mais chaque firme gagne à produire un peu plus que son quota (dilemme du prisonnier) → instabilité chronique des cartels.
+
+### Q25. Pour les consommateurs, quel classement des structures (de la meilleure à la pire) est correct ?
+
+- a. Monopole > Cournot > Bertrand
+- b. Bertrand (homogène) > Stackelberg > Cournot > Cartel/Monopole **← RÉPONSE CORRECTE**
+- c. Cournot > Bertrand > Stackelberg
+- d. Toutes les structures sont équivalentes
+
+**Explication :** b. Plus la concurrence est intense, plus la quantité est grande et le prix bas : Bertrand (= CP) est le meilleur pour le consommateur, le cartel/monopole le pire. Stackelberg bat Cournot (quantité totale plus grande).
+
+
+## Ch.6 · Théorie des jeux (Q26–Q30)
+
+### Q26. Une stratégie dominante est une stratégie qui :
+
+- a. Donne le meilleur résultat au joueur quelle que soit la stratégie choisie par l'autre **← RÉPONSE CORRECTE**
+- b. Donne le meilleur résultat collectif
+- c. N'existe que dans les jeux séquentiels
+- d. Est imposée par le joueur le plus puissant
+
+**Explication :** a. « Quoi que fasse l'autre, je fais X. » Dans le dilemme du prisonnier, trahir est dominant pour les deux → équilibre en stratégies dominantes (mais collectivement inefficient).
+
+### Q27. Dans le dilemme du prisonnier joué UNE seule fois, l'équilibre est que :
+
+- a. Les deux coopèrent
+- b. Les deux trichent/avouent, bien que la coopération mutuelle aurait été meilleure pour les deux **← RÉPONSE CORRECTE**
+- c. Un seul triche
+- d. Le jeu n'a pas d'équilibre
+
+**Explication :** b. Tricher est dominant pour chacun → équilibre (triche, triche), inefficient collectivement. Application directe au cartel : chacun a intérêt à dépasser son quota.
+
+### Q28. Si deux firmes savent que leur jeu répété se terminera à une date PRÉCISE et connue, la théorie prédit que :
+
+- a. Elles coopèrent jusqu'à la fin
+- b. Par récurrence à rebours (backward induction), elles trichent dès qu'elles connaissent la fin — la coopération s'effondre **← RÉPONSE CORRECTE**
+- c. Elles coopèrent seulement à la dernière période
+- d. Le résultat est identique au jeu infini
+
+**Explication :** b. À la dernière période, tricher est dominant (pas de représailles possibles). Sachant cela, à l'avant-dernière aussi… et ainsi de suite. C'est LA différence clé avec le jeu à durée indéterminée, où la coopération est soutenable.
+
+### Q29. La stratégie « tit-for-tat » (donnant-donnant) consiste à :
+
+- a. Toujours trahir
+- b. Coopérer au premier tour, puis reproduire à chaque tour ce que l'adversaire a fait au tour précédent **← RÉPONSE CORRECTE**
+- c. Trahir une fois sur deux
+- d. Coopérer uniquement à la dernière période
+
+**Explication :** b. Coopérative au départ, punit immédiatement la trahison, pardonne dès le retour à la coopération. Elle soutient la coopération dans les jeux à durée indéterminée.
+
+### Q30. Dans un jeu séquentiel d'entrée sur un marché, la menace du monopoleur en place (« je déclencherai une guerre des prix ») ne dissuade l'entrant QUE si :
+
+- a. La menace est crédible : exécuter la menace est réellement dans l'intérêt du monopoleur au moment où il devrait le faire **← RÉPONSE CORRECTE**
+- b. La menace est annoncée publiquement
+- c. Le monopoleur est plus grand
+- d. L'entrant est étranger
+
+**Explication :** a. On résout par backward induction : si, une fois l'entrée réalisée, la guerre des prix rapporte moins au monopoleur que l'accommodement, la menace est du bluff — l'entrant entre. (Question bonus de l'examen blanc du prof.)
+
+
+## Ch.7 · Économie digitale (Q31–Q40) — poids renforcé
+
+### Q31. Parmi les caractéristiques des produits dans une économie digitale vues au cours, on trouve :
+
+- a. Le passage de la « propriété » à l'« utilisation » (streaming, car sharing) et l'importance de la réputation (avis en ligne) **← RÉPONSE CORRECTE**
+- b. La disparition totale des biens physiques
+- c. La baisse de la personnalisation des produits
+- d. La fin de la transparence de l'information
+
+**Explication :** a. Traits clés du cours : digitalisation (totale ou partielle), un appareil en remplace plusieurs, propriété → utilisation, personnalisation (3D), transparence, réputation/confiance (TripAdvisor), flexibilité « quand je veux où je veux ».
+
+### Q32. Le « marché du produit pertinent » utilisé par les autorités de la concurrence comprend :
+
+- a. Tous les produits/services que le consommateur considère comme interchangeables ou substituables (caractéristiques, prix, usage) **← RÉPONSE CORRECTE**
+- b. Uniquement les produits fabriqués dans le même pays
+- c. Uniquement les produits de la même marque
+- d. Tous les produits vendus au même prix
+
+**Explication :** a. Définition du cours (OCDE/LCart). Délimiter le marché pertinent est l'étape préalable au calcul des parts de marché et à l'évaluation du pouvoir de marché.
+
+### Q33. Les tests de corrélation des prix servent à déterminer si deux produits appartiennent au même marché : deux produits du même marché devraient avoir des prix qui :
+
+- a. Évoluent en sens opposé
+- b. Évoluent de manière similaire (corrélation élevée) **← RÉPONSE CORRECTE**
+- c. Restent parfaitement constants
+- d. N'ont aucun lien
+
+**Explication :** b. Si A et B sont substituables, la concurrence lie leurs prix → forte corrélation. Autres outils : élasticité croisée, test SSNIP, test de vente critique, stationnarité.
+
+### Q34. L'e-commerce a renforcé la concurrence notamment parce qu'il :
+
+- a. Augmente les coûts de recherche des consommateurs
+- b. Réduit les coûts de recherche et de distribution, facilite l'entrée de nouveaux acteurs et renforce la transparence **← RÉPONSE CORRECTE**
+- c. Réduit la transparence des prix
+- d. Empêche les acteurs internationaux d'entrer
+
+**Explication :** b. Les 4 effets pro-concurrentiels du cours : entrées de nouveaux acteurs (locaux + internationaux), réduction des coûts de recherche, réduction des coûts de distribution, transparence accrue. Les options a/c/d inversent ces effets.
+
+### Q35. Le paradoxe « concentration vs fragmentation » de l'économie digitale décrit :
+
+- a. La concentration du côté des plateformes (Google, Amazon…) ET la fragmentation du côté des fournisseurs (petits loueurs Airbnb, chauffeurs Uber…) **← RÉPONSE CORRECTE**
+- b. La disparition de toutes les grandes entreprises
+- c. La fusion de tous les marchés en un seul
+- d. Le retour aux marchés locaux physiques
+
+**Explication :** a. Les plateformes se concentrent (positions dominantes, risque d'abus) tandis que l'accès au marché se démocratise pour les petits offreurs qui passent par elles.
+
+### Q36. Le passage du marketing « vertical » au marketing « horizontal » (Kotler) signifie que :
+
+- a. Les entreprises ciblent des segments homogènes définis par l'âge et le revenu
+- b. Les entreprises doivent cibler des COMMUNAUTÉS (amis, familles, fans, followers), car les consommateurs se fient aux avis des autres et deviennent des agents actifs **← RÉPONSE CORRECTE**
+- c. La publicité télévisée redevient dominante
+- d. Le marketing disparaît
+
+**Explication :** b. Les consommateurs « orientés F » (friends, families, fans, followers) forment les nouveaux segments. Il devient plus difficile d'influencer l'élasticité-prix par la publicité directe — on agit via les groupes (imitation).
+
+### Q37. Quelle distinction entre effets de réseaux directs et indirects est correcte ?
+
+- a. Directs : la valeur croît avec le nombre d'utilisateurs du même réseau (WhatsApp) ; indirects : la valeur pour un groupe croît avec la taille de l'AUTRE groupe (Uber : chauffeurs ↔ passagers) **← RÉPONSE CORRECTE**
+- b. Directs : réseaux physiques ; indirects : réseaux numériques
+- c. Directs : effets positifs ; indirects : effets négatifs
+- d. Il n'y a aucune différence
+
+**Explication :** a. Direct = même groupe (téléphonie, WhatsApp, fax). Indirect = plateformes bifaces : plus il y a de chauffeurs, mieux c'est pour les passagers, et réciproquement.
+
+### Q38. Selon le cours (Economides), dans un marché à forts effets de réseau avec plateformes INCOMPATIBLES :
+
+- a. Fragmenter le monopole en deux firmes rivales augmente toujours le surplus social
+- b. Un monopole peut MAXIMISER le surplus social, car le fragmenter réduirait les externalités de réseau positives **← RÉPONSE CORRECTE**
+- c. Les effets de réseau disparaissent
+- d. Les autorités peuvent facilement rétablir la concurrence en supprimant les barrières
+
+**Explication :** b. Résultat contre-intuitif du cours : avec des plateformes incompatibles, un grand réseau unique crée plus de valeur que deux petits. Et la marge de manœuvre des autorités est limitée : même sans barrières, l'avantage du réseau installé domine (winner-takes-most).
+
+### Q39. L'économie de partage (sharing economy) se définit comme :
+
+- a. Un système où des PARTICULIERS échangent, vendent ou louent des biens/services via une plateforme numérique (Airbnb, Uber, TaskRabbit) **← RÉPONSE CORRECTE**
+- b. La nationalisation des plateformes
+- c. Le partage gratuit de tous les biens
+- d. Un cartel de plateformes
+
+**Explication :** a. Définition du cours. Le succès d'Uber repose sur : rapidité/fiabilité, qualité, grands réseaux de chauffeurs ET de clients (effet de réseau), « Strong Unique Value Proposition », tendances consommateurs (smartphone, cashless, évaluations).
+
+### Q40. Concernant les algorithmes et les cartels (OCDE), quel est le cas le PLUS problématique pour le droit de la concurrence actuel ?
+
+- a. Un algorithme qui facilite une entente explicite déjà interdite — car aucune norme n'existe
+- b. Des algorithmes qui atteignent un équilibre TACITEMENT collusoire SANS aucun contact entre concurrents — car aucune « action tangible » ne tombe sous le droit actuel **← RÉPONSE CORRECTE**
+- c. Les algorithmes de recommandation de films
+- d. Aucun : les algorithmes ne posent aucun problème de concurrence
+
+**Explication :** b. Les 2 cas du cours : (1) l'algorithme au service d'une entente classique → les normes existantes s'appliquent (le défi est technique) ; (2) la collusion tacite algorithmique sans contact → angle mort du droit. Les algorithmes « amplifient le problème des oligopoles ». D'où la question : peut-on condamner le « cartel des machines » ?
