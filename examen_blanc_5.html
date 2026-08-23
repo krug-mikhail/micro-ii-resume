@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Examen blanc 5 — Format réel (QCM conceptuel, sans calculs)</title>
+<style>
+  :root{--acc:#0369a1;--acc2:#075985;--vert:#15803d;--rouge:#b91c1c;
+    --fond:#f0f7fb;--carte:#fff;--texte:#0f172a;--gris:#64748b}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:var(--fond);color:var(--texte);line-height:1.55;padding-bottom:86px;
+    -webkit-text-size-adjust:100%}
+  header{background:linear-gradient(135deg,var(--acc2),var(--acc) 70%,#0ea5e9 140%);
+    color:#fff;padding:32px 20px 26px;text-align:center}
+  header h1{font-size:1.5rem;margin-bottom:6px}
+  header p{opacity:.93;font-size:.92rem}
+  .wrap{max-width:840px;margin:0 auto;padding:18px 16px}
+  .intro{background:var(--carte);border-radius:14px;padding:16px 20px;margin:16px 0;
+    box-shadow:0 2px 12px rgba(0,0,0,.07);font-size:.93rem}
+  .intro b{color:var(--acc2)}
+  .section{margin:28px 0 10px;padding:9px 15px;background:var(--acc2);color:#fff;
+    border-radius:9px;font-weight:700;font-size:.98rem}
+  .question{background:var(--carte);border-radius:12px;padding:17px;margin:12px 0;
+    box-shadow:0 2px 8px rgba(0,0,0,.05)}
+  .q-head{display:flex;gap:8px;align-items:center;margin-bottom:9px;flex-wrap:wrap}
+  .q-num{font-weight:800;color:var(--acc);font-size:.95rem}
+  .q-tag{display:inline-block;font-size:.68rem;font-weight:700;letter-spacing:.05em;
+    text-transform:uppercase;padding:3px 9px;border-radius:20px}
+  .tag-c{background:#e0f2fe;color:#075985}
+  .tag-p{background:#fee2e2;color:#991b1b}
+  .q-text{font-weight:600;margin-bottom:10px;font-size:.96rem}
+  .options{list-style:none}
+  .options li{border:2px solid #e5e7eb;border-radius:10px;padding:10px 14px;margin:7px 0;
+    cursor:pointer;transition:.15s;font-size:.92rem}
+  .options li:hover{border-color:var(--acc);background:#f0f9ff}
+  .question.done .options li{cursor:default}
+  .question.done .options li:hover{background:transparent}
+  .options li.correct{border-color:var(--vert);background:#f0fdf4;font-weight:600}
+  .options li.correct::before{content:"\2713  ";color:var(--vert);font-weight:800}
+  .options li.wrong{border-color:var(--rouge);background:#fef2f2}
+  .options li.wrong::before{content:"\2717  ";color:var(--rouge);font-weight:800}
+  .opt-l{font-weight:700;color:var(--acc);margin-right:6px}
+  .expl{display:none;margin-top:10px;padding:11px 14px;border-radius:9px;
+    background:#f0f9ff;border-left:4px solid var(--acc);font-size:.9rem}
+  .expl.show{display:block}
+  .expl b{color:var(--acc2)}
+  .barre{position:fixed;bottom:0;left:0;right:0;background:#fff;
+    box-shadow:0 -2px 14px rgba(0,0,0,.13);padding:9px 16px;z-index:10}
+  .barre-in{max-width:840px;margin:0 auto;display:flex;align-items:center;
+    justify-content:space-between;gap:12px}
+  .progress{flex:1;height:10px;background:#e5e7eb;border-radius:6px;overflow:hidden}
+  .progress span{display:block;height:100%;width:0;
+    background:linear-gradient(90deg,var(--acc),#0ea5e9);transition:.3s}
+  .score{font-weight:800;color:var(--acc2);white-space:nowrap;font-size:.95rem}
+  .reset{background:none;border:1.5px solid #cbd5e1;color:var(--gris);
+    border-radius:8px;padding:6px 12px;font-size:.82rem;cursor:pointer}
+  .note-final{display:none;margin:18px 0;padding:16px 20px;border-radius:12px;
+    background:linear-gradient(135deg,#e0f2fe,#fff);border:2px solid var(--acc);
+    font-size:1rem;font-weight:600}
+  .note-final.show{display:block}
+  footer{text-align:center;color:var(--gris);font-size:.82rem;padding:22px 16px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Examen blanc 5 — Format réel</h1>
+  <p>QCM 100 % conceptuel · AUCUN calcul · 40 questions · basé sur le format du vrai examen</p>
+</header>
+
+<div class="wrap">
+
+<div class="intro">
+<b>Pourquoi cet examen ?</b> Le vrai examen était un <b>QCM sans aucune formule mathématique</b> (retour de première main). Cet examen blanc s'y calque : <b>zéro calcul</b>, uniquement des <b>concepts, définitions, comparaisons et intuitions</b> des 7 chapitres — avec un poids renforcé sur le <b>Ch.7 (économie digitale)</b>, entièrement conceptuel.
+<br><br>
+🟦 <b>Concept</b> · 🟥 <b>Piège</b>. Clique une réponse → corrigé + explication. Vise <b>32/40 (80 %)</b>.
+</div>
+
+<div class="section">Ch.1 · Concurrence parfaite (Q1–Q5)</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q1</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">En concurrence parfaite, chaque firme est « preneuse de prix » (price-taker) parce que :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> L'État fixe les prix</li>
+<li data-c="1"><span class="opt-l">b.</span> Chaque firme est trop petite pour influencer le prix du marché (atomicité) et les produits sont homogènes</li>
+<li data-c="0"><span class="opt-l">c.</span> Les firmes s'entendent sur un prix commun</li>
+<li data-c="0"><span class="opt-l">d.</span> La demande est parfaitement inélastique</li>
+</ul>
+<div class="expl"><b>b.</b> Atomicité + homogénéité du produit → aucune firme ne peut influencer le prix ; elle le subit et choisit seulement sa quantité.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q2</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">À long terme en concurrence parfaite, le profit économique des firmes tend vers zéro parce que :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Les coûts augmentent toujours</li>
+<li data-c="1"><span class="opt-l">b.</span> La libre entrée attire de nouvelles firmes tant qu'il y a des profits, ce qui augmente l'offre et fait baisser le prix</li>
+<li data-c="0"><span class="opt-l">c.</span> Les consommateurs refusent de payer</li>
+<li data-c="0"><span class="opt-l">d.</span> L'État taxe tous les profits</li>
+</ul>
+<div class="expl"><b>b.</b> Mécanisme d'entrée/sortie : profit > 0 → entrée → offre ↑ → prix ↓ jusqu'à profit = 0 (au minimum du coût moyen de long terme).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q3</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Une firme concurrentielle subit une perte à court terme. Elle continue de produire tant que :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Le prix couvre le coût total moyen</li>
+<li data-c="1"><span class="opt-l">b.</span> Le prix couvre au moins le coût variable moyen</li>
+<li data-c="0"><span class="opt-l">c.</span> Le prix couvre le coût fixe</li>
+<li data-c="0"><span class="opt-l">d.</span> Elle arrête immédiatement dès la première perte</li>
+</ul>
+<div class="expl"><b>b.</b> Seuil de fermeture à court terme : si P ≥ CVM, produire couvre les coûts variables et une partie des coûts fixes (qu'on paie de toute façon) → on continue. On arrête seulement si P < CVM.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q4</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Sur un marché concurrentiel, la courbe d'offre d'une entreprise correspond à :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Sa courbe de coût total moyen (CTM)</li>
+<li data-c="1"><span class="opt-l">b.</span> Sa courbe de coût marginal (au-dessus du minimum du CVM)</li>
+<li data-c="0"><span class="opt-l">c.</span> Sa courbe de recette moyenne</li>
+<li data-c="0"><span class="opt-l">d.</span> Sa courbe de demande</li>
+</ul>
+<div class="expl"><b>b.</b> Piège classique (déjà dans l'examen blanc du prof) : l'offre = la courbe de <b>Cm</b> au-dessus du min du CVM, PAS le CTM.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q5</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Pourquoi dit-on que la concurrence parfaite est « efficiente » à long terme ?</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Parce que les firmes font des profits élevés</li>
+<li data-c="1"><span class="opt-l">b.</span> Parce que le prix égale le coût marginal (efficience allocative) et la production se fait au coût moyen minimal (efficience productive), sans perte sèche</li>
+<li data-c="0"><span class="opt-l">c.</span> Parce que l'État régule les prix</li>
+<li data-c="0"><span class="opt-l">d.</span> Parce que les consommateurs paient le prix le plus élevé possible</li>
+</ul>
+<div class="expl"><b>b.</b> P = Cm (on produit tant que la valeur pour le consommateur dépasse le coût) + production au min du CMLT + perte sèche nulle → optimum de Pareto.</div>
+</div>
+
+<div class="section">Ch.2 · Limites des marchés (Q6–Q10)</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q6</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Un bien collectif pur se définit par :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Un prix nul et une production publique</li>
+<li data-c="1"><span class="opt-l">b.</span> La non-rivalité (ma consommation ne réduit pas la tienne) et la non-exclusion (impossible d'en empêcher l'accès)</li>
+<li data-c="0"><span class="opt-l">c.</span> Le fait que le secteur privé veuille le financer</li>
+<li data-c="0"><span class="opt-l">d.</span> Sa rareté naturelle</li>
+</ul>
+<div class="expl"><b>b.</b> Les deux propriétés définitoires. Exemples : défense nationale, phare. Conséquence : free-riding → sous-production par le marché.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q7</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Quelle situation illustre un <b>aléa moral</b> (et non une sélection adverse) ?</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Seules les personnes à haut risque souscrivent une assurance</li>
+<li data-c="1"><span class="opt-l">b.</span> Une fois assuré tous risques, un conducteur devient moins prudent</li>
+<li data-c="0"><span class="opt-l">c.</span> Les vendeurs de bonnes voitures d'occasion quittent le marché</li>
+<li data-c="0"><span class="opt-l">d.</span> L'acheteur ne peut pas distinguer la qualité avant l'achat</li>
+</ul>
+<div class="expl"><b>b.</b> Aléa moral = changement de comportement APRÈS la transaction (comportement caché). a, c, d décrivent la sélection adverse (qualité cachée AVANT la transaction, marché des « lemons »).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q8</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">En présence d'une externalité négative (ex. pollution), le marché non régulé :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Produit trop par rapport à l'optimum social, car les producteurs n'intègrent que leurs coûts privés</li>
+<li data-c="0"><span class="opt-l">b.</span> Produit trop peu</li>
+<li data-c="0"><span class="opt-l">c.</span> Produit exactement l'optimum social</li>
+<li data-c="0"><span class="opt-l">d.</span> Cesse de produire</li>
+</ul>
+<div class="expl"><b>a.</b> Coût marginal social > coût marginal privé → le marché surproduit. Externalité positive = l'inverse (sous-production).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q9</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Le problème du « passager clandestin » (free-rider) explique pourquoi :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Les monopoles font des profits</li>
+<li data-c="1"><span class="opt-l">b.</span> Le marché privé produit trop peu (ou pas du tout) de biens collectifs purs</li>
+<li data-c="0"><span class="opt-l">c.</span> Les cartels sont instables</li>
+<li data-c="0"><span class="opt-l">d.</span> Les prix sont rigides en oligopole</li>
+</ul>
+<div class="expl"><b>b.</b> Chacun peut profiter du bien sans payer (non-exclusion) → personne ne veut le financer → sous-production → l'État doit intervenir.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q10</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Les rendements croissants (coût moyen qui baisse avec la quantité) sont une défaillance de marché car ils conduisent à :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Une concurrence toujours plus intense</li>
+<li data-c="1"><span class="opt-l">b.</span> Un monopole naturel : une seule grande firme est plus efficace que plusieurs petites</li>
+<li data-c="0"><span class="opt-l">c.</span> Une hausse des prix systématique</li>
+<li data-c="0"><span class="opt-l">d.</span> La disparition des coûts fixes</li>
+</ul>
+<div class="expl"><b>b.</b> Si le CTM décroît sur toute la zone de demande, dupliquer les infrastructures serait du gaspillage → monopole naturel (rail, eau, électricité).</div>
+</div>
+
+<div class="section">Ch.3 · Monopole et monopsone (Q11–Q17)</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q11</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Pour un monopole non-discriminant, la recette marginale est toujours inférieure au prix parce que :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Pour vendre une unité de plus, il doit baisser le prix sur TOUTES les unités vendues</li>
+<li data-c="0"><span class="opt-l">b.</span> L'État plafonne ses recettes</li>
+<li data-c="0"><span class="opt-l">c.</span> Ses coûts marginaux sont croissants</li>
+<li data-c="0"><span class="opt-l">d.</span> C'est faux : Rm = P pour un monopole</li>
+</ul>
+<div class="expl"><b>a.</b> Le monopole fait face à la demande de marché décroissante : vendre plus = baisser le prix pour tous → la recette de l'unité supplémentaire est inférieure au prix affiché. (En CP, Rm = P.)</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q12</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Comparé à la concurrence parfaite, un monopole non-discriminant :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Produit plus et vend moins cher</li>
+<li data-c="1"><span class="opt-l">b.</span> Produit moins, vend plus cher, et crée une perte sèche</li>
+<li data-c="0"><span class="opt-l">c.</span> Produit autant au même prix</li>
+<li data-c="0"><span class="opt-l">d.</span> Produit moins mais vend moins cher</li>
+</ul>
+<div class="expl"><b>b.</b> Le monopole restreint la quantité pour faire monter le prix → surplus du consommateur réduit + perte sèche (échanges mutuellement avantageux non réalisés).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q13</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Dans le cas d'un monopole parfaitement discriminant (1er degré) :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Il y a une grande perte sèche</li>
+<li data-c="1"><span class="opt-l">b.</span> Il n'y a PAS de perte sèche, mais le monopoleur capte la totalité du surplus du consommateur</li>
+<li data-c="0"><span class="opt-l">c.</span> Le consommateur garde tout son surplus</li>
+<li data-c="0"><span class="opt-l">d.</span> La quantité produite est inférieure à celle du monopole simple</li>
+</ul>
+<div class="expl"><b>b.</b> Chaque unité est vendue au prix maximal que l'acheteur accepte → production jusqu'à la quantité concurrentielle (efficient, pas de perte sèche) mais SC = 0 : tout va au producteur. Question déjà présente dans l'examen blanc du prof.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q14</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">La discrimination par les prix du 3e degré (par groupes) consiste à fixer un prix plus élevé pour le groupe :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Dont la demande est la plus élastique</li>
+<li data-c="1"><span class="opt-l">b.</span> Dont la demande est la moins élastique (en valeur absolue)</li>
+<li data-c="0"><span class="opt-l">c.</span> Le plus nombreux</li>
+<li data-c="0"><span class="opt-l">d.</span> Le plus jeune</li>
+</ul>
+<div class="expl"><b>b.</b> Demande inélastique = clients captifs, peu sensibles au prix → on peut leur faire payer plus (ex. électricité en journée, billets d'avion business). Les élastiques fuient si le prix monte.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q15</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Le problème de la tarification au coût marginal pour un monopole naturel est que :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Le monopoleur ferait des profits excessifs</li>
+<li data-c="1"><span class="opt-l">b.</span> Le monopoleur produirait à perte, car avec un CTM décroissant, le coût marginal est inférieur au coût moyen</li>
+<li data-c="0"><span class="opt-l">c.</span> Les consommateurs paieraient trop cher</li>
+<li data-c="0"><span class="opt-l">d.</span> Il n'y a aucun problème</li>
+</ul>
+<div class="expl"><b>b.</b> CTM décroissant → Cm < CTM partout → si P = Cm, alors P < CTM → perte → besoin de subvention ou tarification alternative (P = CTM). Dilemme classique de la régulation.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q16</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Un monopsone est une situation de marché où :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Il y a un seul vendeur</li>
+<li data-c="1"><span class="opt-l">b.</span> Il y a un seul acheteur face à de nombreux vendeurs, ce qui lui permet de faire baisser le prix d'achat</li>
+<li data-c="0"><span class="opt-l">c.</span> Deux firmes se partagent le marché</li>
+<li data-c="0"><span class="opt-l">d.</span> L'État achète toute la production</li>
+</ul>
+<div class="expl"><b>b.</b> Symétrique du monopole côté demande. Exemple : un employeur unique dans une région fait pression sur les salaires.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q17</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Pour augmenter ses ventes, un monopole non-discriminant doit ____ ses prix, et un monopole discriminant (parfait) doit ____ ses prix :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> augmenter ; augmenter</li>
+<li data-c="0"><span class="opt-l">b.</span> augmenter ; baisser</li>
+<li data-c="1"><span class="opt-l">c.</span> baisser ; baisser (le prix de la dernière unité vendue)</li>
+<li data-c="0"><span class="opt-l">d.</span> baisser ; augmenter</li>
+</ul>
+<div class="expl"><b>c.</b> Question des exercices du prof (Ch3). Non-discriminant : demande décroissante → baisser le prix pour vendre plus. Discriminant : il vend chaque unité supplémentaire au prix (plus bas) que le client marginal accepte.</div>
+</div>
+
+<div class="section">Ch.4–5 · Concurrence monopolistique et oligopole (Q18–Q25)</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q18</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">La concurrence monopolistique se caractérise par :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> De nombreuses firmes, des produits différenciés et la libre entrée</li>
+<li data-c="0"><span class="opt-l">b.</span> Une seule firme et des barrières infranchissables</li>
+<li data-c="0"><span class="opt-l">c.</span> Des produits parfaitement homogènes</li>
+<li data-c="0"><span class="opt-l">d.</span> Quelques firmes en interaction stratégique</li>
+</ul>
+<div class="expl"><b>a.</b> Chaque firme a un mini-monopole sur SA version du produit (marques, design), mais la libre entrée ramène le profit à zéro à long terme.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q19</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">À long terme, une firme en concurrence monopolistique fait un profit nul MAIS :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Produit au minimum de son coût moyen, comme en CP</li>
+<li data-c="1"><span class="opt-l">b.</span> Produit à gauche du minimum du coût moyen (surcapacité) et son prix reste supérieur au coût marginal</li>
+<li data-c="0"><span class="opt-l">c.</span> Fait face à une demande parfaitement horizontale</li>
+<li data-c="0"><span class="opt-l">d.</span> N'a aucun pouvoir de marché</li>
+</ul>
+<div class="expl"><b>b.</b> La tangence demande/CTM se fait à gauche du minimum → surcapacité + P > Cm (perte sèche modérée). C'est le « prix de la variété ». La demande reste décroissante (piège c).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q20</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Une campagne publicitaire réussie qui différencie le produit d'une firme a pour effet :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> D'augmenter l'élasticité-prix de sa demande en valeur absolue</li>
+<li data-c="1"><span class="opt-l">b.</span> De diminuer l'élasticité-prix de sa demande en valeur absolue (clients plus fidèles, moins sensibles au prix)</li>
+<li data-c="0"><span class="opt-l">c.</span> De déplacer la courbe de coût moyen vers le bas</li>
+<li data-c="0"><span class="opt-l">d.</span> Aucun effet sur la demande</li>
+</ul>
+<div class="expl"><b>b.</b> Question de l'examen blanc du prof (Q12). Différencier = rendre les substituts moins évidents → demande moins élastique → plus de pouvoir de marché. La pub est un coût, elle ne baisse pas le CM (piège c).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q21</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Quelle est la différence fondamentale entre les modèles de Cournot et de Bertrand ?</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Cournot : les firmes choisissent leurs QUANTITÉS ; Bertrand : elles choisissent leurs PRIX</li>
+<li data-c="0"><span class="opt-l">b.</span> Cournot : séquentiel ; Bertrand : simultané</li>
+<li data-c="0"><span class="opt-l">c.</span> Cournot : 2 firmes ; Bertrand : plusieurs</li>
+<li data-c="0"><span class="opt-l">d.</span> Aucune différence</li>
+</ul>
+<div class="expl"><b>a.</b> La variable stratégique diffère : quantités (Cournot) vs prix (Bertrand). Les deux sont simultanés ; c'est Stackelberg qui est séquentiel (leader/suiveur).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q22</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Le « paradoxe de Bertrand » énonce qu'avec seulement deux firmes, des produits homogènes et les mêmes coûts :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Le prix est celui du monopole</li>
+<li data-c="1"><span class="opt-l">b.</span> Le prix tombe au niveau du coût marginal, comme en concurrence parfaite</li>
+<li data-c="0"><span class="opt-l">c.</span> Les firmes fusionnent forcément</li>
+<li data-c="0"><span class="opt-l">d.</span> Aucun équilibre n'existe</li>
+</ul>
+<div class="expl"><b>b.</b> Chacune a intérêt à passer juste sous le prix de l'autre pour rafler tout le marché → escalade vers P = Cm et profit nul. « Paradoxal » : 2 firmes suffisent pour un résultat concurrentiel. C'est la structure la plus favorable au consommateur (question du prof).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q23</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Dans le modèle de la demande coudée (Sweezy), les prix sont rigides en oligopole parce que chaque firme anticipe que :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Si elle augmente son prix, AUCUN concurrent ne suit ; si elle le baisse, TOUS suivent</li>
+<li data-c="0"><span class="opt-l">b.</span> Tous les concurrents suivent dans les deux sens</li>
+<li data-c="0"><span class="opt-l">c.</span> Aucun concurrent ne réagit jamais</li>
+<li data-c="0"><span class="opt-l">d.</span> L'État bloque les prix</li>
+</ul>
+<div class="expl"><b>a.</b> Monter son prix = perdre beaucoup de clients (personne ne suit) ; le baisser = gagner peu (tout le monde suit) → aucun intérêt à bouger → prix rigides, même si le Cm varie un peu.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q24</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Un cartel qui maximise le profit de l'industrie se comporte comme :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Une concurrence parfaite</li>
+<li data-c="1"><span class="opt-l">b.</span> Un monopole (quantité réduite, prix élevé) — mais il est instable car chaque membre a intérêt à tricher</li>
+<li data-c="0"><span class="opt-l">c.</span> Un duopole de Bertrand</li>
+<li data-c="0"><span class="opt-l">d.</span> Une firme en concurrence monopolistique</li>
+</ul>
+<div class="expl"><b>b.</b> Le cartel = monopole collectif. Mais chaque firme gagne à produire un peu plus que son quota (dilemme du prisonnier) → instabilité chronique des cartels.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q25</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Pour les consommateurs, quel classement des structures (de la meilleure à la pire) est correct ?</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Monopole > Cournot > Bertrand</li>
+<li data-c="1"><span class="opt-l">b.</span> Bertrand (homogène) > Stackelberg > Cournot > Cartel/Monopole</li>
+<li data-c="0"><span class="opt-l">c.</span> Cournot > Bertrand > Stackelberg</li>
+<li data-c="0"><span class="opt-l">d.</span> Toutes les structures sont équivalentes</li>
+</ul>
+<div class="expl"><b>b.</b> Plus la concurrence est intense, plus la quantité est grande et le prix bas : Bertrand (= CP) est le meilleur pour le consommateur, le cartel/monopole le pire. Stackelberg bat Cournot (quantité totale plus grande).</div>
+</div>
+
+<div class="section">Ch.6 · Théorie des jeux (Q26–Q30)</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q26</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Une stratégie dominante est une stratégie qui :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Donne le meilleur résultat au joueur quelle que soit la stratégie choisie par l'autre</li>
+<li data-c="0"><span class="opt-l">b.</span> Donne le meilleur résultat collectif</li>
+<li data-c="0"><span class="opt-l">c.</span> N'existe que dans les jeux séquentiels</li>
+<li data-c="0"><span class="opt-l">d.</span> Est imposée par le joueur le plus puissant</li>
+</ul>
+<div class="expl"><b>a.</b> « Quoi que fasse l'autre, je fais X. » Dans le dilemme du prisonnier, trahir est dominant pour les deux → équilibre en stratégies dominantes (mais collectivement inefficient).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q27</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Dans le dilemme du prisonnier joué UNE seule fois, l'équilibre est que :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Les deux coopèrent</li>
+<li data-c="1"><span class="opt-l">b.</span> Les deux trichent/avouent, bien que la coopération mutuelle aurait été meilleure pour les deux</li>
+<li data-c="0"><span class="opt-l">c.</span> Un seul triche</li>
+<li data-c="0"><span class="opt-l">d.</span> Le jeu n'a pas d'équilibre</li>
+</ul>
+<div class="expl"><b>b.</b> Tricher est dominant pour chacun → équilibre (triche, triche), inefficient collectivement. Application directe au cartel : chacun a intérêt à dépasser son quota.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q28</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Si deux firmes savent que leur jeu répété se terminera à une date PRÉCISE et connue, la théorie prédit que :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Elles coopèrent jusqu'à la fin</li>
+<li data-c="1"><span class="opt-l">b.</span> Par récurrence à rebours (backward induction), elles trichent dès qu'elles connaissent la fin — la coopération s'effondre</li>
+<li data-c="0"><span class="opt-l">c.</span> Elles coopèrent seulement à la dernière période</li>
+<li data-c="0"><span class="opt-l">d.</span> Le résultat est identique au jeu infini</li>
+</ul>
+<div class="expl"><b>b.</b> À la dernière période, tricher est dominant (pas de représailles possibles). Sachant cela, à l'avant-dernière aussi… et ainsi de suite. C'est LA différence clé avec le jeu à durée indéterminée, où la coopération est soutenable.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q29</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">La stratégie « tit-for-tat » (donnant-donnant) consiste à :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Toujours trahir</li>
+<li data-c="1"><span class="opt-l">b.</span> Coopérer au premier tour, puis reproduire à chaque tour ce que l'adversaire a fait au tour précédent</li>
+<li data-c="0"><span class="opt-l">c.</span> Trahir une fois sur deux</li>
+<li data-c="0"><span class="opt-l">d.</span> Coopérer uniquement à la dernière période</li>
+</ul>
+<div class="expl"><b>b.</b> Coopérative au départ, punit immédiatement la trahison, pardonne dès le retour à la coopération. Elle soutient la coopération dans les jeux à durée indéterminée.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q30</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Dans un jeu séquentiel d'entrée sur un marché, la menace du monopoleur en place (« je déclencherai une guerre des prix ») ne dissuade l'entrant QUE si :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> La menace est crédible : exécuter la menace est réellement dans l'intérêt du monopoleur au moment où il devrait le faire</li>
+<li data-c="0"><span class="opt-l">b.</span> La menace est annoncée publiquement</li>
+<li data-c="0"><span class="opt-l">c.</span> Le monopoleur est plus grand</li>
+<li data-c="0"><span class="opt-l">d.</span> L'entrant est étranger</li>
+</ul>
+<div class="expl"><b>a.</b> On résout par backward induction : si, une fois l'entrée réalisée, la guerre des prix rapporte moins au monopoleur que l'accommodement, la menace est du bluff — l'entrant entre. (Question bonus de l'examen blanc du prof.)</div>
+</div>
+
+<div class="section">Ch.7 · Économie digitale (Q31–Q40) — poids renforcé</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q31</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Parmi les caractéristiques des produits dans une économie digitale vues au cours, on trouve :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Le passage de la « propriété » à l'« utilisation » (streaming, car sharing) et l'importance de la réputation (avis en ligne)</li>
+<li data-c="0"><span class="opt-l">b.</span> La disparition totale des biens physiques</li>
+<li data-c="0"><span class="opt-l">c.</span> La baisse de la personnalisation des produits</li>
+<li data-c="0"><span class="opt-l">d.</span> La fin de la transparence de l'information</li>
+</ul>
+<div class="expl"><b>a.</b> Traits clés du cours : digitalisation (totale ou partielle), un appareil en remplace plusieurs, propriété → utilisation, personnalisation (3D), transparence, réputation/confiance (TripAdvisor), flexibilité « quand je veux où je veux ».</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q32</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Le « marché du produit pertinent » utilisé par les autorités de la concurrence comprend :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Tous les produits/services que le consommateur considère comme interchangeables ou substituables (caractéristiques, prix, usage)</li>
+<li data-c="0"><span class="opt-l">b.</span> Uniquement les produits fabriqués dans le même pays</li>
+<li data-c="0"><span class="opt-l">c.</span> Uniquement les produits de la même marque</li>
+<li data-c="0"><span class="opt-l">d.</span> Tous les produits vendus au même prix</li>
+</ul>
+<div class="expl"><b>a.</b> Définition du cours (OCDE/LCart). Délimiter le marché pertinent est l'étape préalable au calcul des parts de marché et à l'évaluation du pouvoir de marché.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q33</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Les tests de corrélation des prix servent à déterminer si deux produits appartiennent au même marché : deux produits du même marché devraient avoir des prix qui :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Évoluent en sens opposé</li>
+<li data-c="1"><span class="opt-l">b.</span> Évoluent de manière similaire (corrélation élevée)</li>
+<li data-c="0"><span class="opt-l">c.</span> Restent parfaitement constants</li>
+<li data-c="0"><span class="opt-l">d.</span> N'ont aucun lien</li>
+</ul>
+<div class="expl"><b>b.</b> Si A et B sont substituables, la concurrence lie leurs prix → forte corrélation. Autres outils : élasticité croisée, test SSNIP, test de vente critique, stationnarité.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q34</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">L'e-commerce a renforcé la concurrence notamment parce qu'il :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Augmente les coûts de recherche des consommateurs</li>
+<li data-c="1"><span class="opt-l">b.</span> Réduit les coûts de recherche et de distribution, facilite l'entrée de nouveaux acteurs et renforce la transparence</li>
+<li data-c="0"><span class="opt-l">c.</span> Réduit la transparence des prix</li>
+<li data-c="0"><span class="opt-l">d.</span> Empêche les acteurs internationaux d'entrer</li>
+</ul>
+<div class="expl"><b>b.</b> Les 4 effets pro-concurrentiels du cours : entrées de nouveaux acteurs (locaux + internationaux), réduction des coûts de recherche, réduction des coûts de distribution, transparence accrue. Les options a/c/d inversent ces effets.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q35</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Le paradoxe « concentration vs fragmentation » de l'économie digitale décrit :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> La concentration du côté des plateformes (Google, Amazon…) ET la fragmentation du côté des fournisseurs (petits loueurs Airbnb, chauffeurs Uber…)</li>
+<li data-c="0"><span class="opt-l">b.</span> La disparition de toutes les grandes entreprises</li>
+<li data-c="0"><span class="opt-l">c.</span> La fusion de tous les marchés en un seul</li>
+<li data-c="0"><span class="opt-l">d.</span> Le retour aux marchés locaux physiques</li>
+</ul>
+<div class="expl"><b>a.</b> Les plateformes se concentrent (positions dominantes, risque d'abus) tandis que l'accès au marché se démocratise pour les petits offreurs qui passent par elles.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q36</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Le passage du marketing « vertical » au marketing « horizontal » (Kotler) signifie que :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Les entreprises ciblent des segments homogènes définis par l'âge et le revenu</li>
+<li data-c="1"><span class="opt-l">b.</span> Les entreprises doivent cibler des COMMUNAUTÉS (amis, familles, fans, followers), car les consommateurs se fient aux avis des autres et deviennent des agents actifs</li>
+<li data-c="0"><span class="opt-l">c.</span> La publicité télévisée redevient dominante</li>
+<li data-c="0"><span class="opt-l">d.</span> Le marketing disparaît</li>
+</ul>
+<div class="expl"><b>b.</b> Les consommateurs « orientés F » (friends, families, fans, followers) forment les nouveaux segments. Il devient plus difficile d'influencer l'élasticité-prix par la publicité directe — on agit via les groupes (imitation).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q37</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">Quelle distinction entre effets de réseaux directs et indirects est correcte ?</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Directs : la valeur croît avec le nombre d'utilisateurs du même réseau (WhatsApp) ; indirects : la valeur pour un groupe croît avec la taille de l'AUTRE groupe (Uber : chauffeurs ↔ passagers)</li>
+<li data-c="0"><span class="opt-l">b.</span> Directs : réseaux physiques ; indirects : réseaux numériques</li>
+<li data-c="0"><span class="opt-l">c.</span> Directs : effets positifs ; indirects : effets négatifs</li>
+<li data-c="0"><span class="opt-l">d.</span> Il n'y a aucune différence</li>
+</ul>
+<div class="expl"><b>a.</b> Direct = même groupe (téléphonie, WhatsApp, fax). Indirect = plateformes bifaces : plus il y a de chauffeurs, mieux c'est pour les passagers, et réciproquement.</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q38</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Selon le cours (Economides), dans un marché à forts effets de réseau avec plateformes INCOMPATIBLES :</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Fragmenter le monopole en deux firmes rivales augmente toujours le surplus social</li>
+<li data-c="1"><span class="opt-l">b.</span> Un monopole peut MAXIMISER le surplus social, car le fragmenter réduirait les externalités de réseau positives</li>
+<li data-c="0"><span class="opt-l">c.</span> Les effets de réseau disparaissent</li>
+<li data-c="0"><span class="opt-l">d.</span> Les autorités peuvent facilement rétablir la concurrence en supprimant les barrières</li>
+</ul>
+<div class="expl"><b>b.</b> Résultat contre-intuitif du cours : avec des plateformes incompatibles, un grand réseau unique crée plus de valeur que deux petits. Et la marge de manœuvre des autorités est limitée : même sans barrières, l'avantage du réseau installé domine (winner-takes-most).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q39</span><span class="q-tag tag-c">Concept</span></div>
+<div class="q-text">L'économie de partage (sharing economy) se définit comme :</div>
+<ul class="options">
+<li data-c="1"><span class="opt-l">a.</span> Un système où des PARTICULIERS échangent, vendent ou louent des biens/services via une plateforme numérique (Airbnb, Uber, TaskRabbit)</li>
+<li data-c="0"><span class="opt-l">b.</span> La nationalisation des plateformes</li>
+<li data-c="0"><span class="opt-l">c.</span> Le partage gratuit de tous les biens</li>
+<li data-c="0"><span class="opt-l">d.</span> Un cartel de plateformes</li>
+</ul>
+<div class="expl"><b>a.</b> Définition du cours. Le succès d'Uber repose sur : rapidité/fiabilité, qualité, grands réseaux de chauffeurs ET de clients (effet de réseau), « Strong Unique Value Proposition », tendances consommateurs (smartphone, cashless, évaluations).</div>
+</div>
+
+<div class="question">
+<div class="q-head"><span class="q-num">Q40</span><span class="q-tag tag-p">Piège</span></div>
+<div class="q-text">Concernant les algorithmes et les cartels (OCDE), quel est le cas le PLUS problématique pour le droit de la concurrence actuel ?</div>
+<ul class="options">
+<li data-c="0"><span class="opt-l">a.</span> Un algorithme qui facilite une entente explicite déjà interdite — car aucune norme n'existe</li>
+<li data-c="1"><span class="opt-l">b.</span> Des algorithmes qui atteignent un équilibre TACITEMENT collusoire SANS aucun contact entre concurrents — car aucune « action tangible » ne tombe sous le droit actuel</li>
+<li data-c="0"><span class="opt-l">c.</span> Les algorithmes de recommandation de films</li>
+<li data-c="0"><span class="opt-l">d.</span> Aucun : les algorithmes ne posent aucun problème de concurrence</li>
+</ul>
+<div class="expl"><b>b.</b> Les 2 cas du cours : (1) l'algorithme au service d'une entente classique → les normes existantes s'appliquent (le défi est technique) ; (2) la collusion tacite algorithmique sans contact → angle mort du droit. Les algorithmes « amplifient le problème des oligopoles ». D'où la question : peut-on condamner le « cartel des machines » ?</div>
+</div>
+
+<div class="note-final" id="noteFinal"></div>
+
+<footer>Examen blanc 5 (format réel : QCM conceptuel sans calculs) · Micro II · Prof. Gugler · UNIFR<br>
+Basé sur le retour de première main : « l'examen était un QCM avec aucune formule mathématique ». Bonne chance pour le rattrapage ! 🍀</footer>
+
+</div>
+
+<div class="barre">
+  <div class="barre-in">
+    <button class="reset" onclick="location.reload()">Recommencer</button>
+    <div class="progress"><span id="bar"></span></div>
+    <div class="score">Score : <span id="score">0 / 40</span></div>
+  </div>
+</div>
+
+<script>
+  var total = document.querySelectorAll('.question').length;
+  var answered = 0, correct = 0;
+  document.getElementById('score').textContent = '0 / ' + total;
+
+  document.querySelectorAll('.options li').forEach(function(opt){
+    opt.addEventListener('click', function(){
+      var q = this.closest('.question');
+      if(q.classList.contains('done')) return;
+      q.classList.add('done');
+      answered++;
+      if(this.dataset.c === '1'){
+        this.classList.add('correct');
+        correct++;
+      } else {
+        this.classList.add('wrong');
+        q.querySelector('.options li[data-c="1"]').classList.add('correct');
+      }
+      q.querySelector('.expl').classList.add('show');
+      update();
+    });
+  });
+
+  function update(){
+    document.getElementById('score').textContent = correct + ' / ' + total;
+    document.getElementById('bar').style.width = (answered/total*100) + '%';
+    if(answered === total){
+      var pct = Math.round(correct/total*100);
+      var verdict;
+      if(pct >= 90){ verdict = "🏆 Excellent — largement prêt·e pour le rattrapage."; }
+      else if(pct >= 80){ verdict = "✅ Très bien — niveau « serein » atteint (≥ 80 %)."; }
+      else if(pct >= 65){ verdict = "🟡 Correct, mais retravaille les chapitres où tu as buté."; }
+      else if(pct >= 50){ verdict = "🟠 Juste — relis les chapitres concernés et refais le test."; }
+      else { verdict = "🔴 Fragile — reprends le résumé avant de retenter."; }
+      var nf = document.getElementById('noteFinal');
+      nf.innerHTML = "Score final : <b>" + correct + " / " + total + "</b> (" + pct + " %)<br>" + verdict;
+      nf.classList.add('show');
+      nf.scrollIntoView({behavior:'smooth', block:'center'});
+    }
+  }
+</script>
+</body>
+</html>

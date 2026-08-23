@@ -17,6 +17,11 @@ page-layout: full
 </div>
 ```
 
+::: {.callout-important}
+## 🎯 Format réel de l'examen (info de première main)
+L'examen était un **QCM sans aucune formule mathématique** — donc **100 % conceptuel** : définitions, comparaisons de structures de marché, intuitions, Ch.7 (économie digitale). Pour le rattrapage : priorité à l'**[Examen blanc 5 — format réel](examen_blanc_5.html)** et aux chapitres conceptuels (Ch.2, Ch.6, **Ch.7**). Les calculs (Cournot, surplus…) restent utiles pour comprendre les mécanismes, mais ne sont pas le cœur du QCM.
+:::
+
 ## Naviguer le cours
 
 ```{=html}

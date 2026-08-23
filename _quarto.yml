@@ -6,6 +6,7 @@ project:
     - "examen_blanc_2.html"
     - "examen_blanc_3.html"
     - "examen_blanc_4.html"
+    - "examen_blanc_5.html"
     - "images/"
 
 website:
@@ -40,8 +41,10 @@ website:
         text: Glossaire
       - text: "Examens blancs"
         menu:
+          - href: examen_blanc_5.html
+            text: "★ 5 · FORMAT RÉEL : QCM conceptuel sans calculs"
           - href: examen_blanc.html
-            text: "Officiel (Prof. Gugler, 45+1)"
+            text: "Officiel (Prof. Gugler, 45+1 — contient des calculs)"
           - href: examen_blanc_2.html
             text: "2 · Niveau facile"
           - href: examen_blanc_3.html
