@@ -8,6 +8,7 @@ project:
     - "examen_blanc_4.html"
     - "examen_blanc_5.html"
     - "examen_blanc_6.html"
+    - "examen_blanc_7.html"
     - "images/"
 
 website:
@@ -44,6 +45,8 @@ website:
         menu:
           - href: examen_blanc_5.html
             text: "★ 5 · FORMAT RÉEL : QCM conceptuel sans calculs"
+          - href: examen_blanc_7.html
+            text: "💎 7 · FORMAT RÉEL v2 : distracteurs subtils, corrigés visuels"
           - href: examen_blanc_6.html
             text: "📈 6 · SPÉCIAL GRAPHIQUES : corrigés visuels, sans calculs"
           - href: examen_blanc.html

@@ -101,10 +101,10 @@
 
 <div class="question"><span class="q-tag">QCM · Q5</span>
 <div class="q-text">À long terme en concurrence parfaite avec libre entrée, le profit économique de chaque firme tend vers :</div>
-<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> 0</li>
-<li data-correct="false"><span class="opt-letter">b.</span> dépend des coûts fixes</li>
-<li data-correct="false"><span class="opt-letter">c.</span> maximal</li>
-<li data-correct="false"><span class="opt-letter">d.</span> négatif</li></ul>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> un maximum strictement positif</li>
+<li data-correct="false"><span class="opt-letter">b.</span> un niveau qui dépend des coûts fixes</li>
+<li data-correct="false"><span class="opt-letter">c.</span> un niveau strictement négatif</li>
+<li data-correct="true"><span class="opt-letter">d.</span> un niveau exactement nul</li></ul>
 <div class="expl">Libre entrée tant que profit > 0 → l'entrée pousse $P$ jusqu'à $\min(CTMLT)$ → profit = 0.</div></div>
 
 <div class="section">Section B · Monopole (Q6–Q10)</div>
@@ -145,8 +145,8 @@
 
 <div class="question"><span class="q-tag">QCM · Q10</span>
 <div class="q-text">En discrimination parfaite (1<sup>er</sup> degré), la quantité produite par rapport à la concurrence parfaite est :</div>
-<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> inférieure</li>
-<li data-correct="true"><span class="opt-letter">b.</span> égale</li>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> égale</li>
+<li data-correct="false"><span class="opt-letter">b.</span> inférieure</li>
 <li data-correct="false"><span class="opt-letter">c.</span> supérieure</li>
 <li data-correct="false"><span class="opt-letter">d.</span> indéterminée</li></ul>
 <div class="expl">Le monopoleur discriminant parfait produit jusqu'à $P = Cm$ (comme en CP) — mais il capte tout le surplus. Quantité concurrentielle, répartition différente.</div></div>
@@ -225,10 +225,10 @@
 
 <div class="question"><span class="q-tag">QCM · Q19</span>
 <div class="q-text">L'ordre des prix d'équilibre (du plus bas au plus élevé), pour les mêmes paramètres, est :</div>
-<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> Monopole &lt; Cournot &lt; Stackelberg &lt; Bertrand</li>
-<li data-correct="true"><span class="opt-letter">b.</span> Bertrand &lt; Stackelberg &lt; Cournot &lt; Monopole/Cartel</li>
-<li data-correct="false"><span class="opt-letter">c.</span> Tous égaux</li>
-<li data-correct="false"><span class="opt-letter">d.</span> Cournot &lt; Bertrand &lt; Stackelberg &lt; Monopole</li></ul>
+<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> Monopole/Cartel &lt; Cournot &lt; Stackelberg &lt; Bertrand</li>
+<li data-correct="false"><span class="opt-letter">b.</span> Bertrand &lt; Cournot &lt; Stackelberg &lt; Monopole/Cartel</li>
+<li data-correct="false"><span class="opt-letter">c.</span> Cournot &lt; Bertrand homogène &lt; Stackelberg &lt; Monopole/Cartel</li>
+<li data-correct="true"><span class="opt-letter">d.</span> Bertrand &lt; Stackelberg &lt; Cournot &lt; Monopole/Cartel</li></ul>
 <div class="expl">Bertrand homogène : $P = Cm$ (le plus bas, comme CP). Puis Stackelberg, Cournot (intermédiaires). Monopole / cartel : prix le plus élevé. À retenir : <b>plus la concurrence est forte, plus le prix est bas</b>.</div></div>
 
 <div class="question"><span class="q-tag">Calcul · Q20</span>
@@ -276,10 +276,10 @@
 
 <div class="question"><span class="q-tag">QCM · Q25</span>
 <div class="q-text">Une <b>plateforme biface</b> (ex. Uber, AppStore) est caractérisée par :</div>
-<ul class="options"><li data-correct="false"><span class="opt-letter">a.</span> un seul groupe d'utilisateurs</li>
-<li data-correct="true"><span class="opt-letter">b.</span> deux groupes d'utilisateurs distincts dont la valeur dépend l'un de l'autre</li>
-<li data-correct="false"><span class="opt-letter">c.</span> aucun effet de réseau</li>
-<li data-correct="false"><span class="opt-letter">d.</span> un monopole naturel mono-produit</li></ul>
+<ul class="options"><li data-correct="true"><span class="opt-letter">a.</span> deux groupes distincts dont la valeur dépend l'un de l'autre</li>
+<li data-correct="false"><span class="opt-letter">b.</span> un seul groupe d'utilisateurs aux besoins essentiellement homogènes</li>
+<li data-correct="false"><span class="opt-letter">c.</span> des effets de réseau limités à un seul côté du marché</li>
+<li data-correct="false"><span class="opt-letter">d.</span> une structure de monopole naturel mono-produit</li></ul>
 <div class="expl">Marché biface = 2 groupes liés. Uber : chauffeurs (+) ↔ passagers (+) — plus il y a de chauffeurs, plus c'est utile pour les passagers et vice-versa.</div></div>
 
 <footer>Examen blanc 3 (niveau moyen) · Micro II · SP 2026</footer>
@@ -308,28 +308,51 @@ document.querySelectorAll('.options li').forEach(function(opt){
 </script>
 
 <script id="shuffle-quiz">
-// Ordre aléatoire des questions à chaque chargement — les groupes restent ensemble :
-// seules les suites contiguës de questions sont mélangées, tout élément intercalé
-// (titre de section, bloc de données) sert de barrière.
+// v2 — mélange les questions (groupes préservés) ET les options de chaque question.
 (function(){
   function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+  // A. questions : suites contiguës uniquement (sections & blocs de données = barrières)
   var all = Array.prototype.slice.call(document.querySelectorAll('.question'));
-  if(all.length < 2) return;
-  // 1. découper en suites contiguës
-  var runs=[], cur=[];
-  all.forEach(function(q){
-    if(cur.length && cur[cur.length-1].nextElementSibling !== q){ runs.push(cur); cur=[]; }
-    cur.push(q);
+  if(all.length > 1){
+    var runs=[], cur=[];
+    all.forEach(function(q){
+      if(cur.length && cur[cur.length-1].nextElementSibling !== q){ runs.push(cur); cur=[]; }
+      cur.push(q);
+    });
+    runs.push(cur);
+    runs.forEach(function(run){
+      if(run.length < 2) return;
+      var slots = run.map(function(q){ var m=document.createComment('s'); q.parentNode.insertBefore(m,q); return m; });
+      shuffle(run.slice()).forEach(function(q,i){ slots[i].parentNode.insertBefore(q, slots[i]); });
+      slots.forEach(function(m){ m.parentNode.removeChild(m); });
+    });
+  }
+  // B. options de chaque question (sauf Vrai/Faux et listes numériques)
+  var letters = 'abcdefgh';
+  document.querySelectorAll('.question ul.options').forEach(function(ul){
+    var lis = Array.prototype.slice.call(ul.children).filter(function(n){ return n.tagName === 'LI'; });
+    if(lis.length < 3) return;
+    var raw = lis.map(function(li){ return li.textContent.replace(/^\s*[a-d][.)]\s*/,'').trim(); });
+    if(raw.some(function(t){ return /^(vrai|faux|incertain|oui|non)\b/i.test(t); })) return;
+    var numish = raw.filter(function(t){ return /^[-−+±≈\s0-9'.,%$€]+(CHF|francs?)?\s*\.?$/i.test(t); }).length;
+    if(numish >= lis.length - 1) return;
+    shuffle(lis.slice()).forEach(function(li){ ul.appendChild(li); });
+    var now = Array.prototype.slice.call(ul.children).filter(function(n){ return n.tagName === 'LI'; });
+    now.forEach(function(li, k){
+      var s = li.querySelector('.opt-l,.opt-letter');
+      if(s) s.textContent = letters[k] + '.';
+      var r = li.querySelector('input[type=radio],input[type=checkbox]');
+      if(r && /^[a-h]$/.test(r.value)) r.value = letters[k];
+    });
+    var q = ul.closest('.question');
+    var good = ul.querySelector('li[data-c="1"], li[data-correct="true"]');
+    if(q && good){
+      var idx = now.indexOf(good);
+      var ex = q.querySelector('.expl > b:first-child');
+      if(ex && /^[a-d]\.?$/.test(ex.textContent.trim()) && idx >= 0) ex.textContent = letters[idx] + '.';
+    }
   });
-  runs.push(cur);
-  // 2. mélanger chaque suite sur place
-  runs.forEach(function(run){
-    if(run.length < 2) return;
-    var slots = run.map(function(q){ var m=document.createComment('s'); q.parentNode.insertBefore(m,q); return m; });
-    shuffle(run.slice()).forEach(function(q,i){ slots[i].parentNode.insertBefore(q, slots[i]); });
-    slots.forEach(function(m){ m.parentNode.removeChild(m); });
-  });
-  // 3. renuméroter dans l'ordre d'affichage
+  // C. renumérotation + resynchronisation des plages
   var fresh = Array.prototype.slice.call(document.querySelectorAll('.question'));
   fresh.forEach(function(q, idx){
     var n = idx + 1;
@@ -341,7 +364,6 @@ document.querySelectorAll('.options li').forEach(function(opt){
     }
   });
   if(typeof window.qs !== 'undefined' && window.qs && window.qs.length === fresh.length){ window.qs = fresh; }
-  // 4. resynchroniser les plages « Qx–Qy » des titres et blocs de données
   function collect(h){
     var isData = h.classList.contains('q-data');
     var out=[], node=h.nextElementSibling;
@@ -357,8 +379,7 @@ document.querySelectorAll('.options li').forEach(function(opt){
     }
     return out;
   }
-  var heads = Array.prototype.slice.call(document.querySelectorAll('.section,.section-titre,.q-data'));
-  heads.forEach(function(h){
+  Array.prototype.forEach.call(document.querySelectorAll('.section,.section-titre,.q-data'), function(h){
     if(!/Q\d+\s*[–—-]\s*Q?\d+|\(Q\d+\)/.test(h.textContent)) return;
     var qs2 = collect(h);
     if(!qs2.length) return;

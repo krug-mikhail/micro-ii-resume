@@ -12,7 +12,7 @@ page-layout: full
     <div class="hero-stat"><span class="num">7</span><span class="lbl">chapitres</span></div>
     <div class="hero-stat"><span class="num">12</span><span class="lbl">graphiques</span></div>
     <div class="hero-stat"><span class="num">120+</span><span class="lbl">questions</span></div>
-    <div class="hero-stat"><span class="num">6</span><span class="lbl">examens blancs</span></div>
+    <div class="hero-stat"><span class="num">7</span><span class="lbl">examens blancs</span></div>
   </div>
 </div>
 ```
@@ -93,7 +93,7 @@ L'examen était un **QCM sans aucune formule mathématique** — donc **100 % co
 
 ## Examens blancs (interactifs, avec corrigé)
 
-L'ordre des questions est **mélangé à chaque chargement** (les groupes par chapitre restent ensemble) — refais-les plusieurs fois sans mémoriser les positions.
+L'ordre des questions **et l'ordre des options** sont **mélangés à chaque chargement** (les groupes par chapitre restent ensemble) — refais-les plusieurs fois sans mémoriser les positions. Les options ont été calibrées pour qu'on ne puisse pas deviner la bonne réponse à sa longueur ou à son style.
 
 ```{=html}
 <div class="ch-grid">
@@ -101,6 +101,11 @@ L'ordre des questions est **mélangé à chaque chargement** (les groupes par ch
     <span class="ch-num" style="background:linear-gradient(135deg,#0369a1,#0ea5e9)">★</span>
     <h4>5 · FORMAT RÉEL</h4>
     <p>40 QCM 100 % conceptuels, zéro calcul — calqué sur le vrai examen. À faire en priorité.</p>
+  </a>
+  <a href="examen_blanc_7.html" class="ch-card" style="border-color:#9d174d">
+    <span class="ch-num" style="background:linear-gradient(135deg,#9d174d,#ec4899)">💎</span>
+    <h4>7 · FORMAT RÉEL v2</h4>
+    <p>Les 40 thèmes de l'examen 5 avec des distracteurs SUBTILS + corrigés visuels. Le vrai test.</p>
   </a>
   <a href="examen_blanc_6.html" class="ch-card" style="border-color:#0f766e">
     <span class="ch-num" style="background:linear-gradient(135deg,#0f766e,#14b8a6)">📈</span>
