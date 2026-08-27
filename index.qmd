@@ -12,14 +12,14 @@ page-layout: full
     <div class="hero-stat"><span class="num">7</span><span class="lbl">chapitres</span></div>
     <div class="hero-stat"><span class="num">12</span><span class="lbl">graphiques</span></div>
     <div class="hero-stat"><span class="num">120+</span><span class="lbl">questions</span></div>
-    <div class="hero-stat"><span class="num">5</span><span class="lbl">examens blancs</span></div>
+    <div class="hero-stat"><span class="num">6</span><span class="lbl">examens blancs</span></div>
   </div>
 </div>
 ```
 
 ::: {.callout-important}
 ## 🎯 Format réel de l'examen (info de première main)
-L'examen était un **QCM sans aucune formule mathématique** — donc **100 % conceptuel** : définitions, comparaisons de structures de marché, intuitions, Ch.7 (économie digitale). Pour le rattrapage : priorité à l'**[Examen blanc 5 — format réel](examen_blanc_5.html)** et aux chapitres conceptuels (Ch.2, Ch.6, **Ch.7**). Les calculs (Cournot, surplus…) restent utiles pour comprendre les mécanismes, mais ne sont pas le cœur du QCM.
+L'examen était un **QCM sans aucune formule mathématique** — donc **100 % conceptuel** : définitions, comparaisons de structures de marché, intuitions, Ch.7 (économie digitale). Pour le rattrapage : priorité à l'**[Examen blanc 5 — format réel](examen_blanc_5.html)**, à l'**[Examen blanc 6 — spécial graphiques](examen_blanc_6.html)** (lire les courbes sans calculer, corrigés visuels) et aux chapitres conceptuels (Ch.2, Ch.6, **Ch.7**). Les calculs (Cournot, surplus…) restent utiles pour comprendre les mécanismes, mais ne sont pas le cœur du QCM.
 :::
 
 ## Naviguer le cours
@@ -93,12 +93,19 @@ L'examen était un **QCM sans aucune formule mathématique** — donc **100 % co
 
 ## Examens blancs (interactifs, avec corrigé)
 
+L'ordre des questions est **mélangé à chaque chargement** (les groupes par chapitre restent ensemble) — refais-les plusieurs fois sans mémoriser les positions.
+
 ```{=html}
 <div class="ch-grid">
   <a href="examen_blanc_5.html" class="ch-card" style="border-color:#0369a1">
     <span class="ch-num" style="background:linear-gradient(135deg,#0369a1,#0ea5e9)">★</span>
     <h4>5 · FORMAT RÉEL</h4>
     <p>40 QCM 100 % conceptuels, zéro calcul — calqué sur le vrai examen. À faire en priorité.</p>
+  </a>
+  <a href="examen_blanc_6.html" class="ch-card" style="border-color:#0f766e">
+    <span class="ch-num" style="background:linear-gradient(135deg,#0f766e,#14b8a6)">📈</span>
+    <h4>6 · SPÉCIAL GRAPHIQUES</h4>
+    <p>30 QCM sans calculs : positions de courbes, aires, déplacements — chaque corrigé MONTRE le graphique.</p>
   </a>
   <a href="examen_blanc.html" class="ch-card">
     <span class="ch-num" style="background:linear-gradient(135deg,#7c2d12,#9a3412)">1</span>
