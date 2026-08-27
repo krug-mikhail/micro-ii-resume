@@ -304,7 +304,7 @@
     "href": "index.html",
     "title": "Microéconomie II",
     "section": "",
-    "text": "Marchés et Prix — résumé pédagogique complet · Prof. Gugler · SP 2026\n  \n    7chapitres\n    12graphiques\n    120+questions\n    4examens blancs",
+    "text": "Marchés et Prix — résumé pédagogique complet · Prof. Gugler · SP 2026\n  \n    7chapitres\n    12graphiques\n    120+questions\n    5examens blancs",
     "crumbs": [
       "Accueil",
       "🎯 Format réel de l'examen (info de première main)"
@@ -326,7 +326,7 @@
     "href": "index.html#outils-de-révision",
     "title": "Microéconomie II",
     "section": "Outils de révision",
-    "text": "Outils de révision\n\n  \n    ∑\n    Formules clés\n    Toutes les formules importantes des 7 chapitres en un coup d'œil.\n  \n  \n    A\n    Glossaire\n    Chaque terme expliqué « en langage simple », avec exemple du quotidien.\n  \n  \n    ?\n    Examens blancs (×4)\n    Officiel + facile + moyen + corsé, tous interactifs avec corrigé.",
+    "text": "Outils de révision\n\n  \n    ∑\n    Formules clés\n    Toutes les formules importantes des 7 chapitres en un coup d'œil.\n  \n  \n    A\n    Glossaire\n    Chaque terme expliqué « en langage simple », avec exemple du quotidien.\n  \n  \n    ★\n    Synthèse des modèles\n    Toutes les structures de marché en un document : arbre de décision, tableau maître, pièges.",
     "crumbs": [
       "Accueil",
       "🎯 Format réel de l'examen (info de première main)"
@@ -1215,6 +1215,17 @@
       "Accueil",
       "Outils de révision",
       "Formules clés — toutes les structures de marché"
+    ]
+  },
+  {
+    "objectID": "index.html#examens-blancs-interactifs-avec-corrigé",
+    "href": "index.html#examens-blancs-interactifs-avec-corrigé",
+    "title": "Microéconomie II",
+    "section": "Examens blancs (interactifs, avec corrigé)",
+    "text": "Examens blancs (interactifs, avec corrigé)\n\n  \n    ★\n    5 · FORMAT RÉEL\n    40 QCM 100 % conceptuels, zéro calcul — calqué sur le vrai examen. À faire en priorité.\n  \n  \n    1\n    Officiel (Prof. Gugler)\n    Les 45 + 1 questions de l'examen blanc distribué en classe (contient des calculs).\n  \n  \n    2\n    Niveau facile\n    25 questions Vrai/Faux + QCM pour vérifier les concepts de base.\n  \n  \n    3\n    Niveau moyen\n    25 questions : applications calculatoires + concepts intermédiaires.\n  \n  \n    4\n    Niveau corsé\n    25 questions multi-étapes : oligopoles asymétriques, Bertrand différencié, pièges.",
+    "crumbs": [
+      "Accueil",
+      "🎯 Format réel de l'examen (info de première main)"
     ]
   }
 ]

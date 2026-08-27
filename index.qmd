@@ -12,7 +12,7 @@ page-layout: full
     <div class="hero-stat"><span class="num">7</span><span class="lbl">chapitres</span></div>
     <div class="hero-stat"><span class="num">12</span><span class="lbl">graphiques</span></div>
     <div class="hero-stat"><span class="num">120+</span><span class="lbl">questions</span></div>
-    <div class="hero-stat"><span class="num">4</span><span class="lbl">examens blancs</span></div>
+    <div class="hero-stat"><span class="num">5</span><span class="lbl">examens blancs</span></div>
   </div>
 </div>
 ```
@@ -83,10 +83,42 @@ L'examen était un **QCM sans aucune formule mathématique** — donc **100 % co
     <h4>Glossaire</h4>
     <p>Chaque terme expliqué « en langage simple », avec exemple du quotidien.</p>
   </a>
+  <a href="synthese_modeles.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#be123c,#881337)">★</span>
+    <h4>Synthèse des modèles</h4>
+    <p>Toutes les structures de marché en un document : arbre de décision, tableau maître, pièges.</p>
+  </a>
+</div>
+```
+
+## Examens blancs (interactifs, avec corrigé)
+
+```{=html}
+<div class="ch-grid">
+  <a href="examen_blanc_5.html" class="ch-card" style="border-color:#0369a1">
+    <span class="ch-num" style="background:linear-gradient(135deg,#0369a1,#0ea5e9)">★</span>
+    <h4>5 · FORMAT RÉEL</h4>
+    <p>40 QCM 100 % conceptuels, zéro calcul — calqué sur le vrai examen. À faire en priorité.</p>
+  </a>
   <a href="examen_blanc.html" class="ch-card">
-    <span class="ch-num" style="background:linear-gradient(135deg,#be123c,#881337)">?</span>
-    <h4>Examens blancs (×4)</h4>
-    <p>Officiel + facile + moyen + corsé, tous interactifs avec corrigé.</p>
+    <span class="ch-num" style="background:linear-gradient(135deg,#7c2d12,#9a3412)">1</span>
+    <h4>Officiel (Prof. Gugler)</h4>
+    <p>Les 45 + 1 questions de l'examen blanc distribué en classe (contient des calculs).</p>
+  </a>
+  <a href="examen_blanc_2.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#16a34a,#15803d)">2</span>
+    <h4>Niveau facile</h4>
+    <p>25 questions Vrai/Faux + QCM pour vérifier les concepts de base.</p>
+  </a>
+  <a href="examen_blanc_3.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#ea580c,#c2410c)">3</span>
+    <h4>Niveau moyen</h4>
+    <p>25 questions : applications calculatoires + concepts intermédiaires.</p>
+  </a>
+  <a href="examen_blanc_4.html" class="ch-card">
+    <span class="ch-num" style="background:linear-gradient(135deg,#7e22ce,#581c87)">4</span>
+    <h4>Niveau corsé</h4>
+    <p>25 questions multi-étapes : oligopoles asymétriques, Bertrand différencié, pièges.</p>
   </a>
 </div>
 ```
